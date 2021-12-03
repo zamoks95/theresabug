@@ -1,0 +1,38 @@
+.dropcap {
+	background: transparent;
+	width: 68px;
+	height: 68px;
+	margin-right: 20px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	line-height: 68px;
+	vertical-align: middle;
+	font-size: 32px;
+	position: relative;
+	overflow: hidden;
+
+	&.dropcap-underline {
+		border: 1px solid $color_border;
+		border-bottom: 3px double $color_border;
+		border-radius: 4px;
+		line-height: 64px;
+
+		&:after {
+			content: '';
+			width: 104%;
+			height: 12px;
+			border-width: 0;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+			border-color: inherit;
+			position: absolute;
+			bottom: 1px;
+			left: -2%;
+		}
+	}
+
+	&.dropcap-outline {
+		border: 1px solid $color_border;
+	}
+}

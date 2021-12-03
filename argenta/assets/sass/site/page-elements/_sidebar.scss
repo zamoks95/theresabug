@@ -1,0 +1,25 @@
+.page-sidebar {
+	margin-top: $size_page-offset-top;
+	margin-bottom: $size_page-offset-bottom;
+
+	aside .widget:first-child {
+		padding-top: 0;
+
+		.widgettitle {
+			margin-top: 0;
+		}
+	}
+}
+
+.page-template-page_for-projects {
+	.page-sidebar {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.page-sidebar {
+		margin-top: $size_page-offset-top-md;
+		margin-bottom: $size_page-offset-bottom-md;
+	}
+}

@@ -1,0 +1,940 @@
+{
+    "key": "group_592fd665c6552",
+    "title": "Protfolio Project",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_592fe6046937d",
+            "label": "General",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_592fd6662265c",
+            "label": "Project page layout type",
+            "name": "global_project_layout_type",
+            "type": "select",
+            "instructions": "Choose type of layout for project pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "type_2": "Default layout",
+                "type_1": "Default fullwidth",
+                "type_3": "Boxed",
+                "type_4": "Content slider",
+                "type_6": "Top content grid",
+                "type_5": "Bottom content grid",
+                "type_7": "Fullscreen"
+            },
+            "default_value": [
+                "type_2"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd66622a31",
+            "label": "Show portfolio navigation",
+            "name": "global_project_show_navigation",
+            "type": "radio",
+            "instructions": "Choose navigation variant",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "No",
+                "simple": "Simple",
+                "prev_n_next": "Prev and next"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "simple",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592fd66622a32",
+            "label": "Portfolio navigation position",
+            "name": "global_project_navigation_position",
+            "type": "radio",
+            "instructions": "Choose navigation position",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd66622a31",
+                        "operator": "!=",
+                        "value": "none"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "top": "Top",
+                "bottom": "Bottom"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": [
+                "bottom"
+            ],
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592fd66622a3f",
+            "label": "Portfolio custom content position",
+            "name": "global_project_custom_content_position",
+            "type": "radio",
+            "instructions": "Choose custom content position",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd66622a31",
+                        "operator": "!=",
+                        "value": "none"
+                    },
+                    {
+                        "field": "field_592fd66622a31",
+                        "operator": "!=",
+                        "value": "type_7"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "top": "Top. Before content",
+                "center": "Center. After description",
+                "bottom": "Bottom. After content"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": [
+                "top"
+            ],
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592fd66622e2cmod",
+            "label": "Use appearance animation?",
+            "name": "global_portfolio_with_animation",
+            "type": "true_false",
+            "instructions": "You can switch off appearance animation for cards in grid",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No",
+            "message": "",
+            "default_value": 0
+        },
+        {
+            "key": "field_592fd66622e2c",
+            "label": "Show breadcrumbs?",
+            "name": "global_project_hide_breadcrumbs",
+            "type": "radio",
+            "instructions": "You can hide breadcrumbs from all project pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592fd666231f2",
+            "label": "Hide sharing buttons?",
+            "name": "global_project_hide_sharing_buttons",
+            "type": "true_false",
+            "instructions": "Don't show sharing buttons on project pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No",
+            "message": "",
+            "default_value": 0
+        },
+        {
+            "key": "field_592fd666235d9",
+            "label": "Social sharing buttons",
+            "name": "global_project_social_sharing_buttons",
+            "type": "select",
+            "instructions": "Choose buttons for sharing",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd666231f2",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "googleplus": "Google+",
+                "pinterest": "Pinterest",
+                "linkedin": "LinkedIn"
+            },
+            "default_value": [
+                "facebook",
+                "twitter",
+                "googleplus",
+                "pinterest",
+                "linkedin"
+            ],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 1,
+            "ajax": 1,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd66623dd8",
+            "label": "Projects popup style",
+            "name": "global_portfolio_gallery_light",
+            "type": "radio",
+            "instructions": "Choose popup color style",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "dark": "Dark",
+                "light": "Light"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "dark",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592fd666241be",
+            "label": "All projects (portfolio) page",
+            "name": "global_portfolio_page",
+            "type": "page_link",
+            "instructions": "Choose page with all portfolio projects",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": [
+                
+            ],
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_592fe6166937e",
+            "label": "Header Title",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5931067c175b5",
+            "label": "Hide header title section?",
+            "name": "global_project_header_use_hero",
+            "type": "radio",
+            "instructions": "Remove header title from project pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592fe6df9bea5",
+            "label": "Header title type",
+            "name": "global_portfolio_header_title_type",
+            "type": "select",
+            "instructions": "Choose header title style type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "color": "Custom background color",
+                "custom": "Custom loaded image"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fe7d7fe779",
+            "label": "Title background color",
+            "name": "global_portfolio_title_background_color",
+            "type": "argenta_color",
+            "instructions": "Background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "!=",
+                        "value": "inherit"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592fe81e4e6d1",
+            "label": "Title background image",
+            "name": "global_portfolio_title_background_image",
+            "type": "image",
+            "instructions": "Custom background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_593019c8e452c",
+            "label": "Title background image size",
+            "name": "global_portfolio_title_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "cover"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593025e5dbc6f",
+            "label": "Title background image position",
+            "name": "global_portfolio_title_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "inherit"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "inherit"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                "center"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5930285d3f1ff",
+            "label": "Title background image repeat",
+            "name": "global_portfolio_title_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type of background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "inherit"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "inherit"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593019c8e452c",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_y": "Repeat only by Y",
+                "repeat_x": "Repeat only by X"
+            },
+            "default_value": [
+                "repeat"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593029f1e5302",
+            "label": "Add background overlay color?",
+            "name": "global_portfolio_use_title_overlay",
+            "type": "radio",
+            "instructions": "Add transparent overlay color under background",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "inherit"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59302aa9e5304",
+            "label": "Title background overlay color",
+            "name": "global_portfolio_title_background_overlay_color",
+            "type": "argenta_color",
+            "instructions": "Just overlay color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "inherit"
+                    },
+                    {
+                        "field": "field_593029f1e5302",
+                        "operator": "!=",
+                        "value": "no"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592fe6df9bea5",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593029f1e5302",
+                        "operator": "!=",
+                        "value": "no"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593102f7b99f7",
+            "label": "Header tilte aligment",
+            "name": "global_portfolio_header_title_align",
+            "type": "select",
+            "instructions": "Select content alignment",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme pages settings inherited",
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5931041de1845",
+            "label": "Typography settings",
+            "name": "global_portfolio_typography_settings",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "custom": "Custom settings"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593105045d7ac",
+            "label": "Header title settings",
+            "name": "global_project_header_title_typo",
+            "type": "argenta_typo",
+            "instructions": "Title typography settings",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5931041de1845",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_5931058d5d7ad",
+            "label": "Header subtitle settings",
+            "name": "global_project_header_subtitle_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom subtitle typography",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5931041de1845",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_593106b37bf81",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5931041de1845",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_59310b5b35a20",
+            "label": "Header title height settings",
+            "name": "global_project_header_title_height_settings",
+            "type": "radio",
+            "instructions": "Select header height type",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd6662265c",
+                        "operator": "==",
+                        "value": "type_2"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "custom": "Custom settings"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593105d65d7ae",
+            "label": "Set header title fullscreen height?",
+            "name": "global_project_title_height_fullscreen",
+            "type": "true_false",
+            "instructions": "Set fullscreen height for header title",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59310b5b35a20",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_593105ee5d7af",
+            "label": "Header title height",
+            "name": "global_project_header_height",
+            "type": "text",
+            "instructions": "You can change header height. Set new CSS value",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59310b5b35a20",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593105d65d7ae",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "height:",
+            "append": ";",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-portfolio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

@@ -1,0 +1,233 @@
+/* Base Typography */
+.has-regular-font-size {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	color: #595959;
+}
+
+.wp-block-paragraph.has-background {
+	color: #eee;
+} 
+
+a, .wp-block-freeform.block-library-rich-text__tinymce a {
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #987f71;
+}
+
+.editor-post-title__block .editor-post-title__input {
+	font-size: 42px !important;
+	color: #343436;
+}
+
+.wp-block-heading {
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Montserrat", sans-serif;;
+		color: #343436;
+		font-weight: bold;
+	}
+}
+
+.wp-block-heading h1 {
+	font-size: 42px;
+}
+
+.wp-block-heading h2 {
+	font-size: 34px;
+}
+
+.wp-block-heading h3 {
+	font-size: 26px;
+}
+
+.wp-block-heading h4 {
+	font-size: 24px;
+}
+
+.wp-block-heading h5 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.wp-block-heading h6 {
+	font-size: 20px;
+}
+
+/* Editor Frame */
+
+/* Main column width */
+.wp-block {
+    max-width: 1326px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 1326px;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 2.8125em;
+    font-weight: 700;
+}
+
+/* Button Rounded */
+
+.wp-block-button .wp-block-button__link {
+    line-height: 1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.78889em;
+    font-weight: bold;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    
+}
+
+/* Button Outline */
+
+.is-style-outline .wp-block-button__link {
+	background: transparent !important;
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link {
+
+}
+
+/* Button Squared */
+
+.wp-block-button:not(.is-style-squared):not(.is-style-outline) .wp-block-button__link {
+	border-radius: 90px;
+}
+
+.is-style-outline .wp-block-button__link {
+	border-radius: 0;
+}
+
+/*Cover block*/
+
+.wp-block-cover-text {
+	font-family: "Montserrat", sans-serif;;
+}
+
+/*Quote*/
+.wp-block-quote:not(.is-large),
+.wp-block-freeform.block-library-rich-text__tinymce blockquote {
+	font-style: italic;
+	font-size: 15px;
+	line-height: 30px;
+	quotes: "" "";
+	margin: 30px 0;
+	border-top: 1px solid #e3e3e3;
+	border-left: none;
+	padding: 15px 0 0 35px;
+	padding-left: 0;
+	position: relative;
+	padding-left: 35px;
+
+	.editor-rich-text {
+		padding-left: 35px;
+	}
+		
+	&:after {
+		content: "\f347";
+		font-family: "Ionicons";
+		font-size: 27px;
+		font-style: normal;
+		position: absolute;
+		left: 0;
+		top: 10px;
+	}
+
+}
+
+/*Pullquote*/
+.wp-block-pullquote__citation {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+/*Tables*/
+table.wp-block-table {
+	margin: 15px 0;
+	width: 100%;
+
+	&__cell {
+		padding: 10px 10px 10px 0;
+	}
+
+	td, th {
+		font-family: "Open Sans", sans-serif;
+		border: none;
+		border-top: 1px solid #e3e3e3;
+		border-bottom: 1px solid #e3e3e3;
+		text-align: inherit;
+		font-size: 15px;
+	}
+}
+
+/*Lists*/
+.block-library-list .editor-rich-text__tinymce {
+	margin-left: 0;
+	font-size: 14px;
+
+	li {
+		font-family: "Open Sans", sans-serif;
+	}
+}
+
+/*Verse*/
+pre {
+	background: rgba(0,0,0,.05);
+	padding: 15px;
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/*Widgets*/
+
+.wp-block-latest-posts,
+ul.wp-block-archives-list,
+ul.wp-block-categories__list  {
+	list-style-type: none;
+	padding-left: 0;
+
+	li {
+		padding-left: 0;
+
+		&:after {
+			display: none;
+		}
+	}
+
+	> li {
+
+		&:first-child {
+			padding-top: 0;
+		}
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+}
+
+.wp-block-latest-comments {
+	font-family: "Open Sans", sans-serif;
+
+	.wp-block-latest-comments__comment-excerpt {
+		font-size: 14px;
+	}
+
+	.wp-block-latest-comments__comment-author {
+		font-weight: 500;
+	}
+}

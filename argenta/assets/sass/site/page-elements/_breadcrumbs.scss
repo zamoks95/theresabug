@@ -1,0 +1,106 @@
+.breadcrumbs {
+	background: #ffffff;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	font-size: 13px;
+
+	span.current {
+		color: #888888;
+	}
+
+	a {
+		color: #343436;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.result {
+		display: inline-block;
+	}
+
+	form, p {
+		display: inline;
+	}
+
+	@media screen and (max-width: 768px) {
+		.left,
+		.right {
+			width: 100%;
+			padding-top: 0px;
+			clear: both;
+		}
+
+		.left + .right {
+			margin-top: 20px;
+		}
+
+		.result {
+			margin: 0 15px 0 0;
+		}
+
+		.select {
+			margin: 0 0px 0 0;
+
+			.select-title {
+				text-align: left;
+				padding-left: 0;
+			}
+		}
+	}
+}
+
+.filterbar {
+	background: $color_white;
+	color: #5a5a5a;
+	width: 100%;
+	padding: 0 15px;
+	line-height: 90px;
+	vertical-align: middle;
+	font-size: 13px;
+	@include clearfix();
+
+	.breadcrumbs {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		li {
+			float: left;
+			color: #888888;
+
+			a {
+				color: #5a5a5a;
+			}
+
+			a:hover {
+				color: #888888;
+			}
+
+			&:before {
+				content: '/';
+				margin: 0 3px;
+			}
+
+			&:first-child:before {
+				content: '';
+				margin: 0;
+			}
+		}
+	}
+
+	.result {
+		color: #888888;
+		display: inline-block;
+	}
+
+	.right {
+		> *:last-child {
+			padding-right: 0;
+			margin-right: 0;
+		}
+	}
+}

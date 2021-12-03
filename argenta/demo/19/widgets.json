@@ -1,0 +1,80 @@
+{
+    "argenta-sidebar-footer-1": {
+        "argenta_widget_logo-2": {
+            "custom_css": ""
+        },
+        "text-2": {
+            "title": "",
+            "text": "We can create a brand that stands out and truly reflects your business  and the message you want. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+            "filter": false
+        },
+        "argenta_widget_contact_widget-2": {
+            "title": "",
+            "phone": "+43 069 905 670 50 - support",
+            "address": "Raugasse 4, 27 Wiener Neustadt",
+            "email": "argenta.sales@yourmail.com",
+            "enable_soc_icons": "on"
+        }
+    },
+    "argenta-sidebar-footer-2": {
+        "argenta_widget_subscribe-2": {
+            "title": "Subscribe",
+            "feedburner": "argenta"
+        },
+        "text-3": {
+            "title": "",
+            "text": "Be the first to find out about exclusive deals, the latest Lookbooks, and top trends.",
+            "filter": false
+        },
+        "argenta_widget_socialbar_subscribe-2": {
+            "title": "",
+            "facebook": "#",
+            "instagram": "",
+            "twitter": "#",
+            "googleplus": "#",
+            "pinterest": "#",
+            "linkedin": "#"
+        }
+    },
+    "argenta-sidebar-footer-3": {
+        "categories-3": {
+            "title": "Categories",
+            "count": 0,
+            "hierarchical": 0,
+            "dropdown": 0
+        }
+    },
+    "wc_shop": {
+        "woocommerce_product_search-2": {
+            "title": ""
+        },
+        "woocommerce_price_filter-2": {
+            "title": "Filter by price"
+        },
+        "woocommerce_product_categories-2": {
+            "title": "Product Categories",
+            "orderby": "name",
+            "dropdown": 0,
+            "count": 0,
+            "hierarchical": 1,
+            "show_children_only": 0,
+            "hide_empty": 0
+        },
+        "woocommerce_product_tag_cloud-2": {
+            "title": "Product Tags"
+        },
+        "woocommerce_recently_viewed_products-2": {
+            "title": "Recently Viewed Products",
+            "number": 3
+        }
+    },
+    "argenta-sidebar-blog": {
+        "search-6": [],
+        "categories-6": {
+            "title": "Categories",
+            "count": 0,
+            "hierarchical": 0,
+            "dropdown": 0
+        }
+    }
+}

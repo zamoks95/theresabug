@@ -1,0 +1,453 @@
+{
+    "key": "group_592fd88fb4838",
+    "title": "Footer",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_592fdb59946d8",
+            "label": "General",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_592fd8901ca70",
+            "label": "Footer background color",
+            "name": "global_footer_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592fd8901ce59",
+            "label": "Footer background image",
+            "name": "global_footer_background_image",
+            "type": "image",
+            "instructions": "We recommend the use transparent image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": 1200,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_592fd8901d26a",
+            "label": "Footer background size",
+            "name": "global_footer_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "cover"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd8901d6a3",
+            "label": "Footer background position",
+            "name": "global_footer_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd8901d26a",
+                        "operator": "!=",
+                        "value": "cover"
+                    },
+                    {
+                        "field": "field_592fd8901d26a",
+                        "operator": "!=",
+                        "value": "100per"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                "center_bottom"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd8901da75",
+            "label": "Footer background repeat",
+            "name": "global_footer_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type of background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd8901d26a",
+                        "operator": "!=",
+                        "value": "cover"
+                    },
+                    {
+                        "field": "field_592fd8901d26a",
+                        "operator": "!=",
+                        "value": "100per"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_x": "Repeat only by X",
+                "repeat_y": "Repeat only by Y"
+            },
+            "default_value": [
+                "repeat"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5940ebca457f2",
+            "label": "Footer content text color",
+            "name": "global_footer_text_color",
+            "type": "argenta_color",
+            "instructions": "Choose content text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592fd8901ea9a",
+            "label": "Add footer content wrapper?",
+            "name": "global_footer_is_wrapped",
+            "type": "true_false",
+            "instructions": "Centred content wrapper",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_593916111579e",
+            "label": "Use sticky footer?",
+            "name": "global_footer_is_sticky",
+            "type": "true_false",
+            "instructions": "You can fix footer on all pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_592fd8901e284",
+            "label": "Hide footer?",
+            "name": "global_footer_hide",
+            "type": "true_false",
+            "instructions": "Hide footer block from all pages?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_592fdb63946d9",
+            "label": "Copyright Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_592fd8901f24b",
+            "label": "Copyright section text",
+            "name": "global_footer_copyright_text",
+            "type": "text",
+            "instructions": "You can use HTML tags",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "\u00a9 2020, Argenta theme by <a href=\"http:\/\/clbthemes.com\" target=\"_blank\">Colabrio<\/a>, All right reserved.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_592fd8901fa31",
+            "label": "Copyright text color",
+            "name": "global_footer_copyright_text_color",
+            "type": "argenta_color",
+            "instructions": "Custom copyright color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592fd8901f63a",
+            "label": "Copyright background",
+            "name": "global_footer_copyright_background_color",
+            "type": "argenta_color",
+            "instructions": "Choose copyright section background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592fd8901ee80",
+            "label": "Hide copyright section?",
+            "name": "global_footer_hide_copyright",
+            "type": "true_false",
+            "instructions": "You can hide copyright from all pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_592fdb17946d7",
+            "label": "Logo Widget",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_592fd8901ba9e",
+            "label": "Logo in footer",
+            "name": "global_footer_logo_type",
+            "type": "select",
+            "instructions": "Select logo type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "light_variant": "Light variant logo",
+                "dark_variant": "Dark variant logo",
+                "sitename": "Site name",
+                "custom": "Custom loaded image"
+            },
+            "default_value": [
+                "light_variant"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd8901beb6",
+            "label": "Logo font settings",
+            "name": "global_footer_logo_font_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom typography settings for site name",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd8901ba9e",
+                        "operator": "==",
+                        "value": "sitename"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_592fd8901c689",
+            "label": "Footer logo image",
+            "name": "global_footer_logo_image",
+            "type": "image",
+            "instructions": "Custom logo image for footer logo",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd8901ba9e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 10,
+            "min_height": 10,
+            "min_size": "",
+            "max_width": 1600,
+            "max_height": 800,
+            "max_size": 5,
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-footer"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

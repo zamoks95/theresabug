@@ -1,0 +1,133 @@
+.slider {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+	user-select: none;
+
+	&.full {
+		padding: 0;
+	}
+
+	.slider-wrap .wpb_content_element {
+		margin: 0;
+	}
+
+	.owl-stage-outer {
+		position: relative;
+		overflow: hidden;
+		transition: height .3s ease-in-out;
+	}
+
+	.owl-stage {
+		position: absolute;
+	}
+
+	.owl-item {
+		float: left;
+	}
+
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+	.owl-controls .owl-nav {
+		.owl-next,
+		.owl-prev {
+			background: #343436;
+			color: #ffffff;
+			width: 40px;
+			height: 140px;
+			margin: 0;
+			padding: 0;
+			margin-top: -95px;
+			line-height: 140px;
+			border-radius: 0;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 24px;
+			position: absolute;
+			top: 50%;
+			z-index: 4;
+			transition: opacity .1s ease-in-out;
+
+			&:hover {
+				cursor: pointer;
+				opacity: .8;
+			}
+		}
+	}
+
+	&.without-dots .owl-controls .owl-nav {
+		.owl-next,
+		.owl-prev {
+			margin-top: -70px;
+		}
+	}
+
+	.owl-prev {
+		left: 0px;
+	}
+
+	.owl-next {
+		right: 0px;
+	}
+
+	.owl-controls .owl-dots {
+		width: 100%;
+	    margin-top: 40px;
+		text-align: center;
+		font-size: 0px;
+
+		@media screen and (max-width: 768px){
+			margin-top: 15px;
+		}
+
+		.owl-dot {
+			background: #c0c0c0;
+			width: 6px;
+			height: 6px;
+			margin: 0 7px;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			vertical-align: middle;
+			display: inline-block;
+			cursor: pointer;
+			transition-property: background, border;
+			transition-duration: .2s;
+			transition-timing-function: ease-in-out;
+
+			&.active {
+				background: none;
+				width: 10px;
+				height: 10px;
+				border-color: #3d3d3f;
+				cursor: default;
+			}
+
+			span {
+				display: none;
+			}
+		}
+	}
+
+	&.slider-offset {
+		width: 130%;
+		padding: 0;
+		margin-left: -15%;
+	}
+
+	@media screen and (max-width: 768px){
+		&.slider-offset {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+}
+
+.wpb_revslider_element.wpb_content_element {
+	margin-bottom: 0px;
+}

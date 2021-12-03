@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'line-32-database';
+    src:    url('fonts/line-32-database.eot?s4or55');
+    src:    url('fonts/line-32-database.eot?s4or55#iefix') format('embedded-opentype'),
+        url('fonts/line-32-database.woff2?s4or55') format('woff2'),
+        url('fonts/line-32-database.ttf?s4or55') format('truetype'),
+        url('fonts/line-32-database.woff?s4or55') format('woff'),
+        url('fonts/line-32-database.svg?s4or55#line-32-database') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-db-"], [class*=" my-icon-db-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-database' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-db-column-width:before {
+    content: "\e900";
+}
+.my-icon-db-columns:before {
+    content: "\e901";
+}
+.my-icon-db-copy:before {
+    content: "\e902";
+}
+.my-icon-db-cross:before {
+    content: "\e903";
+}
+.my-icon-db-database:before {
+    content: "\e904";
+}
+.my-icon-db-databases:before {
+    content: "\e905";
+}
+.my-icon-db-edit:before {
+    content: "\e906";
+}
+.my-icon-db-location:before {
+    content: "\e907";
+}
+.my-icon-db-merge-columns:before {
+    content: "\e908";
+}
+.my-icon-db-merge-rows:before {
+    content: "\e909";
+}
+.my-icon-db-minus:before {
+    content: "\e90a";
+}
+.my-icon-db-network-2:before {
+    content: "\e90b";
+}
+.my-icon-db-network:before {
+    content: "\e90c";
+}
+.my-icon-db-plus:before {
+    content: "\e90d";
+}
+.my-icon-db-row-height:before {
+    content: "\e90e";
+}
+.my-icon-db-rows:before {
+    content: "\e90f";
+}
+.my-icon-db-search:before {
+    content: "\e910";
+}
+.my-icon-db-secure:before {
+    content: "\e911";
+}
+.my-icon-db-settings:before {
+    content: "\e912";
+}
+.my-icon-db-table-cells:before {
+    content: "\e913";
+}
+.my-icon-db-table-cross:before {
+    content: "\e914";
+}
+.my-icon-db-table-db:before {
+    content: "\e915";
+}
+.my-icon-db-table-edit:before {
+    content: "\e916";
+}
+.my-icon-db-table-list:before {
+    content: "\e917";
+}
+.my-icon-db-table-minus:before {
+    content: "\e918";
+}
+.my-icon-db-table-network-2:before {
+    content: "\e919";
+}
+.my-icon-db-table-network:before {
+    content: "\e91a";
+}
+.my-icon-db-table-plus:before {
+    content: "\e91b";
+}
+.my-icon-db-table-protect:before {
+    content: "\e91c";
+}
+.my-icon-db-table-search:before {
+    content: "\e91d";
+}
+.my-icon-db-table-settings:before {
+    content: "\e91e";
+}
+.my-icon-db-table-stats:before {
+    content: "\e91f";
+}
+.my-icon-db-table-tick:before {
+    content: "\e920";
+}
+.my-icon-db-table:before {
+    content: "\e921";
+}
+.my-icon-db-tables-2:before {
+    content: "\e922";
+}
+.my-icon-db-tables-connect-2:before {
+    content: "\e923";
+}
+.my-icon-db-tables-connect:before {
+    content: "\e924";
+}
+.my-icon-db-tables-swap:before {
+    content: "\e925";
+}
+.my-icon-db-tables:before {
+    content: "\e926";
+}
+.my-icon-db-tick:before {
+    content: "\e927";
+}
+.my-icon-db-warning:before {
+    content: "\e928";
+}
+

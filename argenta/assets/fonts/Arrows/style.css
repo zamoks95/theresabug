@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'line-32-arrows';
+    src:    url('fonts/line-32-arrows.eot?224jmb');
+    src:    url('fonts/line-32-arrows.eot?224jmb#iefix') format('embedded-opentype'),
+        url('fonts/line-32-arrows.woff2?224jmb') format('woff2'),
+        url('fonts/line-32-arrows.ttf?224jmb') format('truetype'),
+        url('fonts/line-32-arrows.woff?224jmb') format('woff'),
+        url('fonts/line-32-arrows.svg?224jmb#line-32-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-arr-"], [class*=" my-icon-arr-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-arrows' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-arr-3-rotate:before {
+    content: "\e900";
+}
+.my-icon-arr-4-rotate:before {
+    content: "\e901";
+}
+.my-icon-arr-axis-angle-rotate:before {
+    content: "\e902";
+}
+.my-icon-arr-axis-angle:before {
+    content: "\e903";
+}
+.my-icon-arr-axis-rotate:before {
+    content: "\e904";
+}
+.my-icon-arr-axis:before {
+    content: "\e905";
+}
+.my-icon-arr-bend:before {
+    content: "\e906";
+}
+.my-icon-arr-converge-2:before {
+    content: "\e907";
+}
+.my-icon-arr-converge-3:before {
+    content: "\e908";
+}
+.my-icon-arr-converge:before {
+    content: "\e909";
+}
+.my-icon-arr-cross:before {
+    content: "\e90a";
+}
+.my-icon-arr-diagonal-2:before {
+    content: "\e90b";
+}
+.my-icon-arr-diagonal:before {
+    content: "\e90c";
+}
+.my-icon-arr-diverge-3:before {
+    content: "\e90d";
+}
+.my-icon-arr-download:before {
+    content: "\e90e";
+}
+.my-icon-arr-elipse-angle:before {
+    content: "\e90f";
+}
+.my-icon-arr-elipse:before {
+    content: "\e910";
+}
+.my-icon-arr-ellipse-angle-rotate:before {
+    content: "\e911";
+}
+.my-icon-arr-ellipse-rotate:before {
+    content: "\e912";
+}
+.my-icon-arr-first-exit:before {
+    content: "\e913";
+}
+.my-icon-arr-forward-arrow:before {
+    content: "\e914";
+}
+.my-icon-arr-fourth-exit:before {
+    content: "\e915";
+}
+.my-icon-arr-horizontal-2:before {
+    content: "\e916";
+}
+.my-icon-arr-horizontal-arrows:before {
+    content: "\e917";
+}
+.my-icon-arr-horizontal:before {
+    content: "\e918";
+}
+.my-icon-arr-in-2:before {
+    content: "\e919";
+}
+.my-icon-arr-in-3:before {
+    content: "\e91a";
+}
+.my-icon-arr-in-angle:before {
+    content: "\e91b";
+}
+.my-icon-arr-in:before {
+    content: "\e91c";
+}
+.my-icon-arr-jagged:before {
+    content: "\e91d";
+}
+.my-icon-arr-loop:before {
+    content: "\e91e";
+}
+.my-icon-arr-out-2:before {
+    content: "\e91f";
+}
+.my-icon-arr-out:before {
+    content: "\e920";
+}
+.my-icon-arr-point-angle:before {
+    content: "\e921";
+}
+.my-icon-arr-point:before {
+    content: "\e922";
+}
+.my-icon-arr-redo-arrow:before {
+    content: "\e923";
+}
+.my-icon-arr-repeat:before {
+    content: "\e924";
+}
+.my-icon-arr-reset:before {
+    content: "\e925";
+}
+.my-icon-arr-reverse-arrow:before {
+    content: "\e926";
+}
+.my-icon-arr-rotate:before {
+    content: "\e927";
+}
+.my-icon-arr-round-out:before {
+    content: "\e928";
+}
+.my-icon-arr-second-exit:before {
+    content: "\e929";
+}
+.my-icon-arr-shuffle:before {
+    content: "\e92a";
+}
+.my-icon-arr-spiral:before {
+    content: "\e92b";
+}
+.my-icon-arr-split-2:before {
+    content: "\e92c";
+}
+.my-icon-arr-split:before {
+    content: "\e92d";
+}
+.my-icon-arr-stagger:before {
+    content: "\e92e";
+}
+.my-icon-arr-syncing:before {
+    content: "\e92f";
+}
+.my-icon-arr-third-exit:before {
+    content: "\e930";
+}
+.my-icon-arr-turn-in:before {
+    content: "\e931";
+}
+.my-icon-arr-turn-off:before {
+    content: "\e932";
+}
+.my-icon-arr-undo-arrow:before {
+    content: "\e933";
+}
+.my-icon-arr-upload:before {
+    content: "\e934";
+}
+.my-icon-arr-vertical-2:before {
+    content: "\e935";
+}
+.my-icon-arr-vertical-arrows:before {
+    content: "\e936";
+}
+.my-icon-arr-vertical:before {
+    content: "\e937";
+}
+.my-icon-arr-wiggle:before {
+    content: "\e938";
+}
+

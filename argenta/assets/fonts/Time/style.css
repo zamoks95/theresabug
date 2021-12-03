@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'line-32-time';
+    src:    url('fonts/line-32-time.eot?jglk5z');
+    src:    url('fonts/line-32-time.eot?jglk5z#iefix') format('embedded-opentype'),
+        url('fonts/line-32-time.woff2?jglk5z') format('woff2'),
+        url('fonts/line-32-time.ttf?jglk5z') format('truetype'),
+        url('fonts/line-32-time.woff?jglk5z') format('woff'),
+        url('fonts/line-32-time.svg?jglk5z#line-32-time') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-tim-"], [class*=" my-icon-tim-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-time' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-tim-12-hour:before {
+    content: "\e900";
+}
+.my-icon-tim-24-hour:before {
+    content: "\e901";
+}
+.my-icon-tim-add:before {
+    content: "\e902";
+}
+.my-icon-tim-alarm-square:before {
+    content: "\e903";
+}
+.my-icon-tim-calendar-2:before {
+    content: "\e904";
+}
+.my-icon-tim-calendar-edit:before {
+    content: "\e905";
+}
+.my-icon-tim-calendar-flag:before {
+    content: "\e906";
+}
+.my-icon-tim-calendar-heart:before {
+    content: "\e907";
+}
+.my-icon-tim-calendar-location:before {
+    content: "\e908";
+}
+.my-icon-tim-calendar-locked:before {
+    content: "\e909";
+}
+.my-icon-tim-calendar-minus:before {
+    content: "\e90a";
+}
+.my-icon-tim-calendar-plus:before {
+    content: "\e90b";
+}
+.my-icon-tim-calendar-search:before {
+    content: "\e90c";
+}
+.my-icon-tim-calendar-settings:before {
+    content: "\e90d";
+}
+.my-icon-tim-calendar-time:before {
+    content: "\e90e";
+}
+.my-icon-tim-calendar-trash:before {
+    content: "\e90f";
+}
+.my-icon-tim-calendar-warning:before {
+    content: "\e910";
+}
+.my-icon-tim-calendar:before {
+    content: "\e911";
+}
+.my-icon-tim-carriage-clock:before {
+    content: "\e912";
+}
+.my-icon-tim-clock-face:before {
+    content: "\e913";
+}
+.my-icon-tim-clock:before {
+    content: "\e914";
+}
+.my-icon-tim-digital-clock:before {
+    content: "\e915";
+}
+.my-icon-tim-digital-time:before {
+    content: "\e916";
+}
+.my-icon-tim-metronome:before {
+    content: "\e917";
+}
+.my-icon-tim-minus:before {
+    content: "\e918";
+}
+.my-icon-tim-past:before {
+    content: "\e919";
+}
+.my-icon-tim-pocket-watch-chain:before {
+    content: "\e91a";
+}
+.my-icon-tim-pocket-watch:before {
+    content: "\e91b";
+}
+.my-icon-tim-sand-timer-end:before {
+    content: "\e91c";
+}
+.my-icon-tim-sand-timer-start:before {
+    content: "\e91d";
+}
+.my-icon-tim-sand-timer:before {
+    content: "\e91e";
+}
+.my-icon-tim-stop-watch:before {
+    content: "\e91f";
+}
+.my-icon-tim-sun-dial:before {
+    content: "\e920";
+}
+.my-icon-tim-swiss-clock:before {
+    content: "\e921";
+}
+.my-icon-tim-wrist-watch-square:before {
+    content: "\e922";
+}
+.my-icon-tim-wrist-watch:before {
+    content: "\e923";
+}
+.my-icon-tim-zone-1:before {
+    content: "\e924";
+}
+.my-icon-tim-zone-2:before {
+    content: "\e925";
+}
+.my-icon-tim-zone-3:before {
+    content: "\e926";
+}
+.my-icon-tim-zone-4:before {
+    content: "\e927";
+}
+.my-icon-tim-zone-5:before {
+    content: "\e928";
+}
+.my-icon-tim-zone-6:before {
+    content: "\e929";
+}
+.my-icon-tim-zone-7:before {
+    content: "\e92a";
+}
+.my-icon-tim-zone-8:before {
+    content: "\e92b";
+}
+.my-icon-tim-zone-9:before {
+    content: "\e92c";
+}
+.my-icon-tim-zone-10:before {
+    content: "\e92d";
+}
+.my-icon-tim-zone-11:before {
+    content: "\e92e";
+}
+.my-icon-tim-zone-12:before {
+    content: "\e92f";
+}
+.my-icon-tim-zone1:before {
+    content: "\e930";
+}
+.my-icon-tim-zone2:before {
+    content: "\e931";
+}
+.my-icon-tim-zone3:before {
+    content: "\e932";
+}
+.my-icon-tim-zone4:before {
+    content: "\e933";
+}
+.my-icon-tim-zone5:before {
+    content: "\e934";
+}
+.my-icon-tim-zone6:before {
+    content: "\e935";
+}
+.my-icon-tim-zone7:before {
+    content: "\e936";
+}
+.my-icon-tim-zone8:before {
+    content: "\e937";
+}
+.my-icon-tim-zone9:before {
+    content: "\e938";
+}
+.my-icon-tim-zone10:before {
+    content: "\e939";
+}
+.my-icon-tim-zone11:before {
+    content: "\e93a";
+}
+.my-icon-tim-zone12:before {
+    content: "\e93b";
+}
+

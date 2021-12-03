@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'line-32-celebrate';
+    src:    url('fonts/line-32-celebrate.eot?2oveh4');
+    src:    url('fonts/line-32-celebrate.eot?2oveh4#iefix') format('embedded-opentype'),
+        url('fonts/line-32-celebrate.woff2?2oveh4') format('woff2'),
+        url('fonts/line-32-celebrate.ttf?2oveh4') format('truetype'),
+        url('fonts/line-32-celebrate.woff?2oveh4') format('woff'),
+        url('fonts/line-32-celebrate.svg?2oveh4#line-32-celebrate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-cel-"], [class*=" my-icon-cel-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-celebrate' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-cel-angel:before {
+    content: "\e900";
+}
+.my-icon-cel-balloon-love:before {
+    content: "\e901";
+}
+.my-icon-cel-balloons:before {
+    content: "\e902";
+}
+.my-icon-cel-banner:before {
+    content: "\e903";
+}
+.my-icon-cel-bauble-2:before {
+    content: "\e904";
+}
+.my-icon-cel-bauble-3:before {
+    content: "\e905";
+}
+.my-icon-cel-bauble-star:before {
+    content: "\e906";
+}
+.my-icon-cel-bauble:before {
+    content: "\e907";
+}
+.my-icon-cel-baubles:before {
+    content: "\e908";
+}
+.my-icon-cel-bell:before {
+    content: "\e909";
+}
+.my-icon-cel-bible:before {
+    content: "\e90a";
+}
+.my-icon-cel-bonfire:before {
+    content: "\e90b";
+}
+.my-icon-cel-book-love:before {
+    content: "\e90c";
+}
+.my-icon-cel-bow:before {
+    content: "\e90d";
+}
+.my-icon-cel-bunny:before {
+    content: "\e90e";
+}
+.my-icon-cel-bunting:before {
+    content: "\e90f";
+}
+.my-icon-cel-cake-birthday:before {
+    content: "\e910";
+}
+.my-icon-cel-cake-wedding:before {
+    content: "\e911";
+}
+.my-icon-cel-candle:before {
+    content: "\e912";
+}
+.my-icon-cel-candles:before {
+    content: "\e913";
+}
+.my-icon-cel-candy-cane:before {
+    content: "\e914";
+}
+.my-icon-cel-cheers:before {
+    content: "\e915";
+}
+.my-icon-cel-church:before {
+    content: "\e916";
+}
+.my-icon-cel-couple-love:before {
+    content: "\e917";
+}
+.my-icon-cel-cracker:before {
+    content: "\e918";
+}
+.my-icon-cel-cross:before {
+    content: "\e919";
+}
+.my-icon-cel-crosses:before {
+    content: "\e91a";
+}
+.my-icon-cel-date-14:before {
+    content: "\e91b";
+}
+.my-icon-cel-date-25:before {
+    content: "\e91c";
+}
+.my-icon-cel-dress-prom:before {
+    content: "\e91d";
+}
+.my-icon-cel-egg-basket:before {
+    content: "\e91e";
+}
+.my-icon-cel-egg-easter-2:before {
+    content: "\e91f";
+}
+.my-icon-cel-egg-easter:before {
+    content: "\e920";
+}
+.my-icon-cel-engagement:before {
+    content: "\e921";
+}
+.my-icon-cel-firework:before {
+    content: "\e922";
+}
+.my-icon-cel-fireworks:before {
+    content: "\e923";
+}
+.my-icon-cel-flower-heart:before {
+    content: "\e924";
+}
+.my-icon-cel-gingerbread:before {
+    content: "\e925";
+}
+.my-icon-cel-hanukkah:before {
+    content: "\e926";
+}
+.my-icon-cel-hat-santa-2:before {
+    content: "\e927";
+}
+.my-icon-cel-hat-santa:before {
+    content: "\e928";
+}
+.my-icon-cel-hat:before {
+    content: "\e929";
+}
+.my-icon-cel-heart-arrow:before {
+    content: "\e92a";
+}
+.my-icon-cel-heart-broken:before {
+    content: "\e92b";
+}
+.my-icon-cel-heart-line:before {
+    content: "\e92c";
+}
+.my-icon-cel-heart-lock:before {
+    content: "\e92d";
+}
+.my-icon-cel-heart:before {
+    content: "\e92e";
+}
+.my-icon-cel-hearts:before {
+    content: "\e92f";
+}
+.my-icon-cel-holly-2:before {
+    content: "\e930";
+}
+.my-icon-cel-holly:before {
+    content: "\e931";
+}
+.my-icon-cel-letter-christmas:before {
+    content: "\e932";
+}
+.my-icon-cel-letter-love-2:before {
+    content: "\e933";
+}
+.my-icon-cel-letter-love-3:before {
+    content: "\e934";
+}
+.my-icon-cel-letter-love:before {
+    content: "\e935";
+}
+.my-icon-cel-party-balloon:before {
+    content: "\e936";
+}
+.my-icon-cel-party-hat:before {
+    content: "\e937";
+}
+.my-icon-cel-plum-pudding:before {
+    content: "\e938";
+}
+.my-icon-cel-present:before {
+    content: "\e939";
+}
+.my-icon-cel-qupid-arrow:before {
+    content: "\e93a";
+}
+.my-icon-cel-reindeer:before {
+    content: "\e93b";
+}
+.my-icon-cel-rings-love:before {
+    content: "\e93c";
+}
+.my-icon-cel-rose:before {
+    content: "\e93d";
+}
+.my-icon-cel-sleigh:before {
+    content: "\e93e";
+}
+.my-icon-cel-snow-globe:before {
+    content: "\e93f";
+}
+.my-icon-cel-snowman:before {
+    content: "\e940";
+}
+.my-icon-cel-star:before {
+    content: "\e941";
+}
+.my-icon-cel-stars:before {
+    content: "\e942";
+}
+.my-icon-cel-stocking-line:before {
+    content: "\e943";
+}
+.my-icon-cel-stocking:before {
+    content: "\e944";
+}
+.my-icon-cel-streamers:before {
+    content: "\e945";
+}
+.my-icon-cel-sweet:before {
+    content: "\e946";
+}
+.my-icon-cel-tiara:before {
+    content: "\e947";
+}
+.my-icon-cel-tree-star:before {
+    content: "\e948";
+}
+.my-icon-cel-tree:before {
+    content: "\e949";
+}
+

@@ -1,0 +1,87 @@
+.progress-bar {
+	padding: 10px 0;
+
+	.progress-bar-title,
+	.progress-bar-percent {
+		width: auto;
+		margin-top: 0;
+		margin-bottom: 8px;
+		float: left;
+	}
+
+	.progress-bar-percent {
+		float: right;
+	}
+
+	.progress-bar-line {
+		background: $color_border;
+		width: 100%;
+		height: 6px;
+		clear: both;
+	}
+
+	.progress-bar-line-fill,
+	.progress-bar-line-block {
+		width: 0;
+		height: 6px;
+		transition: width 1s ease-in-out;
+	}
+}
+
+.progress-bar-outline {
+	.progress-bar-line {
+		background: transparent;
+		height: 6px;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	.progress-bar-line-fill {
+		height: 4px;
+	}
+}
+
+.progress-bar-split {
+	.progress-bar-line {
+		background-color: #e3e3e3;
+		position: relative;
+	}
+
+	.progress-bar-line-block {
+		background-color: transparent;
+		background-clip: padding-box;
+		width: 10%;
+		float: left;
+		border-left: 2px solid $color_white;
+		position: relative;
+		z-index: 2;
+
+		&:first-child {
+			border-left: none;
+		}
+	}
+
+	.progress-bar-line-fill {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+}
+
+
+@keyframes progress-bar-line-strip-anim {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: -16px 0;
+	}
+}
+
+.progress-bar-pattern {
+	.progress-bar-line-fill {
+		background-image: url('images/progress-bar-pattern.png');
+		animation: progress-bar-line-strip-anim 1.2s linear infinite;
+	}
+}

@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'line-32-design';
+    src:    url('fonts/line-32-design.eot?29c6pv');
+    src:    url('fonts/line-32-design.eot?29c6pv#iefix') format('embedded-opentype'),
+        url('fonts/line-32-design.woff2?29c6pv') format('woff2'),
+        url('fonts/line-32-design.ttf?29c6pv') format('truetype'),
+        url('fonts/line-32-design.woff?29c6pv') format('woff'),
+        url('fonts/line-32-design.svg?29c6pv#line-32-design') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-des-"], [class*=" my-icon-des-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-design' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-des-airbrush-fat:before {
+    content: "\e900";
+}
+.my-icon-des-airbrush:before {
+    content: "\e901";
+}
+.my-icon-des-brush-block:before {
+    content: "\e902";
+}
+.my-icon-des-brush-fat:before {
+    content: "\e903";
+}
+.my-icon-des-brush-minus:before {
+    content: "\e904";
+}
+.my-icon-des-brush-plus:before {
+    content: "\e905";
+}
+.my-icon-des-brush-target:before {
+    content: "\e906";
+}
+.my-icon-des-brush-wide-fat:before {
+    content: "\e907";
+}
+.my-icon-des-brush-wide:before {
+    content: "\e908";
+}
+.my-icon-des-brush:before {
+    content: "\e909";
+}
+.my-icon-des-colour-palette:before {
+    content: "\e90a";
+}
+.my-icon-des-colour-wheel:before {
+    content: "\e90b";
+}
+.my-icon-des-craft-knife-fat:before {
+    content: "\e90c";
+}
+.my-icon-des-craft-knife:before {
+    content: "\e90d";
+}
+.my-icon-des-cut-line:before {
+    content: "\e90e";
+}
+.my-icon-des-eraser-2:before {
+    content: "\e90f";
+}
+.my-icon-des-eraser:before {
+    content: "\e910";
+}
+.my-icon-des-feather-pen:before {
+    content: "\e911";
+}
+.my-icon-des-glue-pot:before {
+    content: "\e912";
+}
+.my-icon-des-glue:before {
+    content: "\e913";
+}
+.my-icon-des-highlighter-fat:before {
+    content: "\e914";
+}
+.my-icon-des-highlighter:before {
+    content: "\e915";
+}
+.my-icon-des-ink-well:before {
+    content: "\e916";
+}
+.my-icon-des-inkpen-fat:before {
+    content: "\e917";
+}
+.my-icon-des-inkpen:before {
+    content: "\e918";
+}
+.my-icon-des-magnet-block:before {
+    content: "\e919";
+}
+.my-icon-des-magnet-minus:before {
+    content: "\e91a";
+}
+.my-icon-des-magnet-plus:before {
+    content: "\e91b";
+}
+.my-icon-des-magnet-target:before {
+    content: "\e91c";
+}
+.my-icon-des-magnet:before {
+    content: "\e91d";
+}
+.my-icon-des-magnify-fat:before {
+    content: "\e91e";
+}
+.my-icon-des-magnify-minus:before {
+    content: "\e91f";
+}
+.my-icon-des-magnify-plus:before {
+    content: "\e920";
+}
+.my-icon-des-magnify:before {
+    content: "\e921";
+}
+.my-icon-des-marker-fat:before {
+    content: "\e922";
+}
+.my-icon-des-marker:before {
+    content: "\e923";
+}
+.my-icon-des-origami:before {
+    content: "\e924";
+}
+.my-icon-des-paint:before {
+    content: "\e925";
+}
+.my-icon-des-paintbrush:before {
+    content: "\e926";
+}
+.my-icon-des-palette:before {
+    content: "\e927";
+}
+.my-icon-des-pen-pot:before {
+    content: "\e928";
+}
+.my-icon-des-pencil-block:before {
+    content: "\e929";
+}
+.my-icon-des-pencil-fat:before {
+    content: "\e92a";
+}
+.my-icon-des-pencil-minus:before {
+    content: "\e92b";
+}
+.my-icon-des-pencil-plus:before {
+    content: "\e92c";
+}
+.my-icon-des-pencil-target:before {
+    content: "\e92d";
+}
+.my-icon-des-pencil:before {
+    content: "\e92e";
+}
+.my-icon-des-pipette-block:before {
+    content: "\e92f";
+}
+.my-icon-des-pipette-fat:before {
+    content: "\e930";
+}
+.my-icon-des-pipette-target:before {
+    content: "\e931";
+}
+.my-icon-des-pipette:before {
+    content: "\e932";
+}
+.my-icon-des-pour-block:before {
+    content: "\e933";
+}
+.my-icon-des-pour-minus:before {
+    content: "\e934";
+}
+.my-icon-des-pour-plus:before {
+    content: "\e935";
+}
+.my-icon-des-pour-target:before {
+    content: "\e936";
+}
+.my-icon-des-pour:before {
+    content: "\e937";
+}
+.my-icon-des-protractor:before {
+    content: "\e938";
+}
+.my-icon-des-ruler-fat:before {
+    content: "\e939";
+}
+.my-icon-des-ruler:before {
+    content: "\e93a";
+}
+.my-icon-des-scalpel-block:before {
+    content: "\e93b";
+}
+.my-icon-des-scalpel-fat:before {
+    content: "\e93c";
+}
+.my-icon-des-scalpel-minus:before {
+    content: "\e93d";
+}
+.my-icon-des-scalpel-plus:before {
+    content: "\e93e";
+}
+.my-icon-des-scalpel-target:before {
+    content: "\e93f";
+}
+.my-icon-des-scalpel:before {
+    content: "\e940";
+}
+.my-icon-des-scissors-cut:before {
+    content: "\e941";
+}
+.my-icon-des-scissors:before {
+    content: "\e942";
+}
+.my-icon-des-sharpener:before {
+    content: "\e943";
+}
+.my-icon-des-stamp:before {
+    content: "\e944";
+}
+.my-icon-des-swatches:before {
+    content: "\e945";
+}
+.my-icon-des-technical-pen-fat:before {
+    content: "\e946";
+}
+.my-icon-des-technical-pen:before {
+    content: "\e947";
+}
+.my-icon-des-technical-pencil-fat:before {
+    content: "\e948";
+}
+.my-icon-des-technical-pencil:before {
+    content: "\e949";
+}
+.my-icon-des-wand-2:before {
+    content: "\e94a";
+}
+.my-icon-des-wand-block:before {
+    content: "\e94b";
+}
+.my-icon-des-wand-minus:before {
+    content: "\e94c";
+}
+.my-icon-des-wand-plus:before {
+    content: "\e94d";
+}
+.my-icon-des-wand-target:before {
+    content: "\e94e";
+}
+.my-icon-des-wand:before {
+    content: "\e94f";
+}
+

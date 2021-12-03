@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'line-32-cloud';
+    src:    url('fonts/line-32-cloud.eot?b3oqjb'u);
+    src:    url('fonts/line-32-cloud.eot?b3oqjb#uiefix') format('embedded-opentype'),
+        url('fonts/line-32-cloud.woff2?b3oqjub') format('woff2'),
+        url('fonts/line-32-cloud.ttf?b3oqjb'u) format('truetype'),
+        url('fonts/line-32-cloud.woff?b3oqjbu') format('woff'),
+        url('fonts/line-32-cloud.svg?b3oqjb#uline-32-cloud') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-clou-"], [class*=" my-icon-clou-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-cloud' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-clou-cabinet-2:before {
+    content: "\e900";
+}
+.my-icon-clou-cabinet-3:before {
+    content: "\e901";
+}
+.my-icon-clou-cabinet:before {
+    content: "\e902";
+}
+.my-icon-clou-cloud-code:before {
+    content: "\e903";
+}
+.my-icon-clou-cloud-computer-2:before {
+    content: "\e904";
+}
+.my-icon-clou-cloud-computer-network:before {
+    content: "\e905";
+}
+.my-icon-clou-cloud-computer:before {
+    content: "\e906";
+}
+.my-icon-clou-cloud-cross:before {
+    content: "\e907";
+}
+.my-icon-clou-cloud-download:before {
+    content: "\e908";
+}
+.my-icon-clou-cloud-folder:before {
+    content: "\e909";
+}
+.my-icon-clou-cloud-images:before {
+    content: "\e90a";
+}
+.my-icon-clou-cloud-laptop:before {
+    content: "\e90b";
+}
+.my-icon-clou-cloud-minus:before {
+    content: "\e90c";
+}
+.my-icon-clou-cloud-music:before {
+    content: "\e90d";
+}
+.my-icon-clou-cloud-network-folder:before {
+    content: "\e90e";
+}
+.my-icon-clou-cloud-network:before {
+    content: "\e90f";
+}
+.my-icon-clou-cloud-phone-2:before {
+    content: "\e910";
+}
+.my-icon-clou-cloud-phone:before {
+    content: "\e911";
+}
+.my-icon-clou-cloud-plus:before {
+    content: "\e912";
+}
+.my-icon-clou-cloud-protect:before {
+    content: "\e913";
+}
+.my-icon-clou-cloud-search:before {
+    content: "\e914";
+}
+.my-icon-clou-cloud-secure:before {
+    content: "\e915";
+}
+.my-icon-clou-cloud-settings:before {
+    content: "\e916";
+}
+.my-icon-clou-cloud-sync:before {
+    content: "\e917";
+}
+.my-icon-clou-cloud-tablet:before {
+    content: "\e918";
+}
+.my-icon-clou-cloud-tick:before {
+    content: "\e919";
+}
+.my-icon-clou-cloud-upload:before {
+    content: "\e91a";
+}
+.my-icon-clou-cloud-warning:before {
+    content: "\e91b";
+}
+.my-icon-clou-cloud-wifi-2:before {
+    content: "\e91c";
+}
+.my-icon-clou-cloud-wifi:before {
+    content: "\e91d";
+}
+.my-icon-clou-clouds:before {
+    content: "\e91e";
+}
+.my-icon-clou-server-computer-network:before {
+    content: "\e91f";
+}
+.my-icon-clou-server-connections:before {
+    content: "\e920";
+}
+.my-icon-clou-server-cross:before {
+    content: "\e921";
+}
+.my-icon-clou-server-download:before {
+    content: "\e922";
+}
+.my-icon-clou-server-edit:before {
+    content: "\e923";
+}
+.my-icon-clou-server-minus:before {
+    content: "\e924";
+}
+.my-icon-clou-server-network:before {
+    content: "\e925";
+}
+.my-icon-clou-server-plus:before {
+    content: "\e926";
+}
+.my-icon-clou-server-protect:before {
+    content: "\e927";
+}
+.my-icon-clou-server-search:before {
+    content: "\e928";
+}
+.my-icon-clou-server-secure:before {
+    content: "\e929";
+}
+.my-icon-clou-server-settings:before {
+    content: "\e92a";
+}
+.my-icon-clou-server-single:before {
+    content: "\e92b";
+}
+.my-icon-clou-server-sync:before {
+    content: "\e92c";
+}
+.my-icon-clou-server-tick:before {
+    content: "\e92d";
+}
+.my-icon-clou-server-upload:before {
+    content: "\e92e";
+}
+.my-icon-clou-server-warning:before {
+    content: "\e92f";
+}
+.my-icon-clou-server:before {
+    content: "\e930";
+}
+.my-icon-clou-servers-network:before {
+    content: "\e931";
+}
+

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'line-32-shapes';
+    src:    url('fonts/line-32-shapes.eot?ws5x7o');
+    src:    url('fonts/line-32-shapes.eot?ws5x7o#iefix') format('embedded-opentype'),
+        url('fonts/line-32-shapes.woff2?ws5x7o') format('woff2'),
+        url('fonts/line-32-shapes.ttf?ws5x7o') format('truetype'),
+        url('fonts/line-32-shapes.woff?ws5x7o') format('woff'),
+        url('fonts/line-32-shapes.svg?ws5x7o#line-32-shapes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-sha-"], [class*=" my-icon-sha-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-shapes' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-sha-circle-triangle-square:before {
+    content: "\e900";
+}
+.my-icon-sha-circle:before {
+    content: "\e901";
+}
+.my-icon-sha-cone-2:before {
+    content: "\e902";
+}
+.my-icon-sha-cone:before {
+    content: "\e903";
+}
+.my-icon-sha-cube-2:before {
+    content: "\e904";
+}
+.my-icon-sha-cube:before {
+    content: "\e905";
+}
+.my-icon-sha-cubes:before {
+    content: "\e906";
+}
+.my-icon-sha-cylinder-2:before {
+    content: "\e907";
+}
+.my-icon-sha-cylinder:before {
+    content: "\e908";
+}
+.my-icon-sha-dodecahedron-2:before {
+    content: "\e909";
+}
+.my-icon-sha-dodecahedron:before {
+    content: "\e90a";
+}
+.my-icon-sha-ellipse:before {
+    content: "\e90b";
+}
+.my-icon-sha-hexagon-cylinder-2:before {
+    content: "\e90c";
+}
+.my-icon-sha-hexagon-cylinder:before {
+    content: "\e90d";
+}
+.my-icon-sha-hexagon:before {
+    content: "\e90e";
+}
+.my-icon-sha-pentagon:before {
+    content: "\e90f";
+}
+.my-icon-sha-pyramid-2:before {
+    content: "\e910";
+}
+.my-icon-sha-pyramid:before {
+    content: "\e911";
+}
+.my-icon-sha-rect-rounded-cylinder-2:before {
+    content: "\e912";
+}
+.my-icon-sha-rect-rounded-cylinder:before {
+    content: "\e913";
+}
+.my-icon-sha-rect-rounded:before {
+    content: "\e914";
+}
+.my-icon-sha-sphere-cone-cube:before {
+    content: "\e915";
+}
+.my-icon-sha-sphere:before {
+    content: "\e916";
+}
+.my-icon-sha-spheres:before {
+    content: "\e917";
+}
+.my-icon-sha-square:before {
+    content: "\e918";
+}
+.my-icon-sha-star-cylinder-2:before {
+    content: "\e919";
+}
+.my-icon-sha-star-cylinder:before {
+    content: "\e91a";
+}
+.my-icon-sha-star:before {
+    content: "\e91b";
+}
+.my-icon-sha-triangle:before {
+    content: "\e91c";
+}
+

@@ -1,0 +1,41 @@
+{
+    "key": "group_591ad37e9d895",
+    "title": "Support",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_591ad37eb3376",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "<div class=\"argenta-theme-support-block\">\r\n        <h3>Need help?<\/h3>\r\n        <p class=\"argenta-theme-support-content\">\r\nOur support staff is ready to help you! But first\u2026 <br>\r\nTake a look at our documentation and articles. There you\u2019ll find all the information you need to install Argenta, <br>\r\nits requirements and solutions for the most frequent problems. Your problem might have already been solved.\r\n        <\/p>\r\n<a href=\"http:\/\/colabrio.ticksy.com\/\" class=\"argenta-theme-support-to-ticksy\">Go to Support service<\/a>\r\n\t<div class=\"argenta-theme-support-rate-us\">\r\n\t\t\r\n<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-support"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

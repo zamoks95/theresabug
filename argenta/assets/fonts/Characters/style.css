@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'line-32-characters';
+    src:    url('fonts/line-32-characters.eot?hmbpf2');
+    src:    url('fonts/line-32-characters.eot?hmbpf2#iefix') format('embedded-opentype'),
+        url('fonts/line-32-characters.woff2?hmbpf2') format('woff2'),
+        url('fonts/line-32-characters.ttf?hmbpf2') format('truetype'),
+        url('fonts/line-32-characters.woff?hmbpf2') format('woff'),
+        url('fonts/line-32-characters.svg?hmbpf2#line-32-characters') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-char"], [class*=" my-icon-char"]{
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-characters' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-char-0:before {
+    content: "\e900";
+}
+.my-icon-char-1:before {
+    content: "\e901";
+}
+.my-icon-char-2:before {
+    content: "\e902";
+}
+.my-icon-char-3:before {
+    content: "\e903";
+}
+.my-icon-char-4:before {
+    content: "\e904";
+}
+.my-icon-char-5:before {
+    content: "\e905";
+}
+.my-icon-char-6:before {
+    content: "\e906";
+}
+.my-icon-char-7:before {
+    content: "\e907";
+}
+.my-icon-char-8:before {
+    content: "\e908";
+}
+.my-icon-char-9:before {
+    content: "\e909";
+}
+.my-icon-char-a:before {
+    content: "\e90a";
+}
+.my-icon-char-ampersand:before {
+    content: "\e90b";
+}
+.my-icon-char-approximately:before {
+    content: "\e90c";
+}
+.my-icon-char-asterisk:before {
+    content: "\e90d";
+}
+.my-icon-char-at:before {
+    content: "\e90e";
+}
+.my-icon-char-b:before {
+    content: "\e90f";
+}
+.my-icon-char-brackets:before {
+    content: "\e910";
+}
+.my-icon-char-c:before {
+    content: "\e911";
+}
+.my-icon-char-curly-brackets:before {
+    content: "\e912";
+}
+.my-icon-char-d:before {
+    content: "\e913";
+}
+.my-icon-char-divide-slash:before {
+    content: "\e914";
+}
+.my-icon-char-divide:before {
+    content: "\e915";
+}
+.my-icon-char-e:before {
+    content: "\e916";
+}
+.my-icon-char-equals:before {
+    content: "\e917";
+}
+.my-icon-char-exclamation:before {
+    content: "\e918";
+}
+.my-icon-char-f:before {
+    content: "\e919";
+}
+.my-icon-char-g:before {
+    content: "\e91a";
+}
+.my-icon-char-h:before {
+    content: "\e91b";
+}
+.my-icon-char-i:before {
+    content: "\e91c";
+}
+.my-icon-char-j:before {
+    content: "\e91d";
+}
+.my-icon-char-k:before {
+    content: "\e91e";
+}
+.my-icon-char-l:before {
+    content: "\e91f";
+}
+.my-icon-char-less-than-or-equal:before {
+    content: "\e920";
+}
+.my-icon-char-less-than:before {
+    content: "\e921";
+}
+.my-icon-char-m:before {
+    content: "\e922";
+}
+.my-icon-char-minus:before {
+    content: "\e923";
+}
+.my-icon-char-more-than-or-equal:before {
+    content: "\e924";
+}
+.my-icon-char-more-than:before {
+    content: "\e925";
+}
+.my-icon-char-multiply:before {
+    content: "\e926";
+}
+.my-icon-char-n:before {
+    content: "\e927";
+}
+.my-icon-char-not-equal-to:before {
+    content: "\e928";
+}
+.my-icon-char-number:before {
+    content: "\e929";
+}
+.my-icon-char-o:before {
+    content: "\e92a";
+}
+.my-icon-char-p:before {
+    content: "\e92b";
+}
+.my-icon-char-percentage:before {
+    content: "\e92c";
+}
+.my-icon-char-plus-minus:before {
+    content: "\e92d";
+}
+.my-icon-char-plus:before {
+    content: "\e92e";
+}
+.my-icon-char-q:before {
+    content: "\e92f";
+}
+.my-icon-char-question-mark:before {
+    content: "\e930";
+}
+.my-icon-char-r:before {
+    content: "\e931";
+}
+.my-icon-char-s:before {
+    content: "\e932";
+}
+.my-icon-char-square-brackets:before {
+    content: "\e933";
+}
+.my-icon-char-square-root:before {
+    content: "\e934";
+}
+.my-icon-char-t:before {
+    content: "\e935";
+}
+.my-icon-char-u:before {
+    content: "\e936";
+}
+.my-icon-char-v:before {
+    content: "\e937";
+}
+.my-icon-char-w:before {
+    content: "\e938";
+}
+.my-icon-char-x:before {
+    content: "\e939";
+}
+.my-icon-char-y:before {
+    content: "\e93a";
+}
+.my-icon-char-z:before {
+    content: "\e93b";
+}
+

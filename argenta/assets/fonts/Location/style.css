@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'line-32-location';
+    src:    url('fonts/line-32-location.eot?ly4qax');
+    src:    url('fonts/line-32-location.eot?ly4qax#iefix') format('embedded-opentype'),
+        url('fonts/line-32-location.woff2?ly4qax') format('woff2'),
+        url('fonts/line-32-location.ttf?ly4qax') format('truetype'),
+        url('fonts/line-32-location.woff?ly4qax') format('woff'),
+        url('fonts/line-32-location.svg?ly4qax#line-32-location') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-loc-"], [class*=" my-icon-loc-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-location' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-loc-arrow:before {
+    content: "\e900";
+}
+.my-icon-loc-baggage:before {
+    content: "\e901";
+}
+.my-icon-loc-binoculars-2:before {
+    content: "\e902";
+}
+.my-icon-loc-binoculars:before {
+    content: "\e903";
+}
+.my-icon-loc-compass-old:before {
+    content: "\e904";
+}
+.my-icon-loc-compass:before {
+    content: "\e905";
+}
+.my-icon-loc-direction-symbol:before {
+    content: "\e906";
+}
+.my-icon-loc-divider:before {
+    content: "\e907";
+}
+.my-icon-loc-east:before {
+    content: "\e908";
+}
+.my-icon-loc-globe:before {
+    content: "\e909";
+}
+.my-icon-loc-latitude:before {
+    content: "\e90a";
+}
+.my-icon-loc-longitude:before {
+    content: "\e90b";
+}
+.my-icon-loc-map-2:before {
+    content: "\e90c";
+}
+.my-icon-loc-map-compass:before {
+    content: "\e90d";
+}
+.my-icon-loc-map-route:before {
+    content: "\e90e";
+}
+.my-icon-loc-map:before {
+    content: "\e90f";
+}
+.my-icon-loc-north:before {
+    content: "\e910";
+}
+.my-icon-loc-pin-2:before {
+    content: "\e911";
+}
+.my-icon-loc-pin-angle-2:before {
+    content: "\e912";
+}
+.my-icon-loc-pin-angle:before {
+    content: "\e913";
+}
+.my-icon-loc-pin-distance-2:before {
+    content: "\e914";
+}
+.my-icon-loc-pin-distance:before {
+    content: "\e915";
+}
+.my-icon-loc-pin-map-2:before {
+    content: "\e916";
+}
+.my-icon-loc-pin-map:before {
+    content: "\e917";
+}
+.my-icon-loc-pin-radius-2:before {
+    content: "\e918";
+}
+.my-icon-loc-pin-radius:before {
+    content: "\e919";
+}
+.my-icon-loc-pin:before {
+    content: "\e91a";
+}
+.my-icon-loc-point-cross:before {
+    content: "\e91b";
+}
+.my-icon-loc-point-distance:before {
+    content: "\e91c";
+}
+.my-icon-loc-point-heart:before {
+    content: "\e91d";
+}
+.my-icon-loc-point-map:before {
+    content: "\e91e";
+}
+.my-icon-loc-point-minus:before {
+    content: "\e91f";
+}
+.my-icon-loc-point-plus:before {
+    content: "\e920";
+}
+.my-icon-loc-point-radius:before {
+    content: "\e921";
+}
+.my-icon-loc-point-search:before {
+    content: "\e922";
+}
+.my-icon-loc-point-secure:before {
+    content: "\e923";
+}
+.my-icon-loc-point-settings:before {
+    content: "\e924";
+}
+.my-icon-loc-point-star:before {
+    content: "\e925";
+}
+.my-icon-loc-point-target:before {
+    content: "\e926";
+}
+.my-icon-loc-point-tick:before {
+    content: "\e927";
+}
+.my-icon-loc-point:before {
+    content: "\e928";
+}
+.my-icon-loc-points:before {
+    content: "\e929";
+}
+.my-icon-loc-route:before {
+    content: "\e92a";
+}
+.my-icon-loc-search-code:before {
+    content: "\e92b";
+}
+.my-icon-loc-search-cross:before {
+    content: "\e92c";
+}
+.my-icon-loc-search-location:before {
+    content: "\e92d";
+}
+.my-icon-loc-search-love:before {
+    content: "\e92e";
+}
+.my-icon-loc-search-minus:before {
+    content: "\e92f";
+}
+.my-icon-loc-search-person:before {
+    content: "\e930";
+}
+.my-icon-loc-search-plus:before {
+    content: "\e931";
+}
+.my-icon-loc-search-secure:before {
+    content: "\e932";
+}
+.my-icon-loc-search-star:before {
+    content: "\e933";
+}
+.my-icon-loc-search-tick:before {
+    content: "\e934";
+}
+.my-icon-loc-sextant:before {
+    content: "\e935";
+}
+.my-icon-loc-sign-warning:before {
+    content: "\e936";
+}
+.my-icon-loc-sign:before {
+    content: "\e937";
+}
+.my-icon-loc-signpost-2:before {
+    content: "\e938";
+}
+.my-icon-loc-signpost-3:before {
+    content: "\e939";
+}
+.my-icon-loc-signpost:before {
+    content: "\e93a";
+}
+.my-icon-loc-south:before {
+    content: "\e93b";
+}
+.my-icon-loc-telescope:before {
+    content: "\e93c";
+}
+.my-icon-loc-west:before {
+    content: "\e93d";
+}
+

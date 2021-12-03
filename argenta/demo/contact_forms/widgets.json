@@ -1,0 +1,112 @@
+{
+    "argenta-sidebar-footer-1": {
+        "argenta_widget_logo-3": [],
+        "text-2": {
+            "title": "",
+            "text": "We can create a brand that stands out and truly reflects your business  and the message you want. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+            "filter": false
+        },
+        "argenta_widget_contact_widget-3": {
+            "title": "",
+            "phone": "+43 069 905 670 50 - support",
+            "address": "Raugasse 4, 27 Wiener Neustadt",
+            "email": "argenta.sales@yourmail.com",
+            "enable_soc_icons": "on"
+        }
+    },
+    "argenta-sidebar-footer-2": {
+        "argenta_widget_subscribe-3": {
+            "title": "Subscribe",
+            "feedburner": ""
+        },
+        "text-3": {
+            "title": "",
+            "text": "Be the first to find out about exclusive deals, the latest Lookbooks, and top trends.",
+            "filter": false
+        },
+        "argenta_widget_socialbar_subscribe-4": {
+            "title": "",
+            "facebook": "#",
+            "instagram": "",
+            "twitter": "#",
+            "googleplus": "#",
+            "pinterest": "#",
+            "linkedin": "#"
+        }
+    },
+    "argenta-sidebar-footer-3": {
+        "categories-3": {
+            "title": "Categories",
+            "count": 0,
+            "hierarchical": 0,
+            "dropdown": 0
+        }
+    },
+    "argenta-sidebar-footer-4": {
+        "argenta_widget_recent_posts-4": {
+            "title": "Recent Posts",
+            "limit": 3,
+            "categories": "1",
+            "date": "1",
+            "comments": null,
+            "author": null,
+            "thumb": "1",
+            "cat": ""
+        }
+    },
+    "argenta-sidebar-blog": {
+        "search-3": {
+            "title": ""
+        },
+        "categories-2": {
+            "title": "",
+            "count": 0,
+            "hierarchical": 0,
+            "dropdown": 0
+        },
+        "argenta_widget_recent_posts-3": {
+            "title": "Recent Posts",
+            "limit": 3,
+            "categories": "1",
+            "date": "1",
+            "comments": null,
+            "author": null,
+            "thumb": "1",
+            "cat": ""
+        },
+        "meta-2": {
+            "title": ""
+        },
+        "argenta_widget_socialbar_subscribe-3": {
+            "title": "Stay in Touch",
+            "facebook": "#",
+            "instagram": "",
+            "twitter": "#",
+            "googleplus": "#",
+            "pinterest": "#",
+            "linkedin": "#"
+        },
+        "recent-comments-2": {
+            "title": "",
+            "number": 5
+        }
+    },
+    "argenta-sidebar-page": {
+        "search-4": {
+            "title": ""
+        },
+        "categories-4": {
+            "title": "",
+            "count": 0,
+            "hierarchical": 0,
+            "dropdown": 0
+        },
+        "meta-3": {
+            "title": ""
+        },
+        "recent-comments-3": {
+            "title": "",
+            "number": 3
+        }
+    }
+}

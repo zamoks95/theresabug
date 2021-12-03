@@ -1,0 +1,400 @@
+
+/*--------------------------------------------------------------
+## Recent comments widget
+--------------------------------------------------------------*/
+.widget_recent_comments {
+	ul {
+		@extend .widget-list-box;
+
+		li.recentcomments {
+			padding-left: 36px;
+		}
+
+		li.recentcomments:after {
+			content: "\f3f9";
+			font-family: 'Ionicons';
+			font-size: 25px;
+			background: none;
+			color: #aaaaaa;
+			top: 6px;
+			left: 2px;
+		}
+
+		.comment-author-link {
+			font-weight: bold;
+
+			a {
+				color: $color_texts;
+			}
+		}
+
+		a {
+			color: $color_brand;
+		}
+	}
+}
+
+.site-footer {
+	.widget_recent_comments {
+		.comment-author-link a {
+			color: rgba(255,255,255,.6);
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Recent entries widget
+--------------------------------------------------------------*/
+.widget_recent_entries {
+	ul {
+		@extend .widget-list-box;
+	}
+}
+
+/*--------------------------------------------------------------
+## Search widget
+--------------------------------------------------------------*/
+.widget_search {
+	form {
+		position: relative;
+
+		label:after {
+			width: 50px;
+			height: 100%;
+			content: "\f4a5";
+			font-family: 'Ionicons';
+			font-size: 19px;
+			position: absolute;
+			top: 10px;
+			right: 0;
+			color: #888888;
+		}
+
+		input[type="submit"],
+		button {
+			background: transparent;
+			border-color: transparent;
+			color: transparent;
+			width: 50px;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Tag cloud widget
+--------------------------------------------------------------*/
+.widget_tag_cloud {
+	.tagcloud {
+		font-size: 0px;
+		margin-left: -4px;
+		margin-right: -4px;
+
+		&:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+
+		a {
+			background: rgba(0,0,0,.08);
+			color: $color_dark;
+			padding: 6px 12px;
+			margin-top: 4px;
+			margin-left: 4px;
+			font-size: 13px;
+			display: inline-block;
+
+			&:hover {
+				background: rgba(0,0,0,.12);
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Meta widget
+--------------------------------------------------------------*/
+.widget_meta {
+	ul {
+		@extend .widget-list-box;
+
+		li.cat-item {
+			padding-bottom: 14px;
+			padding-top: 14px;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Archive widget
+--------------------------------------------------------------*/
+.widget_archive {
+	ul {
+		@extend .widget-list-box;
+	}
+}
+
+/*--------------------------------------------------------------
+## Text widget
+--------------------------------------------------------------*/
+.widget_text {
+	line-height: 1.6;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+
+	h3.widgettitle {
+		margin-top: 50px;
+	}
+}
+
+.site-footer {
+	.widget_text {
+		&, p {
+			color: rgba(#ffffff,.6);
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Calendar widget
+--------------------------------------------------------------*/
+.widget_calendar {
+	table {
+		position: relative;
+		text-align: center;
+
+		td, th {
+			border: none;
+			padding: 0;
+		}
+	}
+
+	caption {
+		@extend h4;
+		@extend h4.title;
+		background: $color_brand;
+		color: #ffffff;
+		width: 100%;
+		height: 46px;
+		line-height: 46px;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	tfoot {
+		width: 100%;
+		height: 46px;
+		line-height: 46px;
+		padding: 0 20px;
+		vertical-align: middle;
+		color: #ffffff;
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		tr, #prev, #next {
+			display: block;
+			font-weight: bold;
+			font-size: 0px;
+
+			a {
+				color: #ffffff;
+
+				&:hover {
+					opacity: .6;
+				}
+			}
+		}
+
+		tr {
+			width: 100%;
+		}
+
+		td {
+			display: none;
+		}
+
+		#prev {
+			float: left;
+		}
+
+		#next {
+			float: right;
+		}
+
+		#prev, #next {
+			a:after {
+				content: '\f3d2';
+				font-family: "Ionicons";
+				font-size: 22px;
+			}
+		}
+
+		#next a:after {
+			content: '\f3d3';
+		}
+	}
+
+	thead {
+		line-height: 44px;
+
+		tr th {
+			color: #1f2023;
+			font-size: 13px;
+		}
+	}
+
+	tbody {
+		line-height: 44px;
+
+		tr {
+
+			td {
+				color: #5a5a5a;
+				border: 1px solid #eeeeee;
+				text-align: center;
+				font-size: 14px;
+
+				&#today {
+					border-color: $color_brand;
+					border-collapse: separate;
+					border-width: 1px;
+					display: block;
+					margin: -1px;
+					position: relative;
+				}
+
+				a {
+					display: block;
+					width: 100%;
+					height: 100%;
+					font-weight: bold;
+
+					&:hover {
+						background: rgba(0,0,0,.2);
+					}
+				}
+			}
+		}
+	}
+}
+
+.site-footer {
+	.widget_calendar {
+		thead tr th {
+			color: rgba(255,255,255,.6);
+		}
+
+		tbody tr td {
+			border-color: rgba(255,255,255,.1);
+			color: rgba(255,255,255,1);
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Nav widget
+--------------------------------------------------------------*/
+.widget_nav_menu,
+.widget_pages {
+	@extend .widget-list-box;
+
+	ul, .menu {
+		list-style: none;
+	}
+
+	.menu-item {
+		font-size: 14px;
+
+		a {
+			display: block;
+
+			&:hover {
+				color: $color_brand;
+				text-decoration: underline; 
+			}
+		}
+	}
+
+	ul.sub-menu,
+	ul.children {
+		display: none;
+		list-style: none;
+	}
+}
+
+/*--------------------------------------------------------------
+## Sidebar menu widget
+--------------------------------------------------------------*/
+.widget-sidebar-menu-left {
+	list-style: none;
+
+	.menu-item {
+		font-size: 14px;
+
+		a {
+			display: block;
+
+			&:hover {
+				color: $color_brand;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	ul.sub-menu {
+		display: none;
+		list-style: none;
+	}
+}
+
+/*--------------------------------------------------------------
+## Categories widget
+--------------------------------------------------------------*/
+.widget_categories {
+	ul {
+		@extend .widget-list-box;
+	}
+}
+
+/*--------------------------------------------------------------
+## RSS widget
+--------------------------------------------------------------*/
+.widget_rss {
+	@extend .widget-list-box;
+
+	ul {
+		list-style: none;
+
+		a {
+			color: $color_brand;
+		}
+	}
+
+	.rss-date {
+		color: rgba(0,0,0,.5);
+		font-size: 13px;
+	}
+
+	.rssSummary {
+		margin-top: 5px;
+	}
+
+	cite {
+		margin-top: 5px;
+		display: inline-block;
+	}
+}
+
+.site-footer {
+	.widget_rss {
+		.rss-date {
+			color: rgba(255,255,255,.5);
+		}
+	}
+}

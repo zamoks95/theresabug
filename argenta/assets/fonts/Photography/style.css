@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'line-32-photography';
+    src:    url('fonts/line-32-photography.eot?zcfl4r');
+    src:    url('fonts/line-32-photography.eot?zcfl4r#iefix') format('embedded-opentype'),
+        url('fonts/line-32-photography.woff2?zcfl4r') format('woff2'),
+        url('fonts/line-32-photography.ttf?zcfl4r') format('truetype'),
+        url('fonts/line-32-photography.woff?zcfl4r') format('woff'),
+        url('fonts/line-32-photography.svg?zcfl4r#line-32-photography') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-pho-"], [class*=" my-icon-pho-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-photography' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-pho-1-1:before {
+    content: "\e900";
+}
+.my-icon-pho-4-3:before {
+    content: "\e901";
+}
+.my-icon-pho-16-9:before {
+    content: "\e902";
+}
+.my-icon-pho-aperture-minus:before {
+    content: "\e903";
+}
+.my-icon-pho-aperture-plus:before {
+    content: "\e904";
+}
+.my-icon-pho-aperture:before {
+    content: "\e905";
+}
+.my-icon-pho-brightness-contrast:before {
+    content: "\e906";
+}
+.my-icon-pho-brightness:before {
+    content: "\e907";
+}
+.my-icon-pho-camera-compact:before {
+    content: "\e908";
+}
+.my-icon-pho-camera-off:before {
+    content: "\e909";
+}
+.my-icon-pho-camera-pinhole:before {
+    content: "\e90a";
+}
+.my-icon-pho-camera-polaroid:before {
+    content: "\e90b";
+}
+.my-icon-pho-camera-slr:before {
+    content: "\e90c";
+}
+.my-icon-pho-camera-tripod:before {
+    content: "\e90d";
+}
+.my-icon-pho-camera:before {
+    content: "\e90e";
+}
+.my-icon-pho-compose:before {
+    content: "\e90f";
+}
+.my-icon-pho-contrast:before {
+    content: "\e910";
+}
+.my-icon-pho-film:before {
+    content: "\e911";
+}
+.my-icon-pho-filter:before {
+    content: "\e912";
+}
+.my-icon-pho-filters:before {
+    content: "\e913";
+}
+.my-icon-pho-flash-auto:before {
+    content: "\e914";
+}
+.my-icon-pho-flash-off:before {
+    content: "\e915";
+}
+.my-icon-pho-flash-pro:before {
+    content: "\e916";
+}
+.my-icon-pho-flash:before {
+    content: "\e917";
+}
+.my-icon-pho-flip:before {
+    content: "\e918";
+}
+.my-icon-pho-iso:before {
+    content: "\e919";
+}
+.my-icon-pho-landscape:before {
+    content: "\e91a";
+}
+.my-icon-pho-lens:before {
+    content: "\e91b";
+}
+.my-icon-pho-lighting:before {
+    content: "\e91c";
+}
+.my-icon-pho-macro-album:before {
+    content: "\e91d";
+}
+.my-icon-pho-macro-photo:before {
+    content: "\e91e";
+}
+.my-icon-pho-macro:before {
+    content: "\e91f";
+}
+.my-icon-pho-meter:before {
+    content: "\e920";
+}
+.my-icon-pho-photos:before {
+    content: "\e921";
+}
+.my-icon-pho-plus-minus:before {
+    content: "\e922";
+}
+.my-icon-pho-polaroid:before {
+    content: "\e923";
+}
+.my-icon-pho-polaroids:before {
+    content: "\e924";
+}
+.my-icon-pho-portrait-album:before {
+    content: "\e925";
+}
+.my-icon-pho-portrait-photo:before {
+    content: "\e926";
+}
+.my-icon-pho-portrait:before {
+    content: "\e927";
+}
+.my-icon-pho-preview:before {
+    content: "\e928";
+}
+.my-icon-pho-quick-shoot:before {
+    content: "\e929";
+}
+.my-icon-pho-redeye-off:before {
+    content: "\e92a";
+}
+.my-icon-pho-redeye:before {
+    content: "\e92b";
+}
+.my-icon-pho-shadow-2:before {
+    content: "\e92c";
+}
+.my-icon-pho-shadow:before {
+    content: "\e92d";
+}
+.my-icon-pho-slr-flash:before {
+    content: "\e92e";
+}
+.my-icon-pho-timer:before {
+    content: "\e92f";
+}
+.my-icon-pho-tripod:before {
+    content: "\e930";
+}
+.my-icon-pho-umbrella:before {
+    content: "\e931";
+}
+

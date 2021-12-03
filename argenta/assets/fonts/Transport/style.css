@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'line-32-transport';
+    src:    url('fonts/line-32-transport.eot?g8xsf0');
+    src:    url('fonts/line-32-transport.eot?g8xsf0#iefix') format('embedded-opentype'),
+        url('fonts/line-32-transport.woff2?g8xsf0') format('woff2'),
+        url('fonts/line-32-transport.ttf?g8xsf0') format('truetype'),
+        url('fonts/line-32-transport.woff?g8xsf0') format('woff'),
+        url('fonts/line-32-transport.svg?g8xsf0#line-32-transport') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-tra-"], [class*=" my-icon-tra-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-transport' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-tra-airbag:before {
+    content: "\e900";
+}
+.my-icon-tra-battery:before {
+    content: "\e901";
+}
+.my-icon-tra-boat-propeller:before {
+    content: "\e902";
+}
+.my-icon-tra-car-lock:before {
+    content: "\e903";
+}
+.my-icon-tra-door-lock:before {
+    content: "\e904";
+}
+.my-icon-tra-door-open:before {
+    content: "\e905";
+}
+.my-icon-tra-drive:before {
+    content: "\e906";
+}
+.my-icon-tra-electric-pump:before {
+    content: "\e907";
+}
+.my-icon-tra-engine:before {
+    content: "\e908";
+}
+.my-icon-tra-foglights-dipped:before {
+    content: "\e909";
+}
+.my-icon-tra-foglights:before {
+    content: "\e90a";
+}
+.my-icon-tra-gears:before {
+    content: "\e90b";
+}
+.my-icon-tra-helmet-2:before {
+    content: "\e90c";
+}
+.my-icon-tra-helmet:before {
+    content: "\e90d";
+}
+.my-icon-tra-ignition:before {
+    content: "\e90e";
+}
+.my-icon-tra-l-plate:before {
+    content: "\e90f";
+}
+.my-icon-tra-lights-dipped:before {
+    content: "\e910";
+}
+.my-icon-tra-lights:before {
+    content: "\e911";
+}
+.my-icon-tra-oil:before {
+    content: "\e912";
+}
+.my-icon-tra-p-plate:before {
+    content: "\e913";
+}
+.my-icon-tra-petrol-pump:before {
+    content: "\e914";
+}
+.my-icon-tra-plane-propeller:before {
+    content: "\e915";
+}
+.my-icon-tra-r-plate:before {
+    content: "\e916";
+}
+.my-icon-tra-road:before {
+    content: "\e917";
+}
+.my-icon-tra-route-66:before {
+    content: "\e918";
+}
+.my-icon-tra-route:before {
+    content: "\e919";
+}
+.my-icon-tra-screen-wash:before {
+    content: "\e91a";
+}
+.my-icon-tra-screen-wipe:before {
+    content: "\e91b";
+}
+.my-icon-tra-seatbelt:before {
+    content: "\e91c";
+}
+.my-icon-tra-sidelights:before {
+    content: "\e91d";
+}
+.my-icon-tra-speed-camera:before {
+    content: "\e91e";
+}
+.my-icon-tra-speedo:before {
+    content: "\e91f";
+}
+.my-icon-tra-steer:before {
+    content: "\e920";
+}
+.my-icon-tra-taxi:before {
+    content: "\e921";
+}
+.my-icon-tra-traction:before {
+    content: "\e922";
+}
+.my-icon-tra-traffic-lights:before {
+    content: "\e923";
+}
+.my-icon-tra-train-track:before {
+    content: "\e924";
+}
+.my-icon-tra-warning:before {
+    content: "\e925";
+}
+.my-icon-tra-wheel-plane:before {
+    content: "\e926";
+}
+

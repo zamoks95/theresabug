@@ -1,0 +1,36 @@
+.woocommerce #content {
+	.message-box {
+		margin-top: 0px;
+		margin-bottom: 15px;
+
+		a {
+			background: none;
+			margin: 0 6px;
+			padding: 0;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	div.wc-single-page-message {
+		div.message-box:first-child {
+			margin-top: 35px;
+		}
+
+		div.message-box:last-child {
+			margin-bottom: 35px;
+		}
+	}
+
+	div.wc-cart-messages {
+		div.message-box:last-child {
+			margin-bottom: 50px;
+		}
+	}
+
+	.woocommerce-error {
+		@extend .message-box-error;
+	}
+}

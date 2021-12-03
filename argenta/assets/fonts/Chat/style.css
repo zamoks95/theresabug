@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'line-32-chat';
+    src:    url('fonts/line-32-chat.eot?9cwyp1');
+    src:    url('fonts/line-32-chat.eot?9cwyp1#iefix') format('embedded-opentype'),
+        url('fonts/line-32-chat.woff2?9cwyp1') format('woff2'),
+        url('fonts/line-32-chat.ttf?9cwyp1') format('truetype'),
+        url('fonts/line-32-chat.woff?9cwyp1') format('woff'),
+        url('fonts/line-32-chat.svg?9cwyp1#line-32-chat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-cha-"], [class*=" my-icon-cha-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-chat' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-cha-bubble-female:before {
+    content: "\e900";
+}
+.my-icon-cha-bubble-male:before {
+    content: "\e901";
+}
+.my-icon-cha-bubbles-three:before {
+    content: "\e902";
+}
+.my-icon-cha-bubbles-two:before {
+    content: "\e903";
+}
+.my-icon-cha-cloud:before {
+    content: "\e904";
+}
+.my-icon-cha-loudspeakers:before {
+    content: "\e905";
+}
+.my-icon-cha-megaphone:before {
+    content: "\e906";
+}
+.my-icon-cha-q-a:before {
+    content: "\e907";
+}
+.my-icon-cha-quote:before {
+    content: "\e908";
+}
+.my-icon-cha-quotes:before {
+    content: "\e909";
+}
+.my-icon-cha-rect-conversation:before {
+    content: "\e90a";
+}
+.my-icon-cha-rect-cross:before {
+    content: "\e90b";
+}
+.my-icon-cha-rect-flag:before {
+    content: "\e90c";
+}
+.my-icon-cha-rect-love:before {
+    content: "\e90d";
+}
+.my-icon-cha-rect-minus:before {
+    content: "\e90e";
+}
+.my-icon-cha-rect-movie:before {
+    content: "\e90f";
+}
+.my-icon-cha-rect-music:before {
+    content: "\e910";
+}
+.my-icon-cha-rect-person:before {
+    content: "\e911";
+}
+.my-icon-cha-rect-plus:before {
+    content: "\e912";
+}
+.my-icon-cha-rect-quote:before {
+    content: "\e913";
+}
+.my-icon-cha-rect-reply:before {
+    content: "\e914";
+}
+.my-icon-cha-rect-search:before {
+    content: "\e915";
+}
+.my-icon-cha-rect-smiley:before {
+    content: "\e916";
+}
+.my-icon-cha-rect-star:before {
+    content: "\e917";
+}
+.my-icon-cha-rect-swear:before {
+    content: "\e918";
+}
+.my-icon-cha-rect-text:before {
+    content: "\e919";
+}
+.my-icon-cha-rect-tick:before {
+    content: "\e91a";
+}
+.my-icon-cha-rect-warning:before {
+    content: "\e91b";
+}
+.my-icon-cha-rectangle:before {
+    content: "\e91c";
+}
+.my-icon-cha-round-conversation:before {
+    content: "\e91d";
+}
+.my-icon-cha-round:before {
+    content: "\e91e";
+}
+.my-icon-cha-rounded:before {
+    content: "\e91f";
+}
+.my-icon-cha-shout:before {
+    content: "\e920";
+}
+.my-icon-cha-talk-female:before {
+    content: "\e921";
+}
+.my-icon-cha-talk-male:before {
+    content: "\e922";
+}
+.my-icon-cha-talk:before {
+    content: "\e923";
+}
+.my-icon-cha-thought:before {
+    content: "\e924";
+}
+.my-icon-cha-translate-2:before {
+    content: "\e925";
+}
+.my-icon-cha-translate:before {
+    content: "\e926";
+}
+.my-icon-cha-wiggly:before {
+    content: "\e927";
+}
+

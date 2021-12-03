@@ -1,0 +1,62 @@
+{
+    "key": "group_592fe134a16e7",
+    "title": "Plugins Settings",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_592fe13500023",
+            "label": "Your Google Maps API key",
+            "name": "global_google_maps_api_key",
+            "type": "text",
+            "instructions": "<a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">How get your Google Maps API key<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Paste your key",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_592fe13500c38",
+            "label": "Show WPML language switcher in header?",
+            "name": "global_wpml_show_in_header",
+            "type": "true_false",
+            "instructions": "Button with Planet icon in theme header",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-plugins"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

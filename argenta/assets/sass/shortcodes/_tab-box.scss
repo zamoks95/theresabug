@@ -1,0 +1,168 @@
+.tab-box {
+	margin: 5px 0;
+
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.tab-box-buttons {
+	width: 100%;
+	position: relative;
+	z-index: 5;
+
+	&:after {
+		clear: both;
+	}
+}
+
+.tab-box-btn {
+	background: #f3f3f3;
+	height: 100%;
+	margin-right: 2px;
+	padding: 21px 19px;
+	display: inline-block;
+	font-size: 13px;
+	letter-spacing: -0.01em;
+	line-height: 1.4;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background color;
+	transition-duration: .15s;
+	transition-timing-function: ease-in-out;
+
+	&:hover {
+		color: rgba($color_dark, .6);
+	}
+}
+
+.tab-box-btn-active {
+	background: $color_dark;
+	color: $color_white;
+	cursor: default;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.tab-box-content {
+	width: 100%;
+	float: left;
+	transition: height .2s ease-in-out;
+}
+
+.tab-box-item {
+	height: 0;
+	padding: 18px 0;
+	overflow: hidden;
+	display: none;
+
+	> p {
+		margin: 10px 0;
+	}
+
+	> *:first-child {
+		margin-top: 0;
+	}
+
+	&.tab-box-active {
+		height: auto;
+		display: block;
+	}
+}
+
+.tab-box-left {
+	@extend .tab-box;
+
+	.tab-box-buttons {
+		width: 205px;
+		margin-top: 5px;
+		margin-right: 20px;
+		float: left;
+
+		.tab-box-btn {
+			width: 100%;
+			display: block;
+			margin-right: 0;
+			margin-bottom: 2px;
+			text-align: center;
+		}
+	}
+
+	.tab-box-content {
+		float: none;
+		padding-left: 225px;
+
+		.tab-box-item {
+			padding-top: 0px;
+		}
+	}
+}
+
+.tab-box-boxed {
+	.tab-box-content {
+		margin-top: 2px;
+
+		.tab-box-item {
+			background: #f3f3f3;
+			padding: 20px 18px;
+		}
+	}
+}
+
+.tab-box-left.tab-box-boxed {
+	.tab-box-content {
+		padding-left: 207px;
+	}
+	.tab-box-item {
+		padding-top: 20px;
+
+		&.tab-box-active {
+			padding: 20px 18px 15px;
+		}
+	}
+}
+
+.tab-box-material {
+	.tab-box-buttons {
+		border-bottom: 1px solid #ebebeb;
+		display: inline-block;
+	}
+
+	.tab-box-btn {
+		background: transparent;
+		border-bottom: 3px solid transparent;
+		position: relative;
+		bottom: -2px;
+	}
+
+	.tab-box-btn-active {
+		background: transparent;
+		color: $color_brand;
+		border-color: $color_brand;
+	}
+}
+
+.tab-box-left.tab-box-material {
+	.tab-box-buttons {
+		display: block;
+		border-bottom: none;
+		border-right: 1px solid #ebebeb;
+		float: left;
+	}
+
+	.tab-box-btn {
+		width: 100%;
+		padding-left: 0;
+		text-align: left;
+		border-bottom: none;
+		border-right: 3px solid transparent;
+		right: -2px;
+	}
+
+	.tab-box-btn-active {
+		border-color: $color_brand;
+	}
+}

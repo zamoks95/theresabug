@@ -1,0 +1,30 @@
+.counter-box {
+	text-align: center;
+
+	.counter-box-icon {
+		font-size: 40px;
+	}
+
+	.counter-box-count {
+		color: #343436;
+		margin: 10px 0;
+		padding: 0;
+		line-height: 1.1;
+		letter-spacing: -0.05em;
+		font-size: 50px;
+		font-weight: 800;
+		font-family: "Montserrat";
+
+		.counter-box-icon {
+			vertical-align: 0;
+		}
+	}
+
+	p.subtitle {
+		font-size: 15px;
+	}
+
+	h3.title {
+		display: inline-block;
+	}
+}

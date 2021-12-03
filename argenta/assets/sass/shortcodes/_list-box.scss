@@ -1,0 +1,168 @@
+.list-box {
+	margin: 10px 0;
+	list-style: none;
+
+	h4 {
+		text-align: left;
+	}
+
+	p.subtitle {
+		font-size: 14px;
+		line-height: 15px;
+		margin: 5px 0 4px;
+	}
+
+	p {
+		line-height: 1.4;
+		margin: 0 auto;
+	}
+
+	li {
+		padding: 12px 0 15px 20px;
+		position: relative;
+
+		&:after {
+			content: '';
+			background: $color_brand;
+			width: 4px;
+			height: 4px;
+			position: absolute;
+			top: 22px;
+			left: 2px;
+		}
+
+		ul {
+			margin-left: -20px;
+			margin-bottom: 0;
+
+			li {
+				padding-left: 35px;
+
+				&:after {
+					left: 18px;
+				}
+
+				&:last-child {
+					padding-bottom: 0;
+					border-bottom: 0;
+				}
+
+				ul {
+					margin-left: -35px;
+
+					li {
+						padding-left: 50px;
+
+						&:after {
+							left: 33px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.list-box-border-items {
+	li {
+		padding: 13px 0 13px 20px;
+		border-bottom: 1px dotted $color_light-gray;
+
+		&:first-child {
+			border-top: 1px dotted $color_light-gray;
+		}
+	}
+}
+
+.list-box-border-items-offset {
+	@extend .list-box-border-items;
+
+	li {
+		padding-left: 0;
+		margin-left: 20px;
+
+		&:after {
+			left: -20px;
+		}
+	}
+}
+
+
+.list-box-icon {
+	@extend .list-box;
+
+	li {
+		padding-left: 36px;
+
+		&:after {
+			background: transparent;
+			width: 0;
+			height: 0;
+		}
+
+		.icon {
+			color: $color_light-gray;
+			font-size: 24px;
+			line-height: 24px;
+			position: absolute;
+			top: 14px;
+			left: 0;
+		}
+
+		.icon-shape {
+			background: $color_brand;
+			color: #ffffff;
+			width: 30px;
+			height: 30px;
+			border-radius: 15px;
+			font-size: 16px;
+			text-align: center;
+			line-height: 30px;
+			position: absolute;
+			top: 10px;
+			left: 2px;
+		}
+	}
+
+	&.list-box-border-items li {
+		padding-left: 36px;
+	}
+
+	&.list-box-border-items-offset li {
+		margin-left: 36px;
+		padding-left: 0;
+
+		.icon {
+			left: -36px;
+		}
+	}
+}
+
+
+.list-box-fill-icon {
+	&.list-box-border-items li,
+	li {
+		padding-left: 45px;
+	}
+
+	&.list-box-border-items-offset li {
+		margin-left: 45px;
+		padding-left: 0;
+
+		.icon-shape {
+			left: -45px;
+		}
+	}
+}
+
+.list-box-clear {
+	@extend .list-box;
+	li {
+		padding-left: 0;
+		&:after {
+			background: transparent;
+			width: 0;
+			height: 0;
+		}
+	}
+}

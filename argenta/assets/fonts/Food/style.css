@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'line-32-food';
+    src:    url('fonts/line-32-food.eot?befvdp');
+    src:    url('fonts/line-32-food.eot?befvdp#iefix') format('embedded-opentype'),
+        url('fonts/line-32-food.woff2?befvdp') format('woff2'),
+        url('fonts/line-32-food.ttf?befvdp') format('truetype'),
+        url('fonts/line-32-food.woff?befvdp') format('woff'),
+        url('fonts/line-32-food.svg?befvdp#line-32-food') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-foo-"], [class*=" my-icon-foo-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-food' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-foo-baked-beans:before {
+    content: "\e900";
+}
+.my-icon-foo-bread:before {
+    content: "\e901";
+}
+.my-icon-foo-cake:before {
+    content: "\e902";
+}
+.my-icon-foo-carton:before {
+    content: "\e903";
+}
+.my-icon-foo-cheese-2:before {
+    content: "\e904";
+}
+.my-icon-foo-cheese:before {
+    content: "\e905";
+}
+.my-icon-foo-cheeseburger:before {
+    content: "\e906";
+}
+.my-icon-foo-chupa:before {
+    content: "\e907";
+}
+.my-icon-foo-coissant:before {
+    content: "\e908";
+}
+.my-icon-foo-cracked-egg:before {
+    content: "\e909";
+}
+.my-icon-foo-cupcake-2:before {
+    content: "\e90a";
+}
+.my-icon-foo-cupcake:before {
+    content: "\e90b";
+}
+.my-icon-foo-doughnut-2:before {
+    content: "\e90c";
+}
+.my-icon-foo-drumstick:before {
+    content: "\e90d";
+}
+.my-icon-foo-egg-sausage:before {
+    content: "\e90e";
+}
+.my-icon-foo-egg-spoon:before {
+    content: "\e90f";
+}
+.my-icon-foo-egg:before {
+    content: "\e910";
+}
+.my-icon-foo-fast-food:before {
+    content: "\e911";
+}
+.my-icon-foo-fish-bones:before {
+    content: "\e912";
+}
+.my-icon-foo-fish:before {
+    content: "\e913";
+}
+.my-icon-foo-fried-egg:before {
+    content: "\e914";
+}
+.my-icon-foo-fries:before {
+    content: "\e915";
+}
+.my-icon-foo-ham:before {
+    content: "\e916";
+}
+.my-icon-foo-hamburger:before {
+    content: "\e917";
+}
+.my-icon-foo-hot-dog:before {
+    content: "\e918";
+}
+.my-icon-foo-ice-cream-2:before {
+    content: "\e919";
+}
+.my-icon-foo-ice-cream:before {
+    content: "\e91a";
+}
+.my-icon-foo-ice-lolly-2:before {
+    content: "\e91b";
+}
+.my-icon-foo-ice-lolly-3:before {
+    content: "\e91c";
+}
+.my-icon-foo-ice-lolly:before {
+    content: "\e91d";
+}
+.my-icon-foo-iced-bun:before {
+    content: "\e91e";
+}
+.my-icon-foo-iced-doughnut:before {
+    content: "\e91f";
+}
+.my-icon-foo-jam:before {
+    content: "\e920";
+}
+.my-icon-foo-jar:before {
+    content: "\e921";
+}
+.my-icon-foo-kebab:before {
+    content: "\e922";
+}
+.my-icon-foo-lollipop:before {
+    content: "\e923";
+}
+.my-icon-foo-muffin-2:before {
+    content: "\e924";
+}
+.my-icon-foo-muffin:before {
+    content: "\e925";
+}
+.my-icon-foo-noodle-box-2:before {
+    content: "\e926";
+}
+.my-icon-foo-noodle-box:before {
+    content: "\e927";
+}
+.my-icon-foo-noodles:before {
+    content: "\e928";
+}
+.my-icon-foo-pie:before {
+    content: "\e929";
+}
+.my-icon-foo-pizza-slice:before {
+    content: "\e92a";
+}
+.my-icon-foo-pizza:before {
+    content: "\e92b";
+}
+.my-icon-foo-popcorn:before {
+    content: "\e92c";
+}
+.my-icon-foo-roast-chicken:before {
+    content: "\e92d";
+}
+.my-icon-foo-runny-egg:before {
+    content: "\e92e";
+}
+.my-icon-foo-salami:before {
+    content: "\e92f";
+}
+.my-icon-foo-sauces:before {
+    content: "\e930";
+}
+.my-icon-foo-sausage:before {
+    content: "\e931";
+}
+.my-icon-foo-soup:before {
+    content: "\e932";
+}
+.my-icon-foo-steak:before {
+    content: "\e933";
+}
+.my-icon-foo-sushi:before {
+    content: "\e934";
+}
+.my-icon-foo-tin-small:before {
+    content: "\e935";
+}
+.my-icon-foo-tin:before {
+    content: "\e936";
+}
+.my-icon-foo-toast-jam:before {
+    content: "\e937";
+}
+.my-icon-foo-toast:before {
+    content: "\e938";
+}
+.my-icon-foo-tub:before {
+    content: "\e939";
+}
+

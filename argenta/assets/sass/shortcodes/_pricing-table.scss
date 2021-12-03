@@ -1,0 +1,152 @@
+.pricing-table {
+	width: 100%;
+	padding: 30px;
+	border: 1px solid $color_border;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+
+	h3.title {
+		margin-top: 14px;
+		margin-bottom: 0;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	> p.subtitle {
+		margin-top: 3px;
+	}
+
+	.pricing-table-price {
+		margin: 25px 0 0;
+		padding: 25px 0;
+		border-top: 1px dotted $color_border;
+
+		h2 {
+			display: inline-block;
+			font-size: 50px;
+			line-height: 50px;
+			margin: 0;
+			position: relative;
+
+			.icon {
+				position: absolute;
+				left: -22px;
+				top: 5px;
+				line-height: 25px;
+				font-size: 25px;
+			}
+		}
+
+		p.subtitle {
+			margin-top: 20px;
+			line-height: 26px;
+			font-size: 14px;
+		}
+	}
+
+	.pricing-table-time-interval {
+		margin: 0;
+		font-size: 13px;
+		line-height: 13px;
+		font-family: $font_main;
+	}
+
+	> .list-box {
+		margin: 0 0;
+	}
+
+	.pricing-table-btn {
+		margin-top: 30px;
+	}
+
+	.icon-enable,
+	.icon-disable {
+		line-height: 16px;
+		font-size: 24px;
+		vertical-align: middle;
+	}
+}
+
+.pricing-table-best {
+	@extend .pricing-table;
+
+	.pricing-table-feat-mark {
+		color: #fff;
+		padding: 0;
+		font-size: 13px;
+		position: absolute;
+		overflow: hidden;
+		top: 7px;
+		left: 7px;
+
+		.wrap {
+			padding: 5px 6px 4px 8px;
+			margin-right: 10px;
+			position: relative;
+			z-index: 2;
+
+			&:after,
+			&:before {
+				content: '';
+				background-color: inherit;
+				width: 18px;
+				height: 10px;
+				position: absolute;
+				right: -10px;
+				top: 0;
+				transform: rotate(-70deg);
+			}
+
+			&:before {
+				top: auto;
+				bottom: 0;
+				transform: rotate(70deg);
+			}
+		}
+	}
+}
+
+.pricing-table-boxed {
+	background: $color_white;
+	border: none;
+
+	&.pricing-table-best {
+		box-shadow: 0 3px 35px rgba(0,0,0,.08);
+	}
+}
+
+.pricing-table-labels {
+	background: transparent;
+	padding-top: 228px;
+	float: left;
+
+	h3.title {
+		margin-top: 0;
+		margin-bottom: 28px;
+	}
+}
+
+.pricing-table-list {
+	&:after {
+		clear: both;
+	}
+
+	.pricing-table {
+		border-right-width: 0;
+		float: left;
+
+		&:last-child {
+			border-right-width: 1px;
+		}
+	}
+
+	.pricing-table-best {
+		border-right-width: 1px;
+		float: left;
+
+		& + .pricing-table {
+			border-left: 0;
+		}
+	}
+}

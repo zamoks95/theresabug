@@ -1,0 +1,1116 @@
+{
+    "key": "group_592d60af343cf",
+    "title": "Blog, Archive, Search pages",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_592d60af8a413",
+            "label": "Posts Pages",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5937de9b32467",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "These settings apply to the standard blog pages, archives, search page and Blog page templates.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_592d60af8a7ff",
+            "label": "Grid layout type",
+            "name": "global_blog_page_layout",
+            "type": "radio",
+            "instructions": "Choose grid layout type for pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "classic": "Classic layout",
+                "masonry": "Masonry grid"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "masonry",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592d60af8ac17",
+            "label": "Posts in row",
+            "name": "global_blog_columns_in_row",
+            "type": "argenta_columns",
+            "instructions": "Choose blog posts columns number",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1-1-1-1",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": "",
+            "use_inherit": false
+        },
+        {
+            "key": "field_592d60af8b000",
+            "label": "Posts per page",
+            "name": "global_blog_posts_per_page",
+            "type": "number",
+            "instructions": "You can set number of posts by one page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 16,
+            "placeholder": "",
+            "prepend": "",
+            "append": "posts",
+            "min": 1,
+            "max": 100,
+            "step": 1
+        },
+        {
+            "key": "field_592d60af8b3f8",
+            "label": "Items layout",
+            "name": "global_blog_item_layout_type",
+            "type": "select",
+            "instructions": "Select layout type for page view posts grid",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Default",
+                "without_excerpt": "Without excerpt",
+                "date_top": "Footer top",
+                "inner": "Inner wrapped"
+            },
+            "default_value": [
+                "default"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d60af8b80c",
+            "label": "Use boxed style for items?",
+            "name": "global_blog_items_boxed_style",
+            "type": "true_false",
+            "instructions": "Append box wrapper for post cards",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No",
+            "message": "",
+            "default_value": 1
+        },
+        {
+            "key": "field_592d60af8bc07",
+            "label": "Show items in no-gap grid",
+            "name": "global_blog_items_without_padding",
+            "type": "true_false",
+            "instructions": "This will make solid grid without paddings",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No",
+            "message": "",
+            "default_value": 0
+        },
+        {
+            "key": "field_592d60af8bfef",
+            "label": "Sidebar position",
+            "name": "global_blog_sidebar",
+            "type": "select",
+            "instructions": "Choose sidebar position",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Right",
+                "left": "Left",
+                "without": "Hide"
+            },
+            "default_value": [
+                "right"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d60af8c3d8",
+            "label": "Single Post",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_592d626d879de",
+            "label": "Header title background type",
+            "name": "global_post_title_background_type",
+            "type": "select",
+            "instructions": "Select title background type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "post_thumbnail": "Post thumbnail",
+                "color": "Background color",
+                "custom": "Loaded image"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d69654e10f",
+            "label": "Title background color",
+            "name": "global_post_title_background_color",
+            "type": "argenta_color",
+            "instructions": "Choose background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "!=",
+                        "value": "inherit"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592d638e879df",
+            "label": "Title background image",
+            "name": "global_post_title_background_image",
+            "type": "image",
+            "instructions": "Background image for header title",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_592d69e4383d6",
+            "label": "Title background image size",
+            "name": "global_post_title_background_size",
+            "type": "select",
+            "instructions": "Background size for image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "post_thumbnail"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "cover"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d6a39383d8",
+            "label": "Title background image position",
+            "name": "global_post_title_background_position",
+            "type": "select",
+            "instructions": "Background position for image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "post_thumbnail"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "post_thumbnail"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                "center"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d6c37d15db",
+            "label": "Title background image repeat",
+            "name": "global_post_title_background_repeat",
+            "type": "select",
+            "instructions": "Repeat setting for image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "post_thumbnail"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "post_thumbnail"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_592d69e4383d6",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_y": "Repeat only by Y",
+                "repeat_x": "Repeat only by X"
+            },
+            "default_value": [
+                "repeat"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d6dbf5673e",
+            "label": "Add background overlay color?",
+            "name": "global_post_use_title_overlay",
+            "type": "true_false",
+            "instructions": "Use transparent overlay color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "post_thumbnail"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_592d6e2c56740",
+            "label": "Title background overlay color",
+            "name": "global_post_title_background_overlay_color",
+            "type": "argenta_color",
+            "instructions": "Choose color for image overlay",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d6dbf5673e",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "post_thumbnail"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_592d6dbf5673e",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_592d626d879de",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592d7197eeb16",
+            "label": "Header tilte aligment",
+            "name": "global_post_header_title_align",
+            "type": "select",
+            "instructions": "You can choose header text align",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d71e9e9b9c",
+            "label": "Typography settings",
+            "name": "global_post_typography_settings",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "custom": "Custom settings"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592d7239e9b9d",
+            "label": "Post content headings settings",
+            "name": "global_post_header_title_typo",
+            "type": "argenta_typo",
+            "instructions": "Set custom headings typography for all posts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d71e9e9b9c",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_592d7c3fb4ea1",
+            "label": "Post content text settings",
+            "name": "global_post_page_text_typo",
+            "type": "argenta_typo",
+            "instructions": "Set custom content typography for all posts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d71e9e9b9c",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_592d8434bfbfa",
+            "label": "Set header title fullscreen height?",
+            "name": "global_post_title_height_fullscreen",
+            "type": "radio",
+            "instructions": "You can set fullscreen height for all posts header title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592d845bbfbfb",
+            "label": "Header title height",
+            "name": "global_post_header_height",
+            "type": "text",
+            "instructions": "Change header height. Set new CSS value",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d8434bfbfa",
+                        "operator": "!=",
+                        "value": "no"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "height:",
+            "append": ";",
+            "maxlength": ""
+        },
+        {
+            "key": "field_592d72f6d085b",
+            "label": "Subtitle type",
+            "name": "global_post_hide_subtitle",
+            "type": "radio",
+            "instructions": "You can choose subtitle type for posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "generated": "Author, date and comments",
+                "custom": "Custom subtitle for every post",
+                "hidden": "Hidden (don't show)"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593ddc099a870",
+            "label": "Custom subtitle text",
+            "name": "global_post_custom_subtitle",
+            "type": "text",
+            "instructions": "Write custom subtitle for every post",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592d72f6d085b",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_592d6d3b368b2",
+            "label": "Hide header title section?",
+            "name": "global_post_hide_header_title",
+            "type": "radio",
+            "instructions": "Hide header title from all post pages?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes, hide",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593dc7d2bfa16",
+            "label": "Show breadcrumbs?",
+            "name": "global_blog_page_show_breadcrumbs",
+            "type": "radio",
+            "instructions": "You can hide breadcrumbs from all post pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5937dfab71d1b",
+            "label": "Sidebar position",
+            "name": "global_post_single_sidebar",
+            "type": "select",
+            "instructions": "Sidebar position for all post pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left": "Left",
+                "right": "Right",
+                "without": "Without"
+            },
+            "default_value": [
+                "right"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592d714deeb14",
+            "label": "Hide \u00abPrevious and next posts\u00bb block?",
+            "name": "global_post_hide_previous_n_next",
+            "type": "true_false",
+            "instructions": "Hide block with prev and next posts link after post content?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_592d716deeb15",
+            "label": "Hide \u00abRelated posts\u00bb block?",
+            "name": "global_post_hide_related_posts",
+            "type": "true_false",
+            "instructions": "Hide block with related posts link after post content?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_593908a3311be",
+            "label": "Use boxed content wrapper?",
+            "name": "global_post_use_boxed_wrapper",
+            "type": "radio",
+            "instructions": "You can wrap all post pages in boxed wrapper",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes, use",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592d7105a8cdb",
+            "label": "Add page content wrapper?",
+            "name": "global_post_page_add_wrapper",
+            "type": "radio",
+            "instructions": "Use centred content wrapper for post pages?",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593908a3311be",
+                        "operator": "!=",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_592d60af8a413auth",
+            "label": "Author Info",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5937e0a52b873",
+            "label": "Author social links",
+            "name": "global_author_social_links",
+            "type": "repeater",
+            "instructions": "Links to author's social network pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "+ Add Author",
+            "sub_fields": [
+                {
+                    "key": "field_5937e0a52f6f4",
+                    "label": "Author",
+                    "name": "author",
+                    "type": "user",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "role": "",
+                    "allow_null": 0,
+                    "multiple": 0
+                },
+                {
+                    "key": "field_5937e0a52fac9",
+                    "label": "Links",
+                    "name": "links",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "+ Add Link",
+                    "sub_fields": [
+                        {
+                            "key": "field_5937e0a534d96",
+                            "label": "Social networks",
+                            "name": "social_networks",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "facebook": "Facebook",
+                                "twitter": "Twitter",
+                                "youtube": "Youtube",
+                                "google_plus": "Google+",
+                                "linkedin": "LinkedIn",
+                                "pinterest": "Pinterest",
+                                "vimeo": "Vimeo",
+                                "github": "GitHub"
+                            },
+                            "default_value": [
+                                "facebook"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5937e0a535178",
+                            "label": "URL",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_5937e0a52b48c",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Other settings of the author you can change in <a href=\"profile.php\">your profile<\/a>.",
+            "new_lines": "",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-blog"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

@@ -1,0 +1,286 @@
+{
+    "key": "group_592fd650bf099",
+    "title": "Portfolio Settings",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_592fd65120ece",
+            "label": "Projects in row",
+            "name": "portfolio_columns_in_row",
+            "type": "argenta_columns",
+            "instructions": "Choose projects columns number",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "3-3-2-1",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": "",
+            "use_inherit": false
+        },
+        {
+            "key": "field_592fd651212c8",
+            "label": "Projects per page",
+            "name": "portfolio_projects_per_page",
+            "type": "number",
+            "instructions": "You can set number of projects per page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 24,
+            "placeholder": "",
+            "prepend": "",
+            "append": "projects",
+            "min": 1,
+            "max": 250,
+            "step": 1
+        },
+        {
+            "key": "field_592fd651216b4",
+            "label": "Grid item layout type",
+            "name": "portfolio_item_layout_type",
+            "type": "select",
+            "instructions": "Choose layout type for your rojects",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Default. Panel text",
+                "default_show_now": "Default. \"Show now\" button",
+                "default_panel_show_now": "Default. Panel text with \"Show now\" button",
+                "default_with_description": "Default. Description with \"Show now\" button",
+                "inner_show_now": "Inner. \"Show now\" button",
+                "inner_panel": "Inner. Panel text",
+                "inner_wide_centred": "Inner. Wide with centred text",
+                "inner_padding_bottom": "Inner. Padding with bottom text"
+            },
+            "default_value": [
+                "default"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd65121a9b",
+            "label": "Items in no-gap grid",
+            "name": "portfolio_items_without_padding",
+            "type": "true_false",
+            "instructions": "It will make solid grid without gaps",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_592fd65121e95",
+            "label": "Sidebar on portfolio page",
+            "name": "portfolio_sidebar",
+            "type": "select",
+            "instructions": "Select sidebar placement",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "right": "Right",
+                "left": "Left",
+                "without": "Hide"
+            },
+            "default_value": [
+                "without"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd651222a5",
+            "label": "Show filter",
+            "name": "project_show_filter",
+            "type": "true_false",
+            "instructions": "Prepend filter by categories",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_592fd6512267d",
+            "label": "Filter block align",
+            "name": "portfolio_filter_align",
+            "type": "select",
+            "instructions": "Choose align type for projects filter",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd651222a5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "default_value": [
+                "center"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_592fd651222a5_tcol",
+            "label": "Filter text color",
+            "name": "project_filter_text_color",
+            "type": "argenta_color",
+            "instructions": "You can change filter color for this page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd651222a5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592fd651222a5_acol",
+            "label": "Filter accent color",
+            "name": "project_filter_accent_color",
+            "type": "argenta_color",
+            "instructions": "You can change filter accent color for this page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_592fd651222a5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592fd65122a68",
+            "label": "Open projects in popup",
+            "name": "portfolio_projects_in_popup",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_592fd65122a69",
+            "label": "Loop popup slider",
+            "name": "loop_popup_slider",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page_for-projects.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

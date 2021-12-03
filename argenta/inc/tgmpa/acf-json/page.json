@@ -1,0 +1,2073 @@
+{
+    "key": "group_59390deae2279",
+    "title": "Page Settings",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_59390deaeee3d",
+            "label": "Header",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59390deaef21a",
+            "label": "Header style",
+            "name": "header_menu_style",
+            "type": "select",
+            "instructions": "Select header style template",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "style1": "Fully transparent",
+                "style2": "Filled with a color",
+                "style3": "Wrapped",
+                "style4": "Logo alone on top",
+                "style5": "Logo in the center",
+                "style6": "Left block menu"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59391a16302be",
+            "label": "Logo style",
+            "name": "header_logo_style",
+            "type": "select",
+            "instructions": "Choose logo style for this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "dark_variant": "Dark variant",
+                "light_variant": "Light variant",
+                "sitename": "Site name",
+                "custom": "Custom image"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deaf09ac",
+            "label": "Site name settings",
+            "name": "header_menu_sitename_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom setting for site name typography",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59391a16302be",
+                        "operator": "==",
+                        "value": "sitename"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59411f87d2536",
+            "label": "Custom logo",
+            "name": "header_menu_custom_logo",
+            "type": "image",
+            "instructions": "Loaded logo image for this page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59391a16302be",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_59390deaefde5",
+            "label": "Menu type",
+            "name": "menu_type",
+            "type": "radio",
+            "instructions": "Choose menu type for this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "full": "Full items",
+                "hamburger": "Hamburger button"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deaf1978",
+            "label": "Set fixed on scroll?",
+            "name": "header_menu_fixed",
+            "type": "radio",
+            "instructions": "You can attach header navigation on top",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Fixed",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deaef614",
+            "label": "Add content wrapper?",
+            "name": "header_menu_use_wrapper",
+            "type": "radio",
+            "instructions": "Add centred wrapper for page conten",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes, add",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deaef9ea",
+            "label": "Use blank padding under header?",
+            "name": "header_menu_add_cap",
+            "type": "radio",
+            "instructions": "You can don't add padding, to use your elements as the substrate",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Add padding",
+                "no": "Don't add"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59411fcf0048f",
+            "label": "Header menu style settings",
+            "name": "header_menu_style_settings",
+            "type": "radio",
+            "instructions": "Style type for header navigation",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom style"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deaf01d4",
+            "label": "Header menu background color",
+            "name": "header_menu_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59411fcf0048f",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deaf05bd",
+            "label": "Header menu text settings",
+            "name": "header_menu_text_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom typography settings for header menu text",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59411fcf0048f",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_5941261c69959",
+            "label": "Hide bottom border?",
+            "name": "header_menu_hide_border",
+            "type": "true_false",
+            "instructions": "You can hide border from header on this page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59411fcf0048f",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_594126ed0b898",
+            "label": "Header menu border type",
+            "name": "header_menu_border_type",
+            "type": "select",
+            "instructions": "Choose border type",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59411fcf0048f",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_5941261c69959",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "solid": "Solid",
+                "dashed": "Dashed",
+                "dotted": "Dotted",
+                "double": "Double"
+            },
+            "default_value": [
+                "solid"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_594127340b89a",
+            "label": "Header menu border color",
+            "name": "header_menu_border_color",
+            "type": "argenta_color",
+            "instructions": "Color of bottom border",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59411fcf0048f",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_5941261c69959",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5941276d0b89b",
+            "label": "Header menu height",
+            "name": "header_menu_height",
+            "type": "text",
+            "instructions": "Set custom height for header menu",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59411fcf0048f",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "maxlength": ""
+        },
+        {
+            "key": "field_594102937ce5c",
+            "label": "Subheader",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59390deaf0da4",
+            "label": "Add subheader?",
+            "name": "header_menu_add_contacts_bar",
+            "type": "radio",
+            "instructions": "Append bar with phone nums, social links and other info",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5941030b7ce5d",
+            "label": "Subheader style",
+            "name": "header_menu_contacts_bar_style",
+            "type": "radio",
+            "instructions": "Choose subheader style",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom style"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5941040a97ec9",
+            "label": "Subheader height",
+            "name": "header_menu_contacts_bar_height",
+            "type": "text",
+            "instructions": "Custom height for subheader",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5941030b7ce5d",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59390deaf11d5",
+            "label": "Subheader background",
+            "name": "header_menu_contacts_bar_background",
+            "type": "argenta_color",
+            "instructions": "Custom subheader background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5941030b7ce5d",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deaf159e",
+            "label": "Subheader text settings",
+            "name": "header_menu_contacts_bar_text_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom typography settings for subheader",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5941030b7ce5d",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59390deaf1d7b",
+            "label": "Header Title",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59390deaf218a",
+            "label": "Background type",
+            "name": "header_background_type",
+            "type": "radio",
+            "instructions": "Choose background type for header title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "image": "Custom image",
+                "color": "Background color"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593ddebba2fcb",
+            "label": "Subtitle text",
+            "name": "header_subtitle",
+            "type": "text",
+            "instructions": "Custom subtitle text",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59390deaf2985",
+            "label": "Background image",
+            "name": "header_background_image",
+            "type": "image",
+            "instructions": "Add title background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "url",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_59390deaf2d6e",
+            "label": "Background image size",
+            "name": "header_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "cover"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deaf3190",
+            "label": "Background image position",
+            "name": "header_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deaf2d6e",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_59390deaf2d6e",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deaf355c",
+            "label": "Background image repeat",
+            "name": "header_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type for background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deaf2d6e",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_59390deaf2d6e",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_y": "Repeat only by Y",
+                "repeat_x": "Repeat only by X"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deaf2582",
+            "label": "Background color",
+            "name": "header_background_color",
+            "type": "argenta_color",
+            "instructions": "Header title background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deaf3961",
+            "label": "Use background overlay?",
+            "name": "header_use_overlay",
+            "type": "radio",
+            "instructions": "Add transparent overlay for background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Inherit theme settings",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deaf3d98",
+            "label": "Background overlay color",
+            "name": "header_overlay_color",
+            "type": "argenta_color",
+            "instructions": "Overlay color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    },
+                    {
+                        "field": "field_59390deaf3961",
+                        "operator": "==",
+                        "value": "inherit"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_59390deaf218a",
+                        "operator": "==",
+                        "value": "image"
+                    },
+                    {
+                        "field": "field_59390deaf3961",
+                        "operator": "==",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deb0034e",
+            "label": "Tilte and subtitle align",
+            "name": "header_title_align",
+            "type": "select",
+            "instructions": "You can choose header title aligment",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Inherit theme settings",
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593a55746376f",
+            "label": "Typography settings",
+            "name": "page_typography_settings",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom settings for this page"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593a55d063770",
+            "label": "Header title settings",
+            "name": "page_header_title_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom typography settings for heading",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593a55746376f",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_593a565163771",
+            "label": "Header subtitle settings",
+            "name": "page_header_subtitle_typo",
+            "type": "argenta_typo",
+            "instructions": "Typography settings for subheader text",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593a55746376f",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59390deb00733",
+            "label": "Set header title fullscreen height?",
+            "name": "header_height_fullscreen",
+            "type": "radio",
+            "instructions": "You can set height to fullscreen",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb00b09",
+            "label": "Header title height",
+            "name": "header_height",
+            "type": "text",
+            "instructions": "Set another CSS value for header title height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb00733",
+                        "operator": "!=",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "height:",
+            "append": ";",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59390deb00ef1",
+            "label": "Hide header title section?",
+            "name": "header_use_hero",
+            "type": "radio",
+            "instructions": "Remove title section from this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes, hide",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593d61608bfd1",
+            "label": "Breadcrumbs",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59390deb03328",
+            "label": "Show breadcrumbs?",
+            "name": "page_show_breadcrumbs",
+            "type": "radio",
+            "instructions": "You can hide this block from page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Show",
+                "no": "Hide"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593d618e8bfd2",
+            "label": "Breadcrumbs background color",
+            "name": "breadcrumbs_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom background color for breadcrumbs",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593db13395d12",
+            "label": "Breadcrumbs text color",
+            "name": "breadcrumbs_text_color",
+            "type": "argenta_color",
+            "instructions": "Content text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deb012f8",
+            "label": "Page",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59390deb0171e",
+            "label": "Page background type",
+            "name": "page_background_type",
+            "type": "radio",
+            "instructions": "Select background type for page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom image",
+                "color": "Custom color"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb01b57",
+            "label": "Background image",
+            "name": "page_background_image",
+            "type": "image",
+            "instructions": "Custom background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb0171e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_59390deb01f80",
+            "label": "Background image size",
+            "name": "page_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb0171e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "auto"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deb02387",
+            "label": "Background image position",
+            "name": "page_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb01f80",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_59390deb0171e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_59390deb01f80",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_59390deb0171e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deb02758",
+            "label": "Background image repeat",
+            "name": "page_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type for background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb01f80",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_59390deb0171e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_59390deb01f80",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_59390deb0171e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_y": "Repeat only by Y",
+                "repeat_x": "Repeat only by X"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deb02b58",
+            "label": "Attach background image?",
+            "name": "page_background_is_attached",
+            "type": "true_false",
+            "instructions": "You can fix background image on this page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb0171e",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_59390deb02f35",
+            "label": "Background color",
+            "name": "page_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deb03738",
+            "label": "Show this page in boxed wrapper?",
+            "name": "page_use_boxed_wrapper",
+            "type": "radio",
+            "instructions": "You can add boxed wrapper for this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb03b1b",
+            "label": "Add page content wrapper?",
+            "name": "page_is_wrapped",
+            "type": "radio",
+            "instructions": "Centred wrapper for page content",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb03738",
+                        "operator": "!=",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "With wrapper",
+                "no": "Without wrapper"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_591b10dbb4a85_fwgaps_type",
+            "label": "Non-wrapper side margins",
+            "name": "full_width_margins_type",
+            "type": "radio",
+            "instructions": "Set custom value for this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom value"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_591b10dbb4a85_fwgaps_local",
+            "label": "Full width wrapper side margins size",
+            "name": "full_width_margins_size",
+            "type": "text",
+            "instructions": "You can change side margins of full width container. Use the CSS-units value. Default is \"7%\"",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_591b10dbb4a85_fwgaps_type",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 200
+        },
+        {
+            "key": "field_59390deb03f38",
+            "label": "Add content padding?",
+            "name": "page_add_top_padding",
+            "type": "radio",
+            "instructions": "Top and bottom padding for current page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Add",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb04364",
+            "label": "Footer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59390deb053ac",
+            "label": "Footer background type",
+            "name": "footer_background_type",
+            "type": "radio",
+            "instructions": "Choose footer background type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom image",
+                "color": "Custom color"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb057c5",
+            "label": "Footer background image",
+            "name": "footer_background_image",
+            "type": "image",
+            "instructions": "We recommend the use of transparent image for the background",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb053ac",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": 1200,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_59390deb05bcd",
+            "label": "Footer background size",
+            "name": "footer_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb053ac",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "cover"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deb05fa2",
+            "label": "Footer background position",
+            "name": "footer_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb053ac",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deb0638b",
+            "label": "Footer background repeat",
+            "name": "footer_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type for background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb053ac",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_x": "Repeat only by X",
+                "repeat_y": "Repeat only by Y"
+            },
+            "default_value": [
+                "repeat"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59390deb04f97",
+            "label": "Footer background color",
+            "name": "footer_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom footer background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb053ac",
+                        "operator": "!=",
+                        "value": "inherit"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5940ec917da19",
+            "label": "Footer content text color",
+            "name": "footer_text_color",
+            "type": "argenta_color",
+            "instructions": "Custom content text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deb04bb3",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb053ac",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_59390deb04788",
+            "label": "Footer logo widget type",
+            "name": "footer_logo_widget_type",
+            "type": "select",
+            "instructions": "Choose widget logo type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "light_variant": "Light variant logo",
+                "dark_variant": "Dark variant logo",
+                "sitename": "Site name",
+                "custom": "Custom image"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5940dfabfe181",
+            "label": "Footer site name settings",
+            "name": "footer_sitename_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom settings for footer site name",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb04788",
+                        "operator": "==",
+                        "value": "sitename"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_5940dfeafe182",
+            "label": "Footer custom logo image",
+            "name": "footer_custom_logo",
+            "type": "image",
+            "instructions": "Custom logo image in footer",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59390deb04788",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_59391743def2b",
+            "label": "Use footer as sticky?",
+            "name": "footer_as_sticky",
+            "type": "radio",
+            "instructions": "You can fix footer on this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb06fd1",
+            "label": "Wrap footer content?",
+            "name": "footer_is_wrapped",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "With wrapper",
+                "no": "Without wrapper"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb06b99",
+            "label": "Hide footer?",
+            "name": "footer_hide",
+            "type": "radio",
+            "instructions": "You can hide footer block from this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Hide footer from page",
+                "no": "Show"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb07397",
+            "label": "Show copyright section?",
+            "name": "footer_show_copyright_section",
+            "type": "radio",
+            "instructions": "Add copyright section to this page?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Show",
+                "no": "Hide"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59390deb0778d",
+            "label": "Copyright section background",
+            "name": "footer_copyright_section_background",
+            "type": "argenta_color",
+            "instructions": "Custom background for copyright section",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deb07b67",
+            "label": "Copyright section text color",
+            "name": "footer_copyright_section_text_color",
+            "type": "argenta_color",
+            "instructions": "Content color of copyright",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59390deb07fa2",
+            "label": "Styles",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59390deb083b5",
+            "label": "Custom CSS styles",
+            "name": "page_custom_css",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Your CSS code here",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 5,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "discussion",
+        "comments",
+        "author",
+        "format",
+        "featured_image"
+    ],
+    "active": 1,
+    "description": ""
+}

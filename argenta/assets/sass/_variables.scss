@@ -1,0 +1,43 @@
+// Structure
+
+$size_wrapped-container: 1280px;
+$size_offset-fullwidth-container: 7%;
+
+$size_page-offset-top: 50px;
+$size_page-offset-bottom: 100px;
+
+$size_page-offset-top-md: 30px;
+$size_page-offset-bottom-md: 25px;
+
+
+// Colors
+
+$color_brand: #987f71;
+$color_dark: #343436;
+$color_white: #fff;
+$color_light-gray: #d4d4d4;
+$color_gray: #a5a19d;
+
+$color_border: #e3e3e3;
+$color_fields-text: #5a5a5a;
+
+$color_titles: $color_dark;
+$color_subtitles: #8c8c93;
+$color_texts: #555555;
+
+
+// Typography
+
+$font_main: "Open Sans", sans-serif;
+$font_main-size: 14px;
+
+$font_code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font_pre: "Courier 10 Pitch", Courier, monospace;
+
+$font_titles: "Montserrat", sans-serif;
+$font_subtitles: "Lora", serif;
+
+$font_lh-body: 1.5;
+$font_lh-titles: 1.4;
+$font_lh-subtitles: 1.4;
+$font_lh-text: 1.4;

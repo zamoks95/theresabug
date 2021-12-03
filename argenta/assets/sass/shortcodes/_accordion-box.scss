@@ -1,0 +1,114 @@
+.accordion-box {
+	margin: 5px 0;
+
+	.buttons {
+		background: #f3f3f3;
+		padding: 16px 21px;
+		cursor: pointer;
+		
+		h5.title {
+			float: left;
+			margin: 0;
+			line-height: 28px;
+			vertical-align: middle;
+			font-family: $font_main;
+			clear: none;
+			transition: color .1s ease-in-out;
+			text-transform: uppercase;
+		}
+
+		&:hover {
+			h5, .control {
+				opacity: .7;
+			}
+		}
+	}
+
+	.icon {
+		min-width: 20px;
+		height: 25px;
+		margin-right: 20px;
+		float: left;
+		line-height: 28px;
+		font-size: 28px;
+		vertical-align: middle;
+		color: #b0aca9;
+	}
+
+	.control {
+		border-left: 1px dotted rgba(0, 0, 0, 0.15);
+		padding-left: 20px;
+		line-height: 28px;
+		font-size: 16px;
+		float: right;
+	}
+
+	.content {
+		margin: 6px 0;
+
+		.wrap {
+			padding: 15px 20px;
+			height: 0;
+			overflow: hidden;
+			opacity: 0;
+			transition: opacity .1s ease-in-out;
+			line-height: 1.7;
+		}
+	}
+
+	.active {
+		.buttons {
+			cursor: default;
+
+			&:hover {
+				h5, .control {
+					opacity: 1;
+				}
+			}
+		}
+
+		.content .wrap {
+			height: auto;
+			opacity: 1;
+		}
+	}
+
+	&.outline {
+		.buttons {
+			background: transparent;
+			padding-left: 0;
+			padding-right: 0;
+			border: 1px solid rgba(0, 0, 0, 0.06);
+			border-bottom-width: 0px;
+			border-left: none;
+			border-right: none;
+		}
+
+		> div:last-of-type {
+			.buttons {
+				border-bottom-width: 1px;
+			}
+		}
+
+		.content {
+			margin: 0;
+			padding-left: 0;
+			padding-right: 0;
+
+			.wrap {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+
+		.active {
+			.buttons {
+				border-bottom-width: 1px;
+			}
+
+			.content {
+				margin: 5px 0;
+			}
+		}
+	}
+}

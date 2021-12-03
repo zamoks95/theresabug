@@ -1,0 +1,134 @@
+.subheader {
+	background: #1d1d1e;
+	color: rgba(255, 255, 255, 0.6);
+	width: 100%;
+	max-height: 42px;
+	padding: 0 42px;
+	line-height: 42px;
+	vertical-align: middle;
+	cursor: default;
+	position: absolute;
+	z-index: 99;
+	overflow: hidden;
+
+	.content {
+		width: 100%;
+		min-height: 42px;
+	}
+
+	a {
+		color: rgba(255, 255, 255, 0.6);
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.subheader-contacts {
+		font-size: 13px;
+		float: left;
+
+		li {
+			float: left;
+			padding: 0;
+			margin-left: 22px;
+			position: relative;
+			vertical-align: middle;
+
+			a {
+				font-size: 13px;
+			}
+
+			&:first-child {
+				margin-left: 0;
+				&:after {
+					display: none;
+				}
+			}
+		}
+
+		.icon {
+			color: #bbbbbb;
+			vertical-align: -2px;
+			font-size: 20px;
+			margin-right: 5px;
+		}
+
+		.icon-email {
+			vertical-align: -2px;
+		}
+
+		.icon-time {
+			vertical-align: -2px;
+			font-size: 18px;
+		}
+	}
+
+	.social-bar {
+		float: right;
+
+		li {
+			float: left;
+			padding: 0;
+			
+			a {
+				color: $color_gray;
+				width: 42px;
+				height: 42px;
+				text-align: center;
+				display: block;
+				font-size: 16px;
+				transition-property: background, color;
+				transition-duration: .1s, .2s;
+				transition-timing-function: ease-in-out;
+
+				&:hover {
+					color: $color_white;
+					transition: none;
+					text-decoration: none;
+
+					&.facebook {
+						background: #4e6bbc;
+					}
+					&.twitter {
+						background: #439ee6;
+					}
+					&.googleplus {
+						background: #d33c26;
+					}
+					&.instagram {
+						background: #1d609f;
+					}
+					&.dribbble {
+						background: #e5538a;
+					}
+					&.github {
+						background: #333;
+					}
+					&.youtube {
+						background: #e62117;
+					}
+					&.linkedin {
+						background: #007ab5;
+					}
+					&.vimeo {
+						background: #1ab7ea;
+					}
+				}
+			}
+		}
+	}
+}
+
+.boxed-container {
+	.subheader {
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.subheader {
+		display: none;
+	}
+}

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'line-32-finance';
+    src:    url('fonts/line-32-finance.eot?cr5kkd');
+    src:    url('fonts/line-32-finance.eot?cr5kkd#iefix') format('embedded-opentype'),
+        url('fonts/line-32-finance.woff2?cr5kkd') format('woff2'),
+        url('fonts/line-32-finance.ttf?cr5kkd') format('truetype'),
+        url('fonts/line-32-finance.woff?cr5kkd') format('woff'),
+        url('fonts/line-32-finance.svg?cr5kkd#line-32-finance') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-fin-"], [class*=" my-icon-fin-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-finance' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-fin-bank:before {
+    content: "\e900";
+}
+.my-icon-fin-bitcoin:before {
+    content: "\e901";
+}
+.my-icon-fin-calculator:before {
+    content: "\e902";
+}
+.my-icon-fin-card-back:before {
+    content: "\e903";
+}
+.my-icon-fin-card-front-back:before {
+    content: "\e904";
+}
+.my-icon-fin-card-machine:before {
+    content: "\e905";
+}
+.my-icon-fin-coin-dollar:before {
+    content: "\e906";
+}
+.my-icon-fin-coin-euro:before {
+    content: "\e907";
+}
+.my-icon-fin-coin-rupee:before {
+    content: "\e908";
+}
+.my-icon-fin-coin-sterling:before {
+    content: "\e909";
+}
+.my-icon-fin-coin-yen-yuan:before {
+    content: "\e90a";
+}
+.my-icon-fin-coins:before {
+    content: "\e90b";
+}
+.my-icon-fin-conversion:before {
+    content: "\e90c";
+}
+.my-icon-fin-credit-card:before {
+    content: "\e90d";
+}
+.my-icon-fin-dollar-bag:before {
+    content: "\e90e";
+}
+.my-icon-fin-dollar-computer:before {
+    content: "\e90f";
+}
+.my-icon-fin-dollar-mobile:before {
+    content: "\e910";
+}
+.my-icon-fin-dollar:before {
+    content: "\e911";
+}
+.my-icon-fin-euro-bag:before {
+    content: "\e912";
+}
+.my-icon-fin-euro:before {
+    content: "\e913";
+}
+.my-icon-fin-gold-bars-2:before {
+    content: "\e914";
+}
+.my-icon-fin-gold-bars:before {
+    content: "\e915";
+}
+.my-icon-fin-note-card:before {
+    content: "\e916";
+}
+.my-icon-fin-note-dollar:before {
+    content: "\e917";
+}
+.my-icon-fin-note-euro:before {
+    content: "\e918";
+}
+.my-icon-fin-note-rupee:before {
+    content: "\e919";
+}
+.my-icon-fin-note-sterling:before {
+    content: "\e91a";
+}
+.my-icon-fin-note-yen-yuan:before {
+    content: "\e91b";
+}
+.my-icon-fin-notes-coins:before {
+    content: "\e91c";
+}
+.my-icon-fin-notes-machine:before {
+    content: "\e91d";
+}
+.my-icon-fin-notes:before {
+    content: "\e91e";
+}
+.my-icon-fin-piggy-bank-coin:before {
+    content: "\e91f";
+}
+.my-icon-fin-piggy-bank:before {
+    content: "\e920";
+}
+.my-icon-fin-rupee-bag:before {
+    content: "\e921";
+}
+.my-icon-fin-rupee:before {
+    content: "\e922";
+}
+.my-icon-fin-sterling-bag:before {
+    content: "\e923";
+}
+.my-icon-fin-sterling:before {
+    content: "\e924";
+}
+.my-icon-fin-subscription:before {
+    content: "\e925";
+}
+.my-icon-fin-yen-yuan-bag:before {
+    content: "\e926";
+}
+.my-icon-fin-yen:before {
+    content: "\e927";
+}
+

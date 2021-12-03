@@ -1,0 +1,1185 @@
+{
+    "key": "group_59229bda27ee2",
+    "title": "Header",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_59229bda313bf",
+            "label": "Header",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59229bda317ae",
+            "label": "Header menu style",
+            "name": "global_header_menu_style",
+            "type": "select",
+            "instructions": "Select style template for header menu",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "style1": "Fully transparent",
+                "style2": "Filled with a color",
+                "style3": "Wrapped",
+                "style4": "Logo alone on top",
+                "style5": "Logo in the center",
+                "style6": "Left block menu"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": [
+                "style1"
+            ],
+            "layout": "vertical",
+            "return_format": "value",
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_59229bda32383",
+            "label": "Logo",
+            "name": "global_logo_type",
+            "type": "radio",
+            "instructions": "Choose logo type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "sitename": "Use site name",
+                "image": "Loaded image"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "sitename",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59256ac3f42ec",
+            "label": "Site name settings",
+            "name": "global_header_menu_logo_typo",
+            "type": "argenta_typo",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda32383",
+                        "operator": "==",
+                        "value": "sitename"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59229bda32f63",
+            "label": "Logo image. Light variant",
+            "name": "global_logo_image",
+            "type": "clone",
+            "instructions": "Load light-colored variant. Used for fullscreen menu by default",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda32383",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_5936b2dd92771",
+                "field_5936b357132bf",
+                "field_5936b371132c0"
+            ],
+            "display": "group",
+            "layout": "table",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_5936add283a9a",
+            "label": "Logo image. Dark variant",
+            "name": "global_logo_image_dark_variant",
+            "type": "clone",
+            "instructions": "Load dark-colored variant. Used for scrolled fixed header by default",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda32383",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_5936af24f4b7e",
+                "field_5936afd421bba",
+                "field_5936affb21bbb"
+            ],
+            "display": "group",
+            "layout": "table",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_5937e1905d075",
+            "label": "Logo by default",
+            "name": "global_header_logo_by_default",
+            "type": "radio",
+            "instructions": "Choose default logo variant",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda32383",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "dark_variant": "Dark variant",
+                "light_variant": "Light variant"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5937e1905d075_fixed",
+            "label": "Logo for fixed header",
+            "name": "global_header_logo_when_fixed",
+            "type": "select",
+            "instructions": "Choose logo variant for scrolled fixed header",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda32383",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "dark_variant": "Dark variant",
+                "light_variant": "Light variant",
+                "inherit": "Default logo variant",
+                "custom": "Custom image",
+                "sitename": "Site name"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "dark_variant",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5936add283a9a_fix",
+            "label": "Logo image for scrolled fixed header",
+            "name": "global_logo_image_fixed_variant",
+            "type": "clone",
+            "instructions": "Load variant for scrolled fixed header",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5937e1905d075_fixed",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_5936af24f4b7e_fix",
+                "field_5936afd421bba_fix",
+                "field_5936affb21bbb_fix"
+            ],
+            "display": "group",
+            "layout": "table",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_59229bda3374d",
+            "label": "Menu type",
+            "name": "global_menu_type",
+            "type": "radio",
+            "instructions": "Select menu type for all pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "full": "Full items",
+                "hamburger": "Hamburger button"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "full",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59229bda3432a",
+            "label": "Set fixed on scroll?",
+            "name": "global_header_menu_fixed",
+            "type": "true_false",
+            "instructions": "You can fix header on top",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda317ae",
+                        "operator": "!=",
+                        "value": "style6"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_59229bda31bb0",
+            "label": "Add menu content wrapper?",
+            "name": "global_header_menu_use_wrapper",
+            "type": "true_false",
+            "instructions": "Centred content wrapper",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_59229bda31f95",
+            "label": "Use blank padding under header?",
+            "name": "global_header_menu_add_cap",
+            "type": "radio",
+            "instructions": "You can don't add padding, to use your elements as the substrate, but if you use colored header, we recommend set <em>\"Add padding\"<\/em>",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda317ae",
+                        "operator": "!=",
+                        "value": "style6"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "yes": "Add padding",
+                "no": "Don't add"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "yes",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59229bda33b3d",
+            "label": "Header menu background color",
+            "name": "global_header_menu_background_color",
+            "type": "argenta_color",
+            "instructions": "Navigation background color",
+            "required": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59229bda33f44",
+            "label": "Header menu text settings",
+            "name": "global_header_menu_text_typo",
+            "type": "argenta_typo",
+            "instructions": "Set typography settings for navigation menu",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59229bda34745",
+            "label": "Hide bottom border?",
+            "name": "global_header_menu_hide_border",
+            "type": "true_false",
+            "instructions": "You can hide bottom border",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_59229bda34f19",
+            "label": "Menu border type",
+            "name": "global_header_menu_border_type",
+            "type": "select",
+            "instructions": "Select border fill type",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda34745",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "solid": "Solid",
+                "dashed": "Dashed",
+                "dotted": "Dotted",
+                "double": "Double"
+            },
+            "default_value": [
+                "solid"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59229bda34b30",
+            "label": "Menu border color",
+            "name": "global_header_menu_border_color",
+            "type": "argenta_color",
+            "instructions": "Bottom border color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda34745",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_592d3cfcc0e1c",
+            "label": "Header menu height",
+            "name": "global_header_menu_height",
+            "type": "number",
+            "instructions": "Set height value in pixels for header menu",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": 1,
+            "max": 10000,
+            "step": ""
+        },
+        {
+            "key": "field_592d43df9e26c",
+            "label": "Hide search in header menu?",
+            "name": "global_header_hide_search",
+            "type": "true_false",
+            "instructions": "Remove Search feature from navigation menu",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_59229bda35325",
+            "label": "Subheader",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59229bda35701",
+            "label": "Hide subheader?",
+            "name": "global_header_menu_hide_contacts_bar",
+            "type": "true_false",
+            "instructions": "Remove subheader from all pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_59229bda35af2",
+            "label": "Contact phone number(s)",
+            "name": "global_header_menu_contacts_bar_phone_numbers",
+            "type": "repeater",
+            "instructions": "Add phone numbers (maximum 3) to your client can easily contact you",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_57e2493a64085",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "+ Add phone number",
+            "sub_fields": [
+                {
+                    "key": "field_59229bda6c954",
+                    "label": "Phone number list",
+                    "name": "phone_numbers",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 40
+                }
+            ]
+        },
+        {
+            "key": "field_59229bda35ef5",
+            "label": "Contact email(s)",
+            "name": "global_header_menu_contacts_bar_emails",
+            "type": "repeater",
+            "instructions": "And some email addresses (maximum 3)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_57e24a9ba1c7f",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "+ Add email",
+            "sub_fields": [
+                {
+                    "key": "field_59229bda725e5",
+                    "label": "Email list",
+                    "name": "emails",
+                    "type": "email",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_59229bda3630a",
+            "label": "Add some additional info",
+            "name": "global_header_menu_contacts_bar_additional",
+            "type": "text",
+            "instructions": "Additional info like \"Work time: 9:00 - 20:00\" or \"Please, call in the afternoon\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59229bda366f4",
+            "label": "Social links",
+            "name": "global_header_menu_contacts_bar_social_links",
+            "type": "repeater",
+            "instructions": "Add buttons to your community on social networks (maximum 6)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 6,
+            "layout": "table",
+            "button_label": "+ Add social link",
+            "sub_fields": [
+                {
+                    "key": "field_59229bda7b686",
+                    "label": "Direction",
+                    "name": "social_network",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "facebook": "Facebook",
+                        "twitter": "Twitter",
+                        "googleplus": "Google Plus",
+                        "instagram": "Instagram",
+                        "dribbble": "Dribbble",
+                        "github": "GitHub",
+                        "linkedin": "LinkedIn",
+                        "vimeo": "Vimeo",
+                        "youtube": "YouTube"
+                    },
+                    "default_value": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_59229bda7ba5a",
+                    "label": "URL",
+                    "name": "url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_592d3dfbff372",
+            "label": "Subheader height",
+            "name": "global_subheader_height",
+            "type": "number",
+            "instructions": "Set height value in pixels for subheader",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": 1,
+            "max": 10000,
+            "step": ""
+        },
+        {
+            "key": "field_59229bda36adb",
+            "label": "Subheader background color",
+            "name": "global_header_menu_contacts_bar_background",
+            "type": "argenta_color",
+            "instructions": "Set your contacts subheader background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59229bda36ed1",
+            "label": "Subheader text typography",
+            "name": "global_header_menu_contacts_bar_text_typo",
+            "type": "argenta_typo",
+            "instructions": "Set text typography settings",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59229bda372c9",
+            "label": "Header Title",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5922a0ea1eaeb",
+            "label": "Background type",
+            "name": "global_header_title_background_type",
+            "type": "radio",
+            "instructions": "Choose header title background type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "image": "Custom image",
+                "color": "Background color"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59229bda37ea5",
+            "label": "Background color",
+            "name": "global_header_background_color",
+            "type": "argenta_color",
+            "instructions": "Just background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5922a2fd080e8",
+            "label": "Background image",
+            "name": "global_header_title_background_image",
+            "type": "image",
+            "instructions": "Custom background image for all pages",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5922a0ea1eaeb",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5922a6390c4a9",
+            "label": "Background image size",
+            "name": "global_header_title_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5922a0ea1eaeb",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "auto"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5922a7500579b",
+            "label": "Background image position",
+            "name": "global_header_title_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5922a0ea1eaeb",
+                        "operator": "==",
+                        "value": "image"
+                    },
+                    {
+                        "field": "field_5922a6390c4a9",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5922a0ea1eaeb",
+                        "operator": "==",
+                        "value": "image"
+                    },
+                    {
+                        "field": "field_5922a6390c4a9",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                "center"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5922ab31f19b0",
+            "label": "Background image repeat",
+            "name": "global_header_title_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type of background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5922a0ea1eaeb",
+                        "operator": "==",
+                        "value": "image"
+                    },
+                    {
+                        "field": "field_5922a6390c4a9",
+                        "operator": "==",
+                        "value": "auto"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5922a0ea1eaeb",
+                        "operator": "==",
+                        "value": "image"
+                    },
+                    {
+                        "field": "field_5922a6390c4a9",
+                        "operator": "==",
+                        "value": "contain"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_y": "Repeat only by Y",
+                "repeat_x": "Repeat only by X"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59229bda376e8",
+            "label": "Add background overlay color?",
+            "name": "global_header_use_overlay",
+            "type": "true_false",
+            "instructions": "Add transparent overlay color for background image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_59229bda37acf",
+            "label": "Background overlay color",
+            "name": "global_header_overlay_color",
+            "type": "argenta_color",
+            "instructions": "Color for transparent overlay over the background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda376e8",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59229bda3827b",
+            "label": "Tilte settings",
+            "name": "global_header_tilte_typo",
+            "type": "argenta_typo",
+            "instructions": "Hero title typograhy settings",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59229d1dd0a61",
+            "label": "Subtitle settings",
+            "name": "global_header_subtilte_typo",
+            "type": "argenta_typo",
+            "instructions": "Header subtitle text typography settings",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59229e431eaea",
+            "label": "Header tilte aligment",
+            "name": "global_header_title_align",
+            "type": "radio",
+            "instructions": "Choose header title text aligment",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "center",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59229bda3868f",
+            "label": "Set header title fullscreen height?",
+            "name": "global_header_height_fullscreen",
+            "type": "true_false",
+            "instructions": "You can set header title fullscree height",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_59229bda38a78",
+            "label": "Header title height",
+            "name": "global_header_height",
+            "type": "text",
+            "instructions": "You can change header height. Set new CSS value",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59229bda3868f",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "height:",
+            "append": ";",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59229bda38e8d",
+            "label": "Hide all header title sections?",
+            "name": "global_header_use_hero",
+            "type": "true_false",
+            "instructions": "You can hide header title from all pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-header"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

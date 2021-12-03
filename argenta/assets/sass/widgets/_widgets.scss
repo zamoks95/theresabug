@@ -1,0 +1,77 @@
+.widget {
+	margin: 0;
+	padding: 50px 0 0;
+	list-style: none;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+
+	ul {
+		margin-left: 0;
+	}
+
+	h3 {
+		@extend h3.title;
+	}
+
+	h4 {
+		@extend h4.title;
+	}
+
+	h5 {
+		@extend h5.title;
+	}
+}
+
+h3.widgettitle {
+	text-align: inherit;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+@media screen and (max-width: 991px) {
+	.widget {
+		padding: 15px 0;
+	}
+
+	.widgettitle {
+		margin-bottom: 20px;
+	}
+}
+
+section.widget:first-child {
+	.widgettitle {
+		margin-top: 5px;
+	}
+}
+
+.widget-list-box {
+	@extend .list-box;
+	@extend .list-box-border-items;
+
+	font-size: 14px;
+
+	a:hover {
+		opacity: .9;
+		text-decoration: underline;
+	}
+}
+
+
+.site-footer {
+	.widgettitle {
+		color: #fff;
+	}
+
+	ul li,
+	ul li:first-child {
+		border-color: rgba(#ffffff, .15);
+	}
+}
+
+
+@import 'standart-widgets';
+@import 'theme-widgets';
+@import 'woo-widgets';

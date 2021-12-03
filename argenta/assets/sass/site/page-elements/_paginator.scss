@@ -1,0 +1,68 @@
+nav.pagination {
+	margin-top: 45px;
+	text-align: left;
+	font-size: 13px;
+	word-spacing: -.2em;
+	clear: both;
+
+	li {
+		word-spacing: normal;
+		margin: 0 3px;
+		display: inline-block;
+
+		.page-numbers,
+		a.page-numbers {
+			border: 1px solid $color_dark;
+			font-weight: 700;
+			display: inline-block;
+			vertical-align: middle;
+			padding: 13px 16px;
+			line-height: 11px;
+			font-size: 11px;
+		}
+
+		.page-numbers.current {
+			background: $color_dark;
+			color: #ffffff;
+
+			&:hover {
+				background: $color_dark;
+			}
+		}
+
+		a.page-numbers {
+			@extend .btn-outline;
+			font-family: inherit;
+
+			&.active {
+				background: $color_dark;
+				color: #ffffff;
+				cursor: default;
+			}
+
+			span {
+				font-size: 13px;
+				display: inline-block;
+				vertical-align: -1px;
+				margin-bottom: -2px;
+
+
+				&.icon-left {
+					margin-right: 5px;
+				}
+
+				&.icon-right {
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+}
+
+.page-links {
+	font-weight: 500;
+
+	a {
+		padding: 4px 10px;
+	}
+ }

@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+## Notices
+--------------------------------------------------------------*/
+@import 'woocommerce/notices';
+
+/*--------------------------------------------------------------
+## Mini cart
+--------------------------------------------------------------*/
+@import 'woocommerce/mini-cart';
+
+/*--------------------------------------------------------------
+## Single product
+--------------------------------------------------------------*/
+@import 'woocommerce/single-product';
+
+/*--------------------------------------------------------------
+## Products
+--------------------------------------------------------------*/
+@import 'woocommerce/products';
+
+/*--------------------------------------------------------------
+## Cart
+--------------------------------------------------------------*/
+@import 'woocommerce/cart';
+
+/*--------------------------------------------------------------
+## Checkout
+--------------------------------------------------------------*/
+@import 'woocommerce/checkout';
+
+/*--------------------------------------------------------------
+## Wishlist
+--------------------------------------------------------------*/
+@import 'woocommerce/wishlist';
+
+/*--------------------------------------------------------------
+## My Account
+--------------------------------------------------------------*/
+@import 'woocommerce/my-account';
+
+/*--------------------------------------------------------------
+## Fields
+--------------------------------------------------------------*/
+@import 'woocommerce/fields';
+
+
+.woocommerce-page {
+	.breadcrumbs {
+		background: #f9f9f9;
+		border-bottom: none;
+	}
+}
+
+.woo-message-box {
+	margin-bottom: 25px;
+}
+
+.woocommerce {
+	table {
+		td, th {
+			border: none;
+			padding: 0;
+		}
+	}
+
+	span.onsale {
+		background: $color_brand;
+	}
+
+	.form-row {
+		padding: 0;
+		margin-bottom: 15px;
+
+		textarea {
+			min-height: 159px;
+		}
+	}
+
+	.blockUI.blockOverlay {
+		opacity: 0.4 !important;
+	}
+
+	a.button {
+		color: $color_white;
+		background: $color_dark;
+		padding: 14px 30px;
+		border: 2px solid $color_dark;
+		border-radius: 0;
+		font: 700 13px/1.2 $font_main;
+
+		&:hover {
+			background: $color_white;
+			color: $color_dark;
+		}
+
+		&.btn-small {
+			padding: 11px 15px;
+			line-height: 11px;
+			font-size: 11px;
+		}
+	}
+}
+
+.page-error.woocommerce-shop {
+	.icon-shape {
+		line-height: 75px;
+
+		i {
+			font-size: 60px;
+		}
+	}
+}

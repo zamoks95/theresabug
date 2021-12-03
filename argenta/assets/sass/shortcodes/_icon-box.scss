@@ -1,0 +1,223 @@
+.icon-box {
+	text-align: center;
+	display: block;
+	text-decoration: none;
+
+	.icon-box-image {
+		width: 90px;
+		height: 90px;
+		margin: 0 auto;
+		border-radius: 150%;
+		text-align: center;
+		line-height: 94px;
+		vertical-align: middle;
+		font-size: 58px;
+	}
+
+	.icon-box-title {
+		text-align: center;
+		
+		a {
+			color: $color_titles;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.icon-box-subtitle {
+		color: #696971;
+	}
+
+	.divider-dashed,
+	.divider-solid {
+		margin: 15px 0 0;
+	}
+
+	.icon-box-description {
+		display: block;
+	}
+
+	.btn {
+		margin: 12px auto;
+	}
+
+	.icon-box-link {
+		display: inline-block;
+		margin: 10px auto 35px;
+		padding: 0;
+		border-bottom: 1px solid;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height: 13px;
+		font-size: 13px;
+		font-weight: 800;
+		position: relative;
+		transition: background .2s ease-in-out, color .2s ease-in-out;
+
+		.icon-arrow {
+			visibility: hidden;
+			position: absolute;
+			top: 14px;
+			left: 50%;
+			font-size: 36px;
+			line-height: 36px;
+			margin-left: -30px;
+			opacity: 0;
+			transition-property: visibility, opacity, margin;
+			transition-duration: .2s;
+			transition-delay: 0s, 0s, .2s;
+			transition-timing-function: ease-in-out;
+		}
+
+		&:hover {
+			background: transparent;
+
+			.icon-arrow {
+				margin-left: -10px;
+				visibility: visible;
+				opacity: 1;
+				transition-delay: 0s;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Icon-box icon shape
+--------------------------------------------------------------*/
+
+.icon-box-image {
+	text-align: center;
+
+	&.icon-box-shape {
+		margin-bottom: 25px;
+		font-size: 40px;
+		overflow: hidden;
+	}
+
+	&.icon-box-shape-border {
+		@extend .icon-box-shape;
+		font-size: 40px;
+		line-height: 90px;
+		border: 2px solid;
+	}
+
+	&.icon-box-shape-border-double {
+		@extend .icon-box-shape;
+		border-width: 4px;
+		border-style: double;
+		line-height: 88px;
+	}
+
+	&.icon-box-shape-fill {
+		@extend .icon-box-shape;
+		background: $color_white;
+		color: #ffffff;
+	}
+
+	&.icon-box-shape-shadow {
+		@extend .icon-box-shape;
+		box-shadow: 0 2px 6px rgba(0,0,0,.07);
+	}
+}
+/*--------------------------------------------------------------
+## Icon-box icon position
+--------------------------------------------------------------*/
+
+.icon-box-left {
+	@extend .icon-box;
+	text-align: left;
+	position: relative;
+
+	.icon-box-image {
+		width: 50px;
+		height: 50px;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 46px;
+		float: left;
+		margin-bottom: 10px;
+
+		&.icon-box-shape-border, 
+		&.icon-box-shape-border-double, 
+		&.icon-box-shape-fill, 
+		&.icon-box-shape-shadow {
+			font-size: 30px;
+			line-height: 52px;
+			vertical-align: middle;
+		}
+		&.icon-box-shape-border {
+			border-width: 1px;
+		}
+		&.icon-box-shape-border-double {
+			border-width: 3px;
+			line-height: 48px;
+		}
+	}
+
+	.icon-box-title {
+		margin-top: 0;
+		text-align: left;
+		clear: none;
+	}
+
+	.icon-box-wrap-content {
+		padding: 0 0 0 70px;
+	}
+
+	.content-full {
+		display: block;
+		clear: both;
+	}
+
+	.icon-box-link {
+		margin-bottom: 16px;
+
+		.icon-arrow {
+			margin-right: 15px;
+			top: -10px;
+			right: -35px;
+			left: auto;
+			bottom: auto;
+		}
+
+		&:hover {
+			.icon-arrow {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+
+.icon-box-right {
+	@extend .icon-box-left;
+	text-align: right;
+
+	.icon-box-title {
+		text-align: right;
+	}
+
+	.icon-box-image {
+		left: auto;
+		right: 0;
+		float: right;
+	}
+
+	.icon-box-wrap-content {
+		padding: 0 70px 0 0;
+	}
+
+	.icon-box-link {
+		.icon-arrow {
+			margin-left: 5px;
+			left: -25px;
+			right: auto;
+			transform: rotate(-180deg);
+		}
+	}
+}

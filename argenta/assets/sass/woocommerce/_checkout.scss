@@ -1,0 +1,325 @@
+#content .woocommerce {
+	.wc-checkout-wrap {
+		position: relative;
+		margin-top: 0px;
+
+		form.checkout .message-box {
+			clear: both;
+		}
+
+		#coupon_code {
+			margin-bottom: 15px;
+		}
+	}
+
+	form.login,
+	form.checkout_coupon {
+		border: none;
+		padding: 5px 0;
+		margin: 0;
+		margin-bottom: 15px;
+
+		*:first-child {
+			margin-top: 0;
+		}
+
+		input.classic {
+			height: 47px;
+		}
+	}
+
+	form.login {
+		.fields {
+			margin-bottom: 15px;
+		}
+
+		label {
+			line-height: 2em;
+			margin-top: 15px;
+			margin-bottom: 5px;
+			display: block;
+		}
+
+		#rememberme {
+			display: inline;
+			vertical-align: -1px;
+			margin-right: 4px;
+		}
+
+		p.form-row {
+			margin-bottom: 0;
+		}
+
+		.lost_password {
+			margin-top: 0;
+		}
+
+		a {
+			color: $color_brand;
+			font-size: 14px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	form.checkout_coupon {
+		margin-top: 15px;
+
+		.input-text {
+			width: 300px;
+			height: 48px;
+			margin-right: 0px;
+		}
+	}
+
+	.woocommerce-checkout {
+		position: static;
+
+		h3 {
+			margin-bottom: 20px;
+		}
+
+		.woocommerce-notice-wrap {
+			width: 66.666%;
+			padding: 0 15px;
+		}
+
+		@media screen and (max-width: 991px) {
+			.woocommerce-notice-wrap {
+				width: 100%;
+			}
+		}
+	}
+
+	.woocommerce-checkout-review-order {
+		background: #f3f3f3;
+		padding: 30px 40px 20px;
+
+		h3 {
+			margin-top: 10px;
+			margin-bottom: 25px;
+		}
+
+		.btn:hover {
+			background: transparent;
+		}
+	}
+
+	.woocommerce-billing-fields,
+	.woocommerce-shipping-fields {
+		label {
+			display: none;
+
+			&[for="createaccount"] {
+				display: inline;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.woocommerce-billing-fields {
+		margin-bottom: 90px;
+	}
+
+	.woocommerce-shipping-fields {
+		.ship-to-different {
+			width: auto;
+			margin-top: 5px;
+
+			label {
+				display: inline-block;
+			}
+		}
+	}
+
+	.wc-order-review-wrap {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	@media screen and (max-width: 991px) {
+		.wc-order-review-wrap {
+			position: static;
+			top: 0;
+			right: 0;
+		}
+	}
+
+	.woocommerce-checkout-review-order-table {
+		th {
+			width: 50%;
+			color: #343436;
+			display: table-cell;
+			font-size: 14px;
+		}
+
+		tr th, tr td {
+			border-top: 1px dotted #d0d0d0;
+			padding: 20px 10px 20px 0;
+		}
+
+		.cart_item {
+			td, th {
+				border: none;
+			}
+
+			&:first-child {
+				td, th{
+					border-top: 1px dotted #d0d0d0;
+				}
+			}
+
+			.product-total .amount {
+				font-size: 14px;
+			}
+		}
+
+		.cart-subtotal {
+			th, td {
+				border: none;
+			}
+
+			td {
+				font-size: 14px;
+				font-weight: 400;
+			}
+		}
+
+		.shipping {
+			th {
+				vertical-align: 0px  ;
+			}
+		}
+
+		#shipping_method label {
+			font-size: 14px;
+			font-weight: 400;
+			cursor: pointer;
+		}
+	}
+
+	.country_select a,
+	.state_select a {
+		@extend input[type="text"];
+
+		padding-top: 8px;
+		padding-bottom: 8px;
+
+		.select2-arrow {
+			width: 40px;
+		}
+	}
+
+	.woocommerce-checkout-payment {
+		background: #f3f3f3;
+	}
+
+	#payment ul.wc_payment_methods {
+		padding: 0;
+		border: none;
+		clear: both;
+	}
+
+	#payment li.wc_payment_method {
+		border-bottom: 1px dotted #d0d0d0;
+		padding: 20px 0;
+
+		&:first-child {
+			border-top: 1px dotted #d0d0d0;
+		}
+
+		.radio {
+			margin-right: 10px;
+			vertical-align: -5px;
+		}
+
+		label {
+			font-size: 14px;
+			font-weight: 800;
+			cursor: pointer;
+		}
+
+		a.about_paypal {
+			line-height: 40px;
+			font-weight: 400;
+			font-size: 14px;
+			color: $color_brand;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.payment_box {
+			background: none;
+			padding: 0px 0 0 35px;
+			margin: 0;
+			
+			p {
+				font-size: 12px;
+				line-height: 150%;
+			}
+
+			&:before {
+				display: none;
+			}	
+		}
+	}
+
+	#payment .form-row.place-order {
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	// Order
+	.checkout-result {
+		margin-bottom: 100px;
+		overflow: hidden;
+	}
+}
+
+span.select2 {
+	text-align: left;
+	height: 46px;
+
+	.select2-selection {
+		padding: 0 5px;
+		border-radius: 0;
+		border-color: $color_border;
+
+		&,
+		> span.select2-selection__rendered,
+		> span.select2-selection__arrow {
+			height: 46px;
+			line-height: 46px;
+		}
+	}
+}
+
+.select2-drop {
+	width: 100%;
+	height: 30px;
+	border-color: #dedede;
+	border-radius: 0px;
+	box-sizing: border-box;
+	box-shadow: 0 3px 24px rgba(52,52,54,.08);
+
+	.select2-results {
+		background: #ffffff;
+		padding: 0;
+
+		li {
+			color: #343436;
+			padding: 4px 10px;
+			font-size: 14px;
+			border-radius: 0px;
+		}
+	}
+}
+
+.select2-chosen {
+	text-align: left;
+}

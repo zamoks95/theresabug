@@ -1,0 +1,94 @@
+{
+    "argenta-sidebar-footer-1": {
+        "text-2": {
+            "title": "About",
+            "text": "<div style=\"margin-bottom:12px;\">\r\nArgenta Theme astringents lens retina bowels diaphragm exhale frenulum growth hormone humidifier pinna retainer.\r\n</div>\r\n",
+            "filter": false
+        },
+        "argenta_widget_contact_widget-3": {
+            "title": "",
+            "phone": "+43 069 905 670 50 - support",
+            "address": "Raugasse 4, 27 Wiener Neustadt",
+            "email": "argenta.sales@yourmail.com",
+            "enable_soc_icons": "on"
+        }
+    },
+    "argenta-sidebar-footer-2": {
+        "text-4": {
+            "title": "Services",
+            "text": "<ul>\r\n\t<li class=\"widget widget_categories\">\t\t\r\n\t\t<ul>\r\n\t\t\t<li class=\"cat-item cat-item-90\"><a href=\"#\">Emergency Help</a></li>\r\n\t\t\t<li class=\"cat-item cat-item-89\"><a href=\"#\">Hospital treatment</a></li>\r\n\t\t\t<li class=\"cat-item cat-item-89\"><a href=\"#\">Mobile Healthcare</a></li>\r\n\t\t\t<li class=\"cat-item cat-item-89\"><a href=\"#\">Medication Pills</a></li>\r\n\t\t\t<li class=\"cat-item cat-item-89\"><a href=\"#\">Full Life Support</a></li>\r\n\t\t</ul>\r\n\t</li>\r\n</ul>",
+            "filter": false
+        }
+    },
+    "argenta-sidebar-footer-3": {
+        "argenta_widget_recent_posts-3": {
+            "title": "Recent Posts",
+            "limit": 3,
+            "categories": "1",
+            "date": "1",
+            "comments": null,
+            "author": null,
+            "thumb": "1",
+            "cat": ""
+        }
+    },
+    "argenta-sidebar-footer-4": {
+        "tag_cloud-3": {
+            "title": "Popular Tags",
+            "taxonomy": "post_tag"
+        }
+    },
+    "argenta-sidebar-blog": {
+        "categories-2": {
+            "title": "",
+            "count": 0,
+            "hierarchical": 0,
+            "dropdown": 0
+        },
+        "meta-2": {
+            "title": ""
+        }
+    },
+    "argenta-sidebar-page": {
+        "search-4": {
+            "title": ""
+        },
+        "categories-4": {
+            "title": "",
+            "count": 0,
+            "hierarchical": 0,
+            "dropdown": 0
+        },
+        "meta-3": {
+            "title": ""
+        },
+        "recent-comments-3": {
+            "title": "",
+            "number": 3
+        }
+    },
+    "wc_shop": {
+        "woocommerce_product_search-2": {
+            "title": ""
+        },
+        "woocommerce_price_filter-2": {
+            "title": "Filter by price"
+        },
+        "woocommerce_product_categories-2": {
+            "title": "Product Categories",
+            "orderby": "name",
+            "dropdown": 0,
+            "count": 0,
+            "hierarchical": 1,
+            "show_children_only": 0,
+            "hide_empty": 0
+        },
+        "woocommerce_product_tag_cloud-2": {
+            "title": "Product Tags"
+        },
+        "woocommerce_recently_viewed_products-2": {
+            "title": "Recently Viewed Products",
+            "number": 3
+        }
+    }
+}

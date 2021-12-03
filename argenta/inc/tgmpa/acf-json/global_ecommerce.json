@@ -1,0 +1,1943 @@
+{
+    "key": "group_593be7a6c2017",
+    "title": "Shop pages settings",
+    "private": true,
+    "fields": [
+        {
+            "key": "field_593be7a6cb2ee",
+            "label": "Product description layout",
+            "name": "global_woocommerce_product_description_layout",
+            "type": "select",
+            "instructions": "Choose product description layout type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Simple",
+                "extended_details": "Extended details",
+                "tabs_details": "Tabs details"
+            },
+            "default_value": [
+                "default"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_58383c7ed01ae_laytype",
+            "label": "Shop grid layout",
+            "name": "global_woocommerce_shop_layout",
+            "type": "select",
+            "instructions": "Choose products grid layout type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Classic",
+                "masonry": "Masonry"
+            },
+            "default_value": [
+                "default"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_58383c7ed01ae_shop_count",
+            "label": "Products per page",
+            "name": "global_woocommerce_products_on_page",
+            "type":"text",
+            "instructions": "Choose how many products to display per shop pages",
+            "required": 0,
+            "append":"products per page",
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "maxlength":"2",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6cb6d8",
+            "label": "Header",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_593be7a6cbac1",
+            "label": "Header style",
+            "name": "global_woocommerce_header_menu_style",
+            "type": "select",
+            "instructions": "Select header style template",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "style1": "Fully transparent",
+                "style2": "Filled with a color",
+                "style3": "Wrapped",
+                "style4": "Logo alone on top",
+                "style5": "Logo in the center",
+                "style6": "Left block menu"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59412a19f4b88",
+            "label": "Logo style",
+            "name": "global_woocommerce_header_logo_style",
+            "type": "select",
+            "instructions": "Select header logo style",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "dark_variant": "Dark variant",
+                "light_variant": "Light variant",
+                "sitename": "Site name",
+                "custom": "Custom image"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59412ac638d56",
+            "label": "Site name settings",
+            "name": "global_woocommerce_header_sitename_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom typography settings",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412a19f4b88",
+                        "operator": "==",
+                        "value": "sitename"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59412af638d57",
+            "label": "Custom logo",
+            "name": "global_woocommerce_header_custom_logo",
+            "type": "image",
+            "instructions": "Custom loaded image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412a19f4b88",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_593be7a6cc66e",
+            "label": "Menu type",
+            "name": "global_woocommerce_menu_type",
+            "type": "radio",
+            "instructions": "Choose menu type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "full": "Full items",
+                "hamburger": "Hamburger button"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6ced67",
+            "label": "Set fixed on scroll?",
+            "name": "global_woocommerce_header_menu_fixed",
+            "type": "radio",
+            "instructions": "You can attach header navigation on top",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6cbea5",
+            "label": "Add content wrapper?",
+            "name": "global_woocommerce_header_menu_use_wrapper",
+            "type": "radio",
+            "instructions": "Centred header content wrapper",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59412ba9ad9b7",
+            "label": "Use blank padding under header?",
+            "name": "global_woocommerce_header_add_cap",
+            "type": "radio",
+            "instructions": "We recommend use this setting for transparent and fixed header navigation",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Add padding",
+                "no": "Don't add"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_59412c4ddd0b7",
+            "label": "Header menu style settings",
+            "name": "global_woocommerce_header_menu_style_settings",
+            "type": "radio",
+            "instructions": "Select header menu style type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom style"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6cca51",
+            "label": "Header menu background color",
+            "name": "global_woocommerce_header_menu_background_color",
+            "type": "argenta_color",
+            "instructions": "Background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412c4ddd0b7",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593be7a6cce2c",
+            "label": "Header menu text settings",
+            "name": "global_woocommerce_header_menu_text_typo",
+            "type": "argenta_typo",
+            "instructions": "Content text color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412c4ddd0b7",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_593be7a6cd5f7",
+            "label": "Hide bottom border?",
+            "name": "global_woocommerce_header_menu_hide_border",
+            "type": "true_false",
+            "instructions": "You can hide bottom border",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412c4ddd0b7",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_593be7a6cddf0",
+            "label": "Menu border type",
+            "name": "global_woocommerce_header_menu_border_type",
+            "type": "select",
+            "instructions": "Select custom border fill style",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412c4ddd0b7",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593be7a6cd5f7",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "solid": "Solid",
+                "dashed": "Dashed",
+                "dotted": "Dotted",
+                "double": "Double"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6cda06",
+            "label": "Menu border color",
+            "name": "global_woocommerce_header_menu_border_color",
+            "type": "argenta_color",
+            "instructions": "Custom bottom border-color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412c4ddd0b7",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_593be7a6cd5f7",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59413906d625b",
+            "label": "Header menu height",
+            "name": "global_woocommerce_header_menu_height",
+            "type": "text",
+            "instructions": "You can change header menu height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59412c4ddd0b7",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59410474f2c33",
+            "label": "Subheader",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_593be7a6ce1ba",
+            "label": "Add subheader?",
+            "name": "global_woocommerce_header_menu_add_contacts_bar",
+            "type": "radio",
+            "instructions": "Append bar with phone nums, social links and other info to shop pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_594104c4f2c34",
+            "label": "Subheader style",
+            "name": "global_woocommerce_header_menu_contacts_bar_style",
+            "type": "radio",
+            "instructions": "Choose style type for shop pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom style"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6ce5b9",
+            "label": "Subheader background color",
+            "name": "global_woocommerce_header_menu_contacts_bar_background",
+            "type": "argenta_color",
+            "instructions": "Custom background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_594104c4f2c34",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593be7a6ce975",
+            "label": "Subheader text settings",
+            "name": "global_woocommerce_header_menu_contacts_bar_text_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom typography settings",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_594104c4f2c34",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_59410542f2c35",
+            "label": "Subheader height",
+            "name": "global_woocommerce_header_menu_contacts_bar_height",
+            "type": "text",
+            "instructions": "Set subheader custom height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_594104c4f2c34",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "maxlength": ""
+        },
+        {
+            "key": "field_593be7a6cf173",
+            "label": "Header Title",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_593be7a6cf58a",
+            "label": "Subtitle",
+            "name": "global_woocommerce_header_subtitle",
+            "type": "text",
+            "instructions": "Leave blank if you want to not display value",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": ""
+        },
+        {
+            "key": "field_593be851ebe2f",
+            "label": "Header title background type",
+            "name": "global_woocommerce_header_title_background_type",
+            "type": "select",
+            "instructions": "Select header title style",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "color": "Background color",
+                "image": "Loaded image"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d10ac",
+            "label": "Background color",
+            "name": "global_woocommerce_header_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be851ebe2f",
+                        "operator": "!=",
+                        "value": "inherit"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593be7a6cf964",
+            "label": "Background image",
+            "name": "global_woocommerce_header_background_image",
+            "type": "image",
+            "instructions": "Custom loaded image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be851ebe2f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_593be7a6cfd29",
+            "label": "Background size",
+            "name": "global_woocommerce_header_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be851ebe2f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "cover"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d014b",
+            "label": "Background position",
+            "name": "global_woocommerce_header_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6cfd29",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_593be851ebe2f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_593be7a6cfd29",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_593be851ebe2f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d0501",
+            "label": "Background repeat",
+            "name": "global_woocommerce_header_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type of background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6cfd29",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_593be851ebe2f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_593be7a6cfd29",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_593be851ebe2f",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_y": "Repeat only by Y",
+                "repeat_x": "Repeat only by X"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d08c2",
+            "label": "Add background overlay color?",
+            "name": "global_woocommerce_header_use_overlay",
+            "type": "radio",
+            "instructions": "Add transparent overlay color for background image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherit",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d0cb4",
+            "label": "Background overlay color",
+            "name": "global_woocommerce_header_overlay_color",
+            "type": "argenta_color",
+            "instructions": "Color for transparent overlay",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d08c2",
+                        "operator": "!=",
+                        "value": "no"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593d5de953e57",
+            "label": "Header title align",
+            "name": "global_woocommerce_header_title_align",
+            "type": "select",
+            "instructions": "Select header title content alignment",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d14a6",
+            "label": "Typography settings",
+            "name": "global_woocommerce_page_typography_settings",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "custom": "Custom settings for shop pages"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593d4af12422c",
+            "label": "Title settings",
+            "name": "global_woocommerce_header_title_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom title typography settings",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d14a6",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_593d4b332422d",
+            "label": "Subtitle settings",
+            "name": "global_woocommerce_header_subtitle_typo",
+            "type": "argenta_typo",
+            "instructions": "Subheader typography settings",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d14a6",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_593be7a6d1893",
+            "label": "Set header title fullscreen height?",
+            "name": "global_woocommerce_header_height_fullscreen",
+            "type": "true_false",
+            "instructions": "Fullscreen height of header title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Yes",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_593be7a6d1c53",
+            "label": "Header height",
+            "name": "global_woocommerce_header_height",
+            "type": "text",
+            "instructions": "You can change header height. Set new CSS value",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d1893",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "prepend": "height:",
+            "append": ";",
+            "formatting": "html",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d2062",
+            "label": "Hide header title section",
+            "name": "global_woocommerce_header_use_hero",
+            "type": "radio",
+            "instructions": "Remove title section from shop pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d2429",
+            "label": "Page",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_593be7a6d2871",
+            "label": "Page background type",
+            "name": "global_woocommerce_page_background_type",
+            "type": "radio",
+            "instructions": "Select background type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "custom": "Custom image",
+                "color": "Custom color"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d2bfc",
+            "label": "Background image",
+            "name": "global_woocommerce_page_background_image",
+            "type": "image",
+            "instructions": "Custom background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d2871",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_593be7a6d2fe1",
+            "label": "Background size",
+            "name": "global_woocommerce_page_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d2871",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "auto"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d33d2",
+            "label": "Background position",
+            "name": "global_woocommerce_page_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d2fe1",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_593be7a6d2871",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_593be7a6d2fe1",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_593be7a6d2871",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d37bb",
+            "label": "Background repeat",
+            "name": "global_woocommerce_page_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type of background image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d2fe1",
+                        "operator": "==",
+                        "value": "auto"
+                    },
+                    {
+                        "field": "field_593be7a6d2871",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_593be7a6d2fe1",
+                        "operator": "==",
+                        "value": "contain"
+                    },
+                    {
+                        "field": "field_593be7a6d2871",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_y": "Repeat only by Y",
+                "repeat_x": "Repeat only by X"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d3b96",
+            "label": "Attach background image?",
+            "name": "global_woocommerce_page_background_is_attached",
+            "type": "true_false",
+            "instructions": "You can fix background image on all shop pages",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593be7a6d2871",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Yes",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_593be7a6d3f97",
+            "label": "Background color",
+            "name": "global_woocommerce_page_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593be7a6d437b",
+            "label": "Show breadcrumbs",
+            "name": "global_woocommerce_page_show_breadcrumbs",
+            "type": "radio",
+            "instructions": "Show breadcrumbs section on shop page?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherit",
+                "yes": "Show",
+                "no": "Hide"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593edd79aa843",
+            "label": "Show shop pages in boxed wrapper?",
+            "name": "global_woocommerce_use_boxed_wrapper",
+            "type": "radio",
+            "instructions": "Put pages in boxed content wrapper",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d4778",
+            "label": "Add page content wrapper",
+            "name": "global_woocommerce_page_is_wrapped",
+            "type": "radio",
+            "instructions": "Centred content wrapper",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_593edd79aa843",
+                        "operator": "!=",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "yes": "With wrapper",
+                "no": "Without wrapper"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d4b64",
+            "label": "Footer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5940ecce7fe58",
+            "label": "Footer content text color",
+            "name": "global_woocommerce_footer_text_color",
+            "type": "argenta_color",
+            "instructions": "Custom content text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5940e1dbc5ce2",
+            "label": "Footer background type",
+            "name": "global_woocommerce_footer_background_type",
+            "type": "radio",
+            "instructions": "Choose background type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Inherit theme settings",
+                "custom": "Custom image",
+                "color": "Custom color"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d5ec9",
+            "label": "Footer background image",
+            "name": "global_woocommerce_footer_background_image",
+            "type": "image",
+            "instructions": "We recommend the use of transparent image for the background",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5940e1dbc5ce2",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": 1200,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_593be7a6d62c5",
+            "label": "Footer background size",
+            "name": "global_woocommerce_footer_background_size",
+            "type": "select",
+            "instructions": "Background size of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5940e1dbc5ce2",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Auto",
+                "cover": "Cover",
+                "contain": "Contain",
+                "100per": "100% 100%"
+            },
+            "default_value": [
+                "cover"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d66b1",
+            "label": "Footer background position",
+            "name": "global_woocommerce_footer_background_position",
+            "type": "select",
+            "instructions": "Background position of image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5940e1dbc5ce2",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "center": "Center",
+                "left_top": "Left top",
+                "left_center": "Left center",
+                "left_bottom": "Left bottom",
+                "center_top": "Center top",
+                "center_bottom": "Center bottom",
+                "right_top": "Right top",
+                "right_center": "Right center",
+                "right_bottom": "Right bottom"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d6aac",
+            "label": "Footer background repeat",
+            "name": "global_woocommerce_footer_background_repeat",
+            "type": "select",
+            "instructions": "Repeat type of baackground image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5940e1dbc5ce2",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "repeat": "Repeat",
+                "no_repeat": "No repeat",
+                "repeat_x": "Repeat only by X",
+                "repeat_y": "Repeat only by Y"
+            },
+            "default_value": [
+                "repeat"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d5706",
+            "label": "Footer background color",
+            "name": "global_woocommerce_footer_background_color",
+            "type": "argenta_color",
+            "instructions": "Custom background color",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5940e1dbc5ce2",
+                        "operator": "!=",
+                        "value": "inherit"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5940e241c5ce3",
+            "label": "Footer widget logo type",
+            "name": "global_woocommerce_footer_widget_logo_type",
+            "type": "select",
+            "instructions": "Choose footer logo type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherited",
+                "light_variant": "Light variant logo",
+                "dark_variant": "Dark variant logo",
+                "sitename": "Site name",
+                "custom": "Custom loaded image"
+            },
+            "default_value": [
+                "inherit"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_593be7a6d4f36",
+            "label": "Footer site name settings",
+            "name": "global_woocommerce_footer_sitename_typo",
+            "type": "argenta_typo",
+            "instructions": "Custom site name typography",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5940e241c5ce3",
+                        "operator": "==",
+                        "value": "sitename"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "add_theme_inherited": true
+        },
+        {
+            "key": "field_5940e2cbc5ce4",
+            "label": "Footer custom logo",
+            "name": "global_woocommerce_footer_custom_logo",
+            "type": "image",
+            "instructions": "Custom loaded image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5940e241c5ce3",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5940e516ada44",
+            "label": "Use footer as sticky?",
+            "name": "global_woocommerce_footer_is_sticky",
+            "type": "radio",
+            "instructions": "You can sticky footer on shop pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d7644",
+            "label": "Wrap footer content?",
+            "name": "global_woocommerce_footer_is_wrapped",
+            "type": "radio",
+            "instructions": "Add centred footer content wrapper",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "With wrapper",
+                "no": "Without wrapper"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d725e",
+            "label": "Hide footer?",
+            "name": "global_woocommerce_footer_hide",
+            "type": "radio",
+            "instructions": "Hide footer block from all shop pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme settings inherit",
+                "yes": "Hide footer from pages",
+                "no": "Show"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d7a67",
+            "label": "Show copyright section?",
+            "name": "global_woocommerce_footer_show_copyright_section",
+            "type": "radio",
+            "instructions": "You can show\/hide copyright on shop pages",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Theme page settings inherited",
+                "yes": "Show",
+                "no": "Hide"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "inherit",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_593be7a6d7e8e",
+            "label": "Copyright section background",
+            "name": "global_woocommerce_footer_copyright_section_background",
+            "type": "argenta_color",
+            "instructions": "Copyright background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_593be7a6d82b3",
+            "label": "Copyright section text color",
+            "name": "global_woocommerce_footer_copyright_section_text_color",
+            "type": "argenta_color",
+            "instructions": "Custom content text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-woocommerce"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": ""
+}

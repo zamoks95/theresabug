@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'line-32-clothes';
+    src:    url('fonts/line-32-clothes.eot?cq173s');
+    src:    url('fonts/line-32-clothes.eot?cq173s#iefix') format('embedded-opentype'),
+        url('fonts/line-32-clothes.woff2?cq173s') format('woff2'),
+        url('fonts/line-32-clothes.ttf?cq173s') format('truetype'),
+        url('fonts/line-32-clothes.woff?cq173s') format('woff'),
+        url('fonts/line-32-clothes.svg?cq173s#line-32-clothes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-clo-"], [class*=" my-icon-clo-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-clothes' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-clo-basque:before {
+    content: "\e900";
+}
+.my-icon-clo-beanie:before {
+    content: "\e901";
+}
+.my-icon-clo-belt:before {
+    content: "\e902";
+}
+.my-icon-clo-bobble-2:before {
+    content: "\e903";
+}
+.my-icon-clo-bobble:before {
+    content: "\e904";
+}
+.my-icon-clo-boot:before {
+    content: "\e905";
+}
+.my-icon-clo-bowler:before {
+    content: "\e906";
+}
+.my-icon-clo-boxers:before {
+    content: "\e907";
+}
+.my-icon-clo-bra-panties:before {
+    content: "\e908";
+}
+.my-icon-clo-bra:before {
+    content: "\e909";
+}
+.my-icon-clo-briefs:before {
+    content: "\e90a";
+}
+.my-icon-clo-camisole:before {
+    content: "\e90b";
+}
+.my-icon-clo-cap:before {
+    content: "\e90c";
+}
+.my-icon-clo-converse:before {
+    content: "\e90d";
+}
+.my-icon-clo-dress-2:before {
+    content: "\e90e";
+}
+.my-icon-clo-dress:before {
+    content: "\e90f";
+}
+.my-icon-clo-ear-muffs:before {
+    content: "\e910";
+}
+.my-icon-clo-flip-flops:before {
+    content: "\e911";
+}
+.my-icon-clo-glasses-bow:before {
+    content: "\e912";
+}
+.my-icon-clo-glove:before {
+    content: "\e913";
+}
+.my-icon-clo-hat-cowboy:before {
+    content: "\e914";
+}
+.my-icon-clo-high-heels:before {
+    content: "\e915";
+}
+.my-icon-clo-hiking:before {
+    content: "\e916";
+}
+.my-icon-clo-jacket:before {
+    content: "\e917";
+}
+.my-icon-clo-mannequin:before {
+    content: "\e918";
+}
+.my-icon-clo-mexican:before {
+    content: "\e919";
+}
+.my-icon-clo-mitten:before {
+    content: "\e91a";
+}
+.my-icon-clo-no-heels:before {
+    content: "\e91b";
+}
+.my-icon-clo-no-sneakers:before {
+    content: "\e91c";
+}
+.my-icon-clo-panties-2:before {
+    content: "\e91d";
+}
+.my-icon-clo-panties-3:before {
+    content: "\e91e";
+}
+.my-icon-clo-panties:before {
+    content: "\e91f";
+}
+.my-icon-clo-pants-2:before {
+    content: "\e920";
+}
+.my-icon-clo-pants-3:before {
+    content: "\e921";
+}
+.my-icon-clo-pants:before {
+    content: "\e922";
+}
+.my-icon-clo-polo:before {
+    content: "\e923";
+}
+.my-icon-clo-scarf:before {
+    content: "\e924";
+}
+.my-icon-clo-screen:before {
+    content: "\e925";
+}
+.my-icon-clo-shirt-folded:before {
+    content: "\e926";
+}
+.my-icon-clo-shirt:before {
+    content: "\e927";
+}
+.my-icon-clo-shoe:before {
+    content: "\e928";
+}
+.my-icon-clo-shoes:before {
+    content: "\e929";
+}
+.my-icon-clo-short-shirt:before {
+    content: "\e92a";
+}
+.my-icon-clo-shorts-2:before {
+    content: "\e92b";
+}
+.my-icon-clo-shorts:before {
+    content: "\e92c";
+}
+.my-icon-clo-skirt:before {
+    content: "\e92d";
+}
+.my-icon-clo-slipper:before {
+    content: "\e92e";
+}
+.my-icon-clo-sneaker:before {
+    content: "\e92f";
+}
+.my-icon-clo-sock-pop:before {
+    content: "\e930";
+}
+.my-icon-clo-sock:before {
+    content: "\e931";
+}
+.my-icon-clo-suit:before {
+    content: "\e932";
+}
+.my-icon-clo-sun-hat:before {
+    content: "\e933";
+}
+.my-icon-clo-suspender:before {
+    content: "\e934";
+}
+.my-icon-clo-sweater:before {
+    content: "\e935";
+}
+.my-icon-clo-t-female:before {
+    content: "\e936";
+}
+.my-icon-clo-t-hanger:before {
+    content: "\e937";
+}
+.my-icon-clo-t-long:before {
+    content: "\e938";
+}
+.my-icon-clo-t-sport:before {
+    content: "\e939";
+}
+.my-icon-clo-t:before {
+    content: "\e93a";
+}
+.my-icon-clo-thong:before {
+    content: "\e93b";
+}
+.my-icon-clo-tie:before {
+    content: "\e93c";
+}
+.my-icon-clo-top:before {
+    content: "\e93d";
+}
+.my-icon-clo-trilby:before {
+    content: "\e93e";
+}
+.my-icon-clo-uggs-2:before {
+    content: "\e93f";
+}
+.my-icon-clo-uggs:before {
+    content: "\e940";
+}
+.my-icon-clo-v-neck:before {
+    content: "\e941";
+}
+.my-icon-clo-vest-3:before {
+    content: "\e942";
+}
+.my-icon-clo-vest-string:before {
+    content: "\e943";
+}
+.my-icon-clo-vest:before {
+    content: "\e944";
+}
+.my-icon-clo-waistcoat:before {
+    content: "\e945";
+}
+

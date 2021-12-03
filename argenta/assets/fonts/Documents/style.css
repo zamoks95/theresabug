@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'line-32-documents';
+    src:    url('fonts/line-32-documents.eot?i2qb68');
+    src:    url('fonts/line-32-documents.eot?i2qb68#iefix') format('embedded-opentype'),
+        url('fonts/line-32-documents.woff2?i2qb68') format('woff2'),
+        url('fonts/line-32-documents.ttf?i2qb68') format('truetype'),
+        url('fonts/line-32-documents.woff?i2qb68') format('woff'),
+        url('fonts/line-32-documents.svg?i2qb68#line-32-documents') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-doc-"], [class*=" my-icon-doc-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-documents' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-doc-book:before {
+    content: "\e900";
+}
+.my-icon-doc-box:before {
+    content: "\e901";
+}
+.my-icon-doc-certificate:before {
+    content: "\e902";
+}
+.my-icon-doc-clipboard:before {
+    content: "\e903";
+}
+.my-icon-doc-contract:before {
+    content: "\e904";
+}
+.my-icon-doc-copy:before {
+    content: "\e905";
+}
+.my-icon-doc-cut-2:before {
+    content: "\e906";
+}
+.my-icon-doc-cut:before {
+    content: "\e907";
+}
+.my-icon-doc-document:before {
+    content: "\e908";
+}
+.my-icon-doc-documents:before {
+    content: "\e909";
+}
+.my-icon-doc-file:before {
+    content: "\e90a";
+}
+.my-icon-doc-filing-2:before {
+    content: "\e90b";
+}
+.my-icon-doc-filing-3:before {
+    content: "\e90c";
+}
+.my-icon-doc-filing:before {
+    content: "\e90d";
+}
+.my-icon-doc-layers-2:before {
+    content: "\e90e";
+}
+.my-icon-doc-layers:before {
+    content: "\e90f";
+}
+.my-icon-doc-ledger:before {
+    content: "\e910";
+}
+.my-icon-doc-lever-arch:before {
+    content: "\e911";
+}
+.my-icon-doc-newspaper:before {
+    content: "\e912";
+}
+.my-icon-doc-note:before {
+    content: "\e913";
+}
+.my-icon-doc-notebook:before {
+    content: "\e914";
+}
+.my-icon-doc-notepad:before {
+    content: "\e915";
+}
+.my-icon-doc-paste:before {
+    content: "\e916";
+}
+.my-icon-doc-pen-sign:before {
+    content: "\e917";
+}
+.my-icon-doc-pile:before {
+    content: "\e918";
+}
+.my-icon-doc-resume-2:before {
+    content: "\e919";
+}
+.my-icon-doc-resume:before {
+    content: "\e91a";
+}
+.my-icon-doc-scroll:before {
+    content: "\e91b";
+}
+.my-icon-doc-signature:before {
+    content: "\e91c";
+}
+.my-icon-doc-tasks:before {
+    content: "\e91d";
+}
+

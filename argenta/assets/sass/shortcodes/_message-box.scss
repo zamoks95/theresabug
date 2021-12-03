@@ -1,0 +1,73 @@
+$message-box-colors: (
+	'primary': #727fa2,
+	'success': #71c88a,
+	'warning': #ecb660,
+	'error': #ec6060
+);
+
+.message-box {
+	background: #f3f3f3;
+	margin: 0;
+	padding: 20px 22px;
+	border: none;
+	font-size: 14px;
+	text-align: left;
+	position: relative;
+
+	&:before {
+		content: '';
+		background: #d1d1d1;
+		width: 3px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	&.closed {
+		display: none;
+	}
+
+	a {
+		margin: 0 6px;
+		font-weight: 700;
+		color: #343436;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.close {
+		color: #4e4e4e;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
+		font-size: 28px;
+		line-height: 14px;
+		margin-top: -2px;
+
+		&:hover {
+			opacity: .8;
+		}
+	}
+
+	@each $class, $color in $message-box-colors {
+		&.message-box-#{$class} {
+			&:before {
+				background: $color;
+			}
+			
+			a {
+				color: darken($color, 15%);
+				text-decoration: underline;
+
+				&:hover {
+					color: darken($color, 20%);
+				}
+			}
+		}
+	}
+}

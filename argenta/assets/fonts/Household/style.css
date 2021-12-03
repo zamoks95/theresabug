@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'line-32-household';
+    src:    url('fonts/line-32-household.eot?hx5mbl');
+    src:    url('fonts/line-32-household.eot?hx5mbl#iefix') format('embedded-opentype'),
+        url('fonts/line-32-household.woff2?hx5mbl') format('woff2'),
+        url('fonts/line-32-household.ttf?hx5mbl') format('truetype'),
+        url('fonts/line-32-household.woff?hx5mbl') format('woff'),
+        url('fonts/line-32-household.svg?hx5mbl#line-32-household') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-hou-"], [class*=" my-icon-hou-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-household' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-hou-armchair:before {
+    content: "\e900";
+}
+.my-icon-hou-bath-shower:before {
+    content: "\e901";
+}
+.my-icon-hou-bathroom-cabinet:before {
+    content: "\e902";
+}
+.my-icon-hou-bed-bunk:before {
+    content: "\e903";
+}
+.my-icon-hou-bed-double:before {
+    content: "\e904";
+}
+.my-icon-hou-bed-single:before {
+    content: "\e905";
+}
+.my-icon-hou-bedside-old:before {
+    content: "\e906";
+}
+.my-icon-hou-bedside:before {
+    content: "\e907";
+}
+.my-icon-hou-bookcase:before {
+    content: "\e908";
+}
+.my-icon-hou-bookshelf:before {
+    content: "\e909";
+}
+.my-icon-hou-cabinet-old:before {
+    content: "\e90a";
+}
+.my-icon-hou-cabinet:before {
+    content: "\e90b";
+}
+.my-icon-hou-candelabrar:before {
+    content: "\e90c";
+}
+.my-icon-hou-chair-bar:before {
+    content: "\e90d";
+}
+.my-icon-hou-chair-dining:before {
+    content: "\e90e";
+}
+.my-icon-hou-chair-office:before {
+    content: "\e90f";
+}
+.my-icon-hou-chair-old:before {
+    content: "\e910";
+}
+.my-icon-hou-chair:before {
+    content: "\e911";
+}
+.my-icon-hou-chandelier:before {
+    content: "\e912";
+}
+.my-icon-hou-coat-stand:before {
+    content: "\e913";
+}
+.my-icon-hou-door:before {
+    content: "\e914";
+}
+.my-icon-hou-drawers-old:before {
+    content: "\e915";
+}
+.my-icon-hou-drawers:before {
+    content: "\e916";
+}
+.my-icon-hou-fire:before {
+    content: "\e917";
+}
+.my-icon-hou-frame:before {
+    content: "\e918";
+}
+.my-icon-hou-futon:before {
+    content: "\e919";
+}
+.my-icon-hou-handle-lock:before {
+    content: "\e91a";
+}
+.my-icon-hou-handle:before {
+    content: "\e91b";
+}
+.my-icon-hou-light-ceiling:before {
+    content: "\e91c";
+}
+.my-icon-hou-light-desk:before {
+    content: "\e91d";
+}
+.my-icon-hou-light-pendant:before {
+    content: "\e91e";
+}
+.my-icon-hou-light-stand:before {
+    content: "\e91f";
+}
+.my-icon-hou-light-table:before {
+    content: "\e920";
+}
+.my-icon-hou-light-wall:before {
+    content: "\e921";
+}
+.my-icon-hou-mirror-stand:before {
+    content: "\e922";
+}
+.my-icon-hou-mirror-table:before {
+    content: "\e923";
+}
+.my-icon-hou-mirror:before {
+    content: "\e924";
+}
+.my-icon-hou-picture-landscape:before {
+    content: "\e925";
+}
+.my-icon-hou-picture-portrait:before {
+    content: "\e926";
+}
+.my-icon-hou-picture:before {
+    content: "\e927";
+}
+.my-icon-hou-shower-2:before {
+    content: "\e928";
+}
+.my-icon-hou-shower:before {
+    content: "\e929";
+}
+.my-icon-hou-sink:before {
+    content: "\e92a";
+}
+.my-icon-hou-sofa:before {
+    content: "\e92b";
+}
+.my-icon-hou-stool:before {
+    content: "\e92c";
+}
+.my-icon-hou-table-office:before {
+    content: "\e92d";
+}
+.my-icon-hou-table:before {
+    content: "\e92e";
+}
+.my-icon-hou-tap:before {
+    content: "\e92f";
+}
+.my-icon-hou-toilet:before {
+    content: "\e930";
+}
+.my-icon-hou-tv-cabinet:before {
+    content: "\e931";
+}
+.my-icon-hou-wardrobe-old:before {
+    content: "\e932";
+}
+.my-icon-hou-wardrobe:before {
+    content: "\e933";
+}
+.my-icon-hou-window-blind:before {
+    content: "\e934";
+}
+.my-icon-hou-window-blinds:before {
+    content: "\e935";
+}
+.my-icon-hou-window-curtains:before {
+    content: "\e936";
+}
+.my-icon-hou-window-curved:before {
+    content: "\e937";
+}
+.my-icon-hou-window-open:before {
+    content: "\e938";
+}
+.my-icon-hou-window-roman:before {
+    content: "\e939";
+}
+.my-icon-hou-window-round:before {
+    content: "\e93a";
+}
+.my-icon-hou-window:before {
+    content: "\e93b";
+}
+

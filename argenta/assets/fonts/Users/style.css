@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'line-32-users';
+    src:    url('fonts/line-32-users.eot?n8xlec');
+    src:    url('fonts/line-32-users.eot?n8xlec#iefix') format('embedded-opentype'),
+        url('fonts/line-32-users.woff2?n8xlec') format('woff2'),
+        url('fonts/line-32-users.ttf?n8xlec') format('truetype'),
+        url('fonts/line-32-users.woff?n8xlec') format('woff'),
+        url('fonts/line-32-users.svg?n8xlec#line-32-users') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="my-icon-use-"], [class*=" my-icon-use-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'line-32-users' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-use-connect:before {
+    content: "\e900";
+}
+.my-icon-use-fem-chat:before {
+    content: "\e901";
+}
+.my-icon-use-fem-cross:before {
+    content: "\e902";
+}
+.my-icon-use-fem-edit:before {
+    content: "\e903";
+}
+.my-icon-use-fem-fem-fem:before {
+    content: "\e904";
+}
+.my-icon-use-fem-fem-male:before {
+    content: "\e905";
+}
+.my-icon-use-fem-fem:before {
+    content: "\e906";
+}
+.my-icon-use-fem-location:before {
+    content: "\e907";
+}
+.my-icon-use-fem-male:before {
+    content: "\e908";
+}
+.my-icon-use-fem-minus:before {
+    content: "\e909";
+}
+.my-icon-use-fem-plus:before {
+    content: "\e90a";
+}
+.my-icon-use-fem-reply:before {
+    content: "\e90b";
+}
+.my-icon-use-fem-script:before {
+    content: "\e90c";
+}
+.my-icon-use-fem-search:before {
+    content: "\e90d";
+}
+.my-icon-use-fem-secure:before {
+    content: "\e90e";
+}
+.my-icon-use-fem-settings:before {
+    content: "\e90f";
+}
+.my-icon-use-fem-tick:before {
+    content: "\e910";
+}
+.my-icon-use-fem-warning:before {
+    content: "\e911";
+}
+.my-icon-use-fem:before {
+    content: "\e912";
+}
+.my-icon-use-male-chat:before {
+    content: "\e913";
+}
+.my-icon-use-male-cross:before {
+    content: "\e914";
+}
+.my-icon-use-male-edit:before {
+    content: "\e915";
+}
+.my-icon-use-male-fem:before {
+    content: "\e916";
+}
+.my-icon-use-male-location:before {
+    content: "\e917";
+}
+.my-icon-use-male-male-fem:before {
+    content: "\e918";
+}
+.my-icon-use-male-male-male:before {
+    content: "\e919";
+}
+.my-icon-use-male-male:before {
+    content: "\e91a";
+}
+.my-icon-use-male-minus:before {
+    content: "\e91b";
+}
+.my-icon-use-male-plus:before {
+    content: "\e91c";
+}
+.my-icon-use-male-reply:before {
+    content: "\e91d";
+}
+.my-icon-use-male-script:before {
+    content: "\e91e";
+}
+.my-icon-use-male-search:before {
+    content: "\e91f";
+}
+.my-icon-use-male-secure:before {
+    content: "\e920";
+}
+.my-icon-use-male-settings:before {
+    content: "\e921";
+}
+.my-icon-use-male-tick:before {
+    content: "\e922";
+}
+.my-icon-use-male-warning:before {
+    content: "\e923";
+}
+.my-icon-use-male:before {
+    content: "\e924";
+}
+.my-icon-use-rotate:before {
+    content: "\e925";
+}
+.my-icon-use-structure:before {
+    content: "\e926";
+}
+.my-icon-use-switch:before {
+    content: "\e927";
+}
+.my-icon-use-user-chat:before {
+    content: "\e928";
+}
+.my-icon-use-user-connect:before {
+    content: "\e929";
+}
+.my-icon-use-user-cross:before {
+    content: "\e92a";
+}
+.my-icon-use-user-edit:before {
+    content: "\e92b";
+}
+.my-icon-use-user-location:before {
+    content: "\e92c";
+}
+.my-icon-use-user-minus:before {
+    content: "\e92d";
+}
+.my-icon-use-user-plus:before {
+    content: "\e92e";
+}
+.my-icon-use-user-reply:before {
+    content: "\e92f";
+}
+.my-icon-use-user-rotate:before {
+    content: "\e930";
+}
+.my-icon-use-user-script:before {
+    content: "\e931";
+}
+.my-icon-use-user-search:before {
+    content: "\e932";
+}
+.my-icon-use-user-secure:before {
+    content: "\e933";
+}
+.my-icon-use-user-settings:before {
+    content: "\e934";
+}
+.my-icon-use-user-structure:before {
+    content: "\e935";
+}
+.my-icon-use-user-switch:before {
+    content: "\e936";
+}
+.my-icon-use-user-tick:before {
+    content: "\e937";
+}
+.my-icon-use-user-user-user:before {
+    content: "\e938";
+}
+.my-icon-use-user-user:before {
+    content: "\e939";
+}
+.my-icon-use-user-warning:before {
+    content: "\e93a";
+}
+.my-icon-use-user:before {
+    content: "\e93b";
+}
+

@@ -1,0 +1,2350 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Argenta 1.0.0\n"
+"POT-Creation-Date: 2017-07-05 22:13+0300\n"
+"PO-Revision-Date: 2017-01-12 16:40+0200\n"
+"Last-Translator: \n"
+"Language-Team: colabrio <team@clbthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: 404.php:24 template-parts/elements/header-menu-nav.php:28
+#: template-parts/elements/header-menu-optional-nav.php:25
+msgid "Search"
+msgstr ""
+
+#: comments.php:18 comments.php:36
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:21 comments.php:39
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:22 comments.php:40
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:52
+msgid "Post a Comment"
+msgstr ""
+
+#: comments.php:52 woocommerce/single-product-reviews.php:64
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:54
+msgid "Click here to cancel reply"
+msgstr ""
+
+#: comments.php:56
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:57
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:57
+msgid "Log out"
+msgstr ""
+
+#: comments.php:61
+#, php-format
+msgid "You must be %s logged in %s to post a comment."
+msgstr ""
+
+#: comments.php:70
+msgid "Name"
+msgstr ""
+
+#: comments.php:73 woocommerce/share.php:52
+msgid "Email"
+msgstr ""
+
+#: comments.php:76
+msgid "Website"
+msgstr ""
+
+#: comments.php:81
+msgid "Comment"
+msgstr ""
+
+#: comments.php:88
+msgid "Submit Comment"
+msgstr ""
+
+#: header.php:20
+msgid "Skip to content"
+msgstr ""
+
+#: inc/framework/Components/Layout.php:164 inc/helpers.php:302
+msgid "PREV"
+msgstr ""
+
+#: inc/framework/Components/Layout.php:178 inc/helpers.php:316
+msgid "NEXT"
+msgstr ""
+
+#: inc/framework/Components/Settings.php:789
+msgid "Home"
+msgstr ""
+
+#: inc/framework/Components/Settings.php:799 inc/tgmpa/acf_setup.php:52
+#: inc/tgmpa/ocdi_setup.php:15 inc/tgmpa/ocdi_setup.php:47
+#: inc/tgmpa/ocdi_setup.php:71 inc/tgmpa/ocdi_setup.php:111
+msgid "Portfolio"
+msgstr ""
+
+#: inc/helpers.php:238
+msgid "Gallery slide"
+msgstr ""
+
+#: inc/init/theme.php:16
+msgid "Primary"
+msgstr ""
+
+#: inc/menu.php:5
+#, php-format
+msgid "Please assign a menu to the primary menu location under %1$s."
+msgstr ""
+
+#: inc/menu.php:6
+msgid "Menus"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:91
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:95
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:107
+msgid "sub item"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:122
+msgid "Move up"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:135
+msgid "Move down"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:137
+#: inc/menu/edit_mega_menu_walker.php:139
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:148
+msgid "URL"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:155
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:161
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:168
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:173
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:179
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:210
+msgid "Upload Image"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:211
+msgid "Remove Image"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:220
+msgid "Description"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:222
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:228 woocommerce/wishlist-view.php:217
+msgid "Move"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:229
+msgid "Up one"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:230
+msgid "Down one"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:233
+msgid "To the top"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:240
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:253 woocommerce/wishlist-view.php:249
+msgid "Remove"
+msgstr ""
+
+#: inc/menu/edit_mega_menu_walker.php:254
+#: woocommerce/myaccount/my-orders.php:80 woocommerce/myaccount/orders.php:81
+#: woocommerce/wishlist-view.php:36
+msgid "Cancel"
+msgstr ""
+
+#: inc/menu/mega_menu.php:16
+msgid "Subtitle"
+msgstr ""
+
+#: inc/menu/mega_menu.php:23
+msgid "Image"
+msgstr ""
+
+#: inc/menu/mega_menu.php:31
+msgid "Background position"
+msgstr ""
+
+#: inc/menu/mega_menu.php:34
+msgid "Left top"
+msgstr ""
+
+#: inc/menu/mega_menu.php:35
+msgid "Left center"
+msgstr ""
+
+#: inc/menu/mega_menu.php:36
+msgid "Left bottom"
+msgstr ""
+
+#: inc/menu/mega_menu.php:37
+msgid "Right top"
+msgstr ""
+
+#: inc/menu/mega_menu.php:38
+msgid "Right center"
+msgstr ""
+
+#: inc/menu/mega_menu.php:39
+msgid "Right bottom"
+msgstr ""
+
+#: inc/menu/mega_menu.php:40
+msgid "Center top"
+msgstr ""
+
+#: inc/menu/mega_menu.php:41
+msgid "Center center"
+msgstr ""
+
+#: inc/menu/mega_menu.php:42
+msgid "Center bottom"
+msgstr ""
+
+#: inc/menu/mega_menu.php:49
+msgid "Background repeat"
+msgstr ""
+
+#: inc/menu/mega_menu.php:52
+msgid "No-repeat"
+msgstr ""
+
+#: inc/menu/mega_menu.php:53
+msgid "Repeat"
+msgstr ""
+
+#: inc/menu/mega_menu.php:54
+msgid "Repeat-x"
+msgstr ""
+
+#: inc/menu/mega_menu.php:55
+msgid "Repeat-y"
+msgstr ""
+
+#: inc/menu/mega_menu.php:62
+msgid "Enable wide menu"
+msgstr ""
+
+#: inc/menu/mega_menu.php:65 inc/menu/mega_menu.php:76
+msgid "Yes"
+msgstr ""
+
+#: inc/menu/mega_menu.php:66 inc/menu/mega_menu.php:77
+msgid "No"
+msgstr ""
+
+#: inc/menu/mega_menu.php:73
+msgid "Enable full-width menu"
+msgstr ""
+
+#: inc/sidebars.php:5 inc/tgmpa/ocdi_setup.php:63 inc/tgmpa/ocdi_setup.php:95
+#: template-parts/elements/header-title.php:28
+msgid "Blog"
+msgstr ""
+
+#: inc/sidebars.php:7 inc/sidebars.php:16
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/sidebars.php:14 inc/tgmpa/acf_setup.php:31
+#: template-parts/content-page.php:6 template-parts/content.php:14
+msgid "Pages"
+msgstr ""
+
+#: inc/sidebars.php:24
+msgid "Footer column 1"
+msgstr ""
+
+#: inc/sidebars.php:30
+msgid "Footer column 2"
+msgstr ""
+
+#: inc/sidebars.php:36
+msgid "Footer column 3"
+msgstr ""
+
+#: inc/sidebars.php:42
+msgid "Footer column 4"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "No comments"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "1 comment"
+msgstr ""
+
+#: inc/template-tags.php:39
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/template-tags.php:65
+msgid "Share post"
+msgstr ""
+
+#: inc/template-tags.php:71 woocommerce/share.php:20
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-tags.php:77 woocommerce/share.php:28
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-tags.php:83 woocommerce/share.php:44
+msgid "Google+"
+msgstr ""
+
+#: inc/template-tags.php:89
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/template-tags.php:95 woocommerce/share.php:36
+msgid "Pinterest"
+msgstr ""
+
+#: inc/template-tags.php:119
+#, php-format
+msgid "Leave a Comment %s on %s"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:22
+msgid "Argenta Theme Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:23
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:30
+msgid "Theme Pages Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:37
+msgid "Theme Header Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:38
+msgid "Header"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:44
+msgid "Theme Blog Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:45
+msgid "Blog / Archive"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:51
+msgid "Theme Portfolio Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:58
+msgid "Theme WooCommerce Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:59 inc/tgmpa/ocdi_setup.php:39
+#: inc/tgmpa/ocdi_setup.php:87 inc/tgmpa/woocommerce_setup.php:146
+#: template-parts/elements/breadcrumbs.php:121
+#: template-parts/elements/breadcrumbs.php:126
+#: template-parts/elements/breadcrumbs.php:134
+#: template-parts/elements/breadcrumbs.php:142
+#: template-parts/elements/breadcrumbs.php:151
+#: template-parts/elements/breadcrumbs.php:157
+#: template-parts/elements/header-title.php:72
+msgid "Shop"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:65
+msgid "Theme Footer Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:66
+msgid "Footer"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:72
+msgid "Theme Plugins Settings"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:73
+msgid "Plugins / Widgets"
+msgstr ""
+
+#: inc/tgmpa/acf_setup.php:80
+msgid "Support"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:386
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:387
+#: inc/tgmpa/class-tgm-plugin-activation.php:897
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+#: inc/tgmpa/class-tgm-plugin-activation.php:3650
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+#: inc/tgmpa/class-tgm-plugin-activation.php:3229
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:389
+#: inc/tgmpa/class-tgm-plugin-activation.php:3022
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:391
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:396
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:398
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:592
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:593
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1004
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1004
+#: inc/tgmpa/class-tgm-plugin-activation.php:1007
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1007
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2052
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2343
+msgid "Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2346
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2362
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2365
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2368
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2389
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2391
+msgid "Active"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2397
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2400
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2403
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2462
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2466
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2470
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2560
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2568
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2580
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2617
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2618
+msgid "Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2619
+msgid "Type"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2623
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2624
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2673
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2678
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2684
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2754
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2787
+msgid "Install"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2793
+msgid "Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2796
+msgid "Activate"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2827
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2829
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2870
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2872
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2978
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3004
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3228
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3568
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3571
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3573
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3577
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3579
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3579
+#: inc/tgmpa/class-tgm-plugin-activation.php:3587
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3579
+#: inc/tgmpa/class-tgm-plugin-activation.php:3587
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3580
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3582
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3585
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3588
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3590
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:7 inc/tgmpa/ocdi_setup.php:15
+#: inc/tgmpa/ocdi_setup.php:79 inc/tgmpa/ocdi_setup.php:95
+#: inc/tgmpa/ocdi_setup.php:111
+msgid "Personal"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:23 inc/tgmpa/ocdi_setup.php:31
+#: inc/tgmpa/ocdi_setup.php:55 inc/tgmpa/ocdi_setup.php:71
+#: inc/tgmpa/ocdi_setup.php:103 inc/tgmpa/ocdi_setup.php:159
+#: inc/tgmpa/ocdi_setup.php:167
+msgid "Multipurpose"
+msgstr ""
+
+#: inc/tgmpa/ocdi_setup.php:23 inc/tgmpa/ocdi_setup.php:31
+#: inc/tgmpa/ocdi_setup.php:55 inc/tgmpa/ocdi_setup.php:103
+#: inc/tgmpa/ocdi_setup.php:119 inc/tgmpa/ocdi_setup.php:127
+#: inc/tgmpa/ocdi_setup.php:135 inc/tgmpa/ocdi_setup.php:143
+#: inc/tgmpa/ocdi_setup.php:151 inc/tgmpa/ocdi_setup.php:159
+msgid "Business"
+msgstr ""
+
+#: inc/tgmpa/woocommerce_setup.php:148
+msgid "WooCommerce sidebar."
+msgstr ""
+
+#: inc/tgmpa/woocommerce_setup.php:226
+msgid "Argenta Avatar"
+msgstr ""
+
+#: inc/wp_overrides.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/wp_overrides.php:33
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/wp_overrides.php:33 woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: inc/wp_overrides.php:36
+msgid "Leave reply"
+msgstr ""
+
+#: inc/wp_overrides.php:249
+msgid "Registration complete. Check your email."
+msgstr ""
+
+#: page-templates/page_for-projects.php:145
+msgid "Filter by:"
+msgstr ""
+
+#: page-templates/page_for-projects.php:147
+msgid "All"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search..."
+msgstr ""
+
+#: template-parts/blog/date_top.php:9 template-parts/blog/default.php:60
+#: template-parts/blog/inner.php:36
+#: template-parts/blog/inner_with_description.php:35
+#: template-parts/blog/without_excerpt.php:54
+#: template-parts/elements/related-posts.php:107
+msgid "By"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "No Result"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Sorry, but nothing matched your search criteria"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Please try again with some different keywords"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:32
+msgid "Search results"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:33
+#: template-parts/elements/breadcrumbs.php:34
+#: woocommerce/single-product/meta.php:39
+#, fuzzy
+msgid "Tag:"
+msgstr ""
+"#-#-#-#-#  9extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  18extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: template-parts/elements/breadcrumbs.php:35
+msgid "Author:"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:36
+msgid "Page not found"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:129
+#: template-parts/elements/header-title.php:32 woocommerce/loop/orderby.php:68
+msgid "Category"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:137
+#: template-parts/elements/header-title.php:35
+msgid "Tag"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:210
+#: template-parts/elements/header-title.php:67
+msgid "Undefined"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:251
+#: template-parts/elements/breadcrumbs.php:258
+#, php-format
+msgid "Showing %d-%d of %d results"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:264
+msgid "Categories"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:282 woocommerce/loop/orderby.php:115
+msgid "Tags"
+msgstr ""
+
+#: template-parts/elements/breadcrumbs.php:300
+msgid "Authors"
+msgstr ""
+
+#: template-parts/elements/header-menu-fullscreen-nav.php:28
+#: template-parts/elements/header-menu-nav.php:17
+#, php-format
+msgid "Please %s assign a menu %s to the primary menu location"
+msgstr ""
+
+#: template-parts/elements/header-menu-optional-nav.php:58
+msgid "Cart"
+msgstr ""
+
+#: template-parts/elements/header-menu-optional-nav.php:72
+msgid "Wishlist"
+msgstr ""
+
+#: template-parts/elements/header-title.php:29
+msgid "Our recent posts"
+msgstr ""
+
+#: template-parts/elements/header-title.php:37
+msgid "Search Results for: "
+msgstr ""
+
+#: template-parts/elements/header-title.php:68
+msgid "Author"
+msgstr ""
+
+#: template-parts/elements/header-title.php:77
+msgid "Product category"
+msgstr ""
+
+#: template-parts/elements/header-title.php:82
+msgid "Product tag"
+msgstr ""
+
+#: template-parts/elements/next-n-prev-posts.php:26
+msgid "Previous post"
+msgstr ""
+
+#: template-parts/elements/next-n-prev-posts.php:51
+msgid "Next post"
+msgstr ""
+
+#: template-parts/elements/related-posts.php:36
+msgid "Related posts"
+msgstr ""
+
+#: template-parts/elements/scroll-top.php:4
+msgid "Scroll to top"
+msgstr ""
+
+#: template-parts/portfolio-cards/_popup.php:18
+#: template-parts/portfolio/bottom-grid.php:17
+#: template-parts/portfolio/boxed.php:27
+#: template-parts/portfolio/fixed-width.php:26
+#: template-parts/portfolio/full-width.php:26
+#: template-parts/portfolio/fullscreen.php:22
+#: template-parts/portfolio/fullscreen.php:28
+#: template-parts/portfolio/slider.php:24
+#: template-parts/portfolio/top-grid.php:36
+msgid "category"
+msgstr ""
+
+#: template-parts/portfolio-cards/_popup.php:28
+#: template-parts/portfolio/bottom-grid.php:33
+#: template-parts/portfolio/boxed.php:44
+#: template-parts/portfolio/fixed-width.php:43
+#: template-parts/portfolio/full-width.php:43
+#: template-parts/portfolio/fullscreen.php:41
+#: template-parts/portfolio/slider.php:40
+#: template-parts/portfolio/top-grid.php:53
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr ""
+
+#: template-parts/portfolio-cards/_popup.php:35
+#: template-parts/portfolio/bottom-grid.php:40
+#: template-parts/portfolio/boxed.php:51
+#: template-parts/portfolio/fixed-width.php:50
+#: template-parts/portfolio/full-width.php:50
+#: template-parts/portfolio/fullscreen.php:48
+#: template-parts/portfolio/slider.php:47
+#: template-parts/portfolio/top-grid.php:60
+msgid "Skills"
+msgstr ""
+
+#: template-parts/portfolio-cards/_popup.php:42
+#: template-parts/portfolio/bottom-grid.php:47
+#: template-parts/portfolio/boxed.php:58
+#: template-parts/portfolio/fixed-width.php:57
+#: template-parts/portfolio/full-width.php:57
+#: template-parts/portfolio/fullscreen.php:55
+#: template-parts/portfolio/slider.php:54
+#: template-parts/portfolio/top-grid.php:67
+msgid "Client"
+msgstr ""
+
+#: template-parts/portfolio-cards/_popup.php:49
+#: template-parts/portfolio/bottom-grid.php:54
+#: template-parts/portfolio/boxed.php:65
+#: template-parts/portfolio/fixed-width.php:64
+#: template-parts/portfolio/full-width.php:64
+#: template-parts/portfolio/fullscreen.php:62
+#: template-parts/portfolio/slider.php:61
+#: template-parts/portfolio/top-grid.php:74
+msgid "Project link"
+msgstr ""
+
+#: template-parts/portfolio/bottom-grid.php:25
+#: template-parts/portfolio/boxed.php:36
+#: template-parts/portfolio/fixed-width.php:35
+#: template-parts/portfolio/full-width.php:35
+#: template-parts/portfolio/fullscreen.php:34
+#: template-parts/portfolio/slider.php:32
+#: template-parts/portfolio/top-grid.php:45
+msgid "Task"
+msgstr ""
+
+#: template-parts/portfolio/bottom-grid.php:131
+#: template-parts/portfolio/boxed.php:146
+#: template-parts/portfolio/fixed-width.php:145
+#: template-parts/portfolio/full-width.php:145
+#: template-parts/portfolio/slider.php:142
+#: template-parts/portfolio/top-grid.php:129
+msgid "Previous project"
+msgstr ""
+
+#: template-parts/portfolio/bottom-grid.php:145
+#: template-parts/portfolio/boxed.php:160
+#: template-parts/portfolio/fixed-width.php:159
+#: template-parts/portfolio/full-width.php:159
+#: template-parts/portfolio/slider.php:156
+#: template-parts/portfolio/top-grid.php:143
+msgid "Next project"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-button.php:18
+msgid "Add to wishlist"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:185
+#: woocommerce/admin/wishlist-panel-premium.php:383
+#, php-format
+msgid ""
+"Upgrade to the %1$spremium version%2$s%3$sof %1$sYITH WooCommerce Wishlist"
+"%2$s to benefit from all features!"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:187
+#: woocommerce/admin/wishlist-panel-premium.php:385
+#, php-format
+msgid "%1$sUPGRADE%2$s%3$s to the premium version%2$s"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:193
+msgid "Premium Features"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:196
+#: woocommerce/admin/wishlist-panel-premium.php:201
+msgid "Multiple Wishlist"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:203
+#, php-format
+msgid ""
+"%1$sDoes it ever happened to you to have too many wishes for a single wish "
+"list?%2$s%3$s The possibility to manage one's wishes is a fundamental "
+"feature in a modern e-commerce store and it also lets users' degree of "
+"satisfaction increase.%3$sThe option \"multiple wishlist\" of %1$sYITH "
+"Wishlist%2$s makes this feature and many others on your online store "
+"available, and thanks to this plugin your customers will be able to create, "
+"manage and share their own wish lists."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:212
+#: woocommerce/admin/wishlist-panel-premium.php:222
+msgid "Wishlist Private"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:214
+#, php-format
+msgid ""
+"By enabling the option wishlist, users will also have the possibility to "
+"%1$smanage the visibility%2$s of their wish lists according to one of the "
+"following options:"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:216
+#, php-format
+msgid "%1$spublic:%2$s all users can look for your wish list and see it;"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:217
+#, php-format
+msgid ""
+"%1$sshared:%2$s only users possessing a direct link to the wish list page "
+"can display it;"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:218
+#, php-format
+msgid "%1$sprivate:%2$s only the wish list creator can see it."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:229
+#: woocommerce/admin/wishlist-panel-premium.php:234
+msgid "Estimate Cost"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:236
+#, php-format
+msgid ""
+"%1$sDo you want to add the possibility to ask for estimates of costs into "
+"your catalogue?%3$s Do you want to manage customised packets for faithful "
+"customers in your store?%2$s%3$sThanks to the feature \"estimate cost\" of "
+"%1$sYITH WooCommerce Wishlist%2$s, each registered user will be able to ask "
+"for an estimate of their own products in the wishlist and add a text in the "
+"popup window that will open just after clicking. Then, they can confirm the "
+"text and send an email with all necessary information directly to the "
+"address that you have previously set."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:245
+#: woocommerce/admin/wishlist-panel-premium.php:250
+msgid "Admin Panel"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:247
+#, php-format
+msgid ""
+"Thanks to the useful Admin panel, accessible directly among the WooCommerce "
+"submenu pages, you will have total control on users' wishlists. In addition "
+"to that, evaluating the degree of appreciation for your products has never "
+"been so easy, now that %1$syou can see a useful report,%2$s available "
+"directly in the product page, which registers the occurrences of the product "
+"in customers' wish lists."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:257
+#: woocommerce/admin/wishlist-panel-premium.php:262
+msgid "Search Wishlists"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:264
+#, php-format
+msgid ""
+"How many times have you been looking for the perfect gift for a important "
+"event but you had no idea of what to buy? %1$s'Search wishlists'%2$s allows "
+"your e-shop users to access public wishlists of anyone, by simply knowing "
+"their name or email. This way you can grant %1$shigher visibility%2$s to "
+"your products and even encourage users to purchase."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:273
+msgid "'ADD TO CART' CHECKBOX"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:275
+#, php-format
+msgid ""
+"Your shop offers always a wide selection of products and wishlists of your "
+"users get more and more crowded everyday. Give them the possibility to "
+"select %1$ssome or all products%2$s in the wishlist and add them to cart "
+"just with one click."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:278
+msgid "'ADD TO CART'"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:285
+msgid "DISABLE WISHLIST"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:290
+msgid "DISABLE WISHLIST FOR UNLOGGED USERS"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:292
+#, php-format
+msgid ""
+"Favour users that have registered to your shop and disable plugin "
+"functionalities for all users that have not. By disabling this option, each "
+"time they try to add a product to the wishlist, they will be %1$sredirected"
+"%2$s to \"My Account\" page and a message will invite them to log in."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:301
+msgid "MESSAGE TO UNLOGGED USERS"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:303
+#, php-format
+msgid ""
+"Invite users that are visiting your shop to login if they want to fully "
+"benefit from Wishlist functionalities. Show a %1$scustomised message%2$s and "
+"redirect them to \"My Account\" page for registration."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:306
+msgid "UNLOGGED USERS"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:313
+#: woocommerce/admin/wishlist-panel-premium.php:318
+msgid "POPULAR TABLE"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:320
+#, php-format
+msgid ""
+"Some products draw customer's attention more than others and they do not "
+"hesitate to add products to their wishlist. Table %1$s'Popular'%2$s allows "
+"you, as shop administrator, to track products that appear most frequently in "
+"their wishlists."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:329
+msgid "FUNCTIONALITIES IN ONE CLICK"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:331
+#, php-format
+msgid ""
+"Users have the possibility to search for a wishlist, create a new one or "
+"display those already created. Add these %1$sfunctionalities%2$s through the "
+"dedicated widgets or show them immediately after \"Wishlist\" table."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:334
+msgid "FUNCTIONALITIES"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:341
+#: woocommerce/admin/wishlist-panel-premium.php:346
+msgid "PROMOTIONAL EMAIL"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:348
+#, php-format
+msgid ""
+"If you want to give the right input to your users to persuade them to "
+"%1$spurchase the products%2$s they have in their wishlists, you need to use "
+"this feature! %1$sSend them an email%2$s: customize its whole content from "
+"the option panel and add a coupon they can use in your shop, so that they "
+"will know you are offering a unique offer!"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:357
+msgid "FROM A WISHLIST TO ANOTHER"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:359
+#, php-format
+msgid ""
+"Who said that a product has to remain forever in the same wishlist? With the "
+"option %1$s\"Show \"Move to another wishlist\" dropdown menu\"%2$s, with "
+"just one click users will be free to move a product from a wishlist to "
+"another one, managing as they want their lists."
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:362
+msgid "FROM A WISHLIST"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:369
+msgid "DATE"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:374
+msgid "DATE OF ADDITION TO A WISHLIST"
+msgstr ""
+
+#: woocommerce/admin/wishlist-panel-premium.php:376
+#, php-format
+msgid ""
+"Activating the %1$s\"Show date of addition\"%2$s option, users can see the "
+"date in which they have added a particular product to their list: a new way "
+"to keep you users informed about their operations."
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:25 woocommerce/auth/form-login.php:27
+#, php-format
+msgid "%s would like to connect to your store"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:29
+#, php-format
+msgid "This will give \"%s\" %s access which will allow it to"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:39
+#, php-format
+msgid "Logged in as %s"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:39
+msgid "Logout"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:43
+msgid "Approve"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:44
+msgid "Deny"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:31
+#, php-format
+msgid ""
+"To connect to %1$s you need to be logged in. Log in to your store below, or "
+"%2$scancel and return to %1$s%3$s"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:35 woocommerce/myaccount/form-login.php:46
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:39 woocommerce/myaccount/form-login.php:49
+#: woocommerce/myaccount/form-login.php:101
+msgid "Password"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:44 woocommerce/global/form-login.php:48
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:56
+msgid "Login"
+msgstr ""
+
+#: woocommerce/auth/header.php:33
+msgid "WooCommerce"
+msgstr ""
+
+#: woocommerce/cart/__old__mini-cart.php:59 woocommerce/cart/cart.php:118
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/__old__mini-cart.php:74
+msgid "Cart is empty"
+msgstr ""
+
+#: woocommerce/cart/__old__mini-cart.php:76
+#: woocommerce/cart/__old__mini-cart.php:92
+msgid "Go To Cart"
+msgstr ""
+
+#: woocommerce/cart/__old__mini-cart.php:85 woocommerce/cart/cart-totals.php:33
+#: woocommerce/cart/cart-totals.php:34 woocommerce/checkout/review-order.php:61
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/__old__mini-cart.php:93
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:37
+msgid "Oops"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:38
+msgid "Your cart is empty"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:39
+msgid "You may check out all the available products and buy some in the shop."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:41
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:55 woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart-totals.php:93
+#: woocommerce/cart/cart.php:107 woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/review-order.php:108
+#: woocommerce/myaccount/my-orders.php:16
+#: woocommerce/order/order-details.php:33
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:64 woocommerce/checkout/form-pay.php:30
+#: woocommerce/checkout/review-order.php:26
+#: woocommerce/emails/email-order-details.php:34
+#: woocommerce/order/order-details.php:32
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:78
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:84 woocommerce/emails/email-order-details.php:36
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:90 woocommerce/emails/email-order-details.php:35
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:136
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137 woocommerce/checkout/form-coupon.php:37
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137 woocommerce/checkout/form-coupon.php:38
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:33
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:40
+msgid "Select a country"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:58
+#: woocommerce/cart/shipping-calculator.php:65
+#: woocommerce/cart/shipping-calculator.php:78
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:66
+msgid "Select a state"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:87
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:95
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:102
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:26
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:30
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:52
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:63
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:30
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:69
+msgid "Your Order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:30
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:31
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:38
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:32
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:33
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:83
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:27
+#: woocommerce/checkout/form-shipping.php:57
+#: woocommerce/emails/email-addresses.php:32
+#: woocommerce/emails/plain/email-addresses.php:27
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:30
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:37
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:37
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %s Update Totals %s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:45
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/terms.php:17
+#, php-format
+msgid "I&rsquo;ve read and accept the %s terms &amp; conditions"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33 woocommerce/myaccount/my-orders.php:72
+#: woocommerce/myaccount/orders.php:73
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:72
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:45
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/content-product_cat.php:89
+msgid "Shop now"
+msgstr ""
+
+#: woocommerce/emails/admin-cancelled-order.php:28
+#: woocommerce/emails/plain/admin-cancelled-order.php:25
+#, php-format
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-failed-order.php:28
+#: woocommerce/emails/plain/admin-failed-order.php:25
+#, php-format
+msgid "Payment for order #%d from %s has failed. The order was as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:28
+#, php-format
+msgid "You have received an order from %s. The order is as follows:"
+msgstr ""
+
+#: woocommerce/emails/customer-completed-order.php:28
+#: woocommerce/emails/plain/customer-completed-order.php:25
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:29
+#: woocommerce/emails/plain/customer-invoice.php:26
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:29
+msgid "pay"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:27
+#: woocommerce/emails/plain/customer-new-account.php:25
+#, php-format
+msgid "Thanks for creating an account on %s. Your username is %s"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:31
+#, php-format
+msgid "Your password has been automatically generated: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:35
+#: woocommerce/emails/plain/customer-new-account.php:30
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your "
+"password here: %s."
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:28
+#: woocommerce/emails/plain/customer-note.php:25
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:32
+#: woocommerce/emails/plain/customer-note.php:33
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: woocommerce/emails/customer-on-hold-order.php:28
+#: woocommerce/emails/plain/customer-on-hold-order.php:25
+msgid ""
+"Your order is on-hold until we confirm payment has been received. Your order "
+"details are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-processing-order.php:28
+#: woocommerce/emails/plain/customer-processing-order.php:25
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:30
+#, php-format
+msgid "Hi there. Your order on %s has been partially refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:33
+#, php-format
+msgid "Hi there. Your order on %s has been refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:27
+msgid "Someone requested that the password be reset for the following account"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:28
+#: woocommerce/myaccount/form-login.php:89
+msgid "Username"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:29
+#: woocommerce/emails/plain/customer-reset-password.php:28
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:30
+msgid "To reset your password, visit the following address"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:33
+msgid "Click here to reset your password"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:26
+#: woocommerce/emails/plain/email-addresses.php:23
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/emails/email-customer-details.php:26
+#: woocommerce/emails/plain/email-customer-details.php:25
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/emails/email-order-details.php:26
+#: woocommerce/emails/email-order-details.php:28
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:34
+msgid "Product image"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:25
+#, php-format
+msgid "You have received an order from %s."
+msgstr ""
+
+#: woocommerce/emails/plain/customer-new-account.php:28
+#, php-format
+msgid "Your password is %s."
+msgstr ""
+
+#: woocommerce/emails/plain/customer-refunded-order.php:25
+#, php-format
+msgid ""
+"Hi there. Your order on %s has been refunded. Your order details are shown "
+"below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-reset-password.php:25
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-reset-password.php:27
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-reset-password.php:29
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-details.php:25
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-details.php:43
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: woocommerce/global/form-login.php:51 woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:55 woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:26
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/result-count.php:39
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:28
+#: woocommerce/single-product/product-image.php:35
+msgid "SALE"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:33
+msgid "OUT OF STOCK"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:28
+#, php-format
+msgid ""
+"From your account dashboard you can view your %1$srecent orders%2$s, manage "
+"your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
+"account details%2$s."
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:67
+msgid "Never"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:75
+msgid "Download"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:97
+msgid "No downloads available yet."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:53
+#: woocommerce/myaccount/payment-methods.php:78
+msgid "Add Payment Method"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:59
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:32
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:35
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-login.php:95
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:43
+msgid "Password Change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:46
+msgid "Current Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:49
+msgid "New Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:52
+msgid "Confirm New Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:60
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:62
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:73
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:80
+#: woocommerce/myaccount/form-login.php:114
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:107
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:29
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:37
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:30
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:34
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:43
+#: woocommerce/wishlist-view.php:32
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:24
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:27
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:40
+msgid "Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:43
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:72
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:30
+msgid "Available Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:40
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:65 woocommerce/myaccount/orders.php:66
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:76 woocommerce/myaccount/orders.php:77
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/navigation.php:36
+#, php-format
+msgid "%s%s%s %sLogout%s"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:27
+msgid "My Orders"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:112
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:116
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:123
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:51
+#, php-format
+msgid "%s ending in %s"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:72
+msgid "No saved methods found."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:28 woocommerce/order/tracking.php:26
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:36 woocommerce/order/tracking.php:34
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:29
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-again.php:25
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:25
+msgid "Customer Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:39
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:46
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:65
+#: woocommerce/order/order-details-customer.php:76
+#: woocommerce/single-product/meta.php:34
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:28
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/share.php:52
+msgid "I wanted you to see this site"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:50
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+#, php-format
+msgid "You must be %s logged in %s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Rate this product:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Rate"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:60
+#: woocommerce/single-product/add-to-cart/variable.php:33
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:49
+msgid "Reset"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:38
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:37
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:44
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:98
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:36
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:39
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:42
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:62
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/review-rating.php:28
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review-rating.php:29
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/tabs/tabs.php:70
+msgid "SHARE THIS PRODUCT"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:48
+msgid "You may also like"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:73
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:80
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:93
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:139 woocommerce/wishlist-view.php:249
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:173
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:184
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:187
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:198
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:229
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:232
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:235
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:260
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:277
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:285 woocommerce/wishlist-view.php:327
+msgid "Ask for an estimate"
+msgstr ""

@@ -1,0 +1,264 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $color_texts;
+	font-family: $font_main;
+	line-height: $font_lh-body;
+}
+
+input.classic::placeholder,
+.contact-form.classic input::placeholder,
+.contact-form.classic textarea::placeholder {
+	font-family: "Lora";
+	font-style: italic;
+}
+
+.subtitle-font,
+p.subtitle,
+blockquote,
+blockquote p {
+	font-family: "Lora";
+	font-style: italic;
+}
+
+
+/*--------------------------------------------------------------
+## Texts
+--------------------------------------------------------------*/
+
+p {
+	color: $color_texts;
+	width: 100%;
+	margin: 10px auto;
+	display: block;
+	line-height: 1.5;
+
+	&.text-small {
+		font-size: 13px;
+	}
+}
+
+.has-regular-font-size {
+	font-family: $font_main;
+	font-size: $font_main-size;
+}
+
+.has-extra-small-font-size {
+	font-size: 0.8577em
+}
+
+.has-small-font-size {
+	font-size: 0.93em
+}
+
+.has-large-font-size {
+	font-size: 1.215em
+}
+
+.has-larger-font-size {
+	font-size: 1.43em
+}
+
+p.subtitle {
+	color: $color_subtitles;
+	margin: 0;
+	line-height: 1.4;
+	letter-spacing: -0.01em;
+	font-size: 15px;
+	font-weight: 400;
+	font-style: italic;
+	font-family: $font_subtitles;
+
+	&.top {
+		margin-top: 6px;
+	}
+
+	&.small {
+		font-size: 14px;
+		margin: 8px auto;
+	}
+
+	&.text-small {
+		font-size: 13px;
+	}
+
+	&.large {
+		font-size: 18px;
+		line-height: 1.4;
+	}
+}
+
+p.subtitle-under-divider {
+	margin-top: 20px;
+}
+
+.text-wrap {
+	margin: 6px 0;
+
+	*:first-child {
+		margin-top: 0;
+	}
+}
+
+.text-split {
+	p {
+		padding-left: 10px;
+		padding-right: 10px;
+		&:first-child {
+			padding-left: 0px;
+		}
+		&:last-child {
+			padding-right: 0px;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Text dividers
+--------------------------------------------------------------*/
+.divider-dashed {
+	height: 3px;
+	margin: 12px 0;
+	line-height: 3px;
+	font-size: 0px;
+	position: relative;
+	display: block;
+}
+
+.divider-line {
+	content: "";
+	background-color: #696971;
+	width: 14px;
+	height: 1px;
+	margin: 0 3px;
+	display: inline-block;
+}
+
+.divider-solid {
+	@extend .divider-dashed;
+
+	.divider-line {
+		width: 34px;
+		margin: 0;
+	}
+}
+
+.divider-above-subtitle {
+	margin-top: 18px;
+	margin-bottom: 7px;
+}
+
+
+/*--------------------------------------------------------------
+## Headings
+--------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	color: $color_titles;
+	clear: both;
+	font-family: "Montserrat", "Open Sans", sans-serif;
+	font-weight: bold;
+	text-align: inherit;
+	margin: 35px 0 20px;
+	line-height: 1.2;
+
+	&.title, &.second-title {
+		margin: auto;
+	}
+}
+
+h1 {
+	font-size: 42px;
+
+	&.title {
+		font-size: 52px;
+		line-height: 1.3;
+		margin: 5px 0;	
+	}
+}
+
+h2 {
+	font-size: 34px;
+
+	&.title {
+		margin: 15px 0;
+		font-size: 31px;
+		letter-spacing: -0.012em;	
+	}
+
+	&.second-title {
+		margin: 15px 0;
+		line-height: 1.1;
+		font-size: 40px;
+		letter-spacing: -0.03em;
+	}
+
+	&.title-lead {
+		margin: 15px 0;
+		font-size: 50px;
+		line-height: 50px;
+	}
+}
+
+h3 {
+	font-size: 26px;
+
+	&.title {
+		margin: 6px auto;
+		line-height: 1;
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	&.second-title {
+		margin: 6px auto;
+		line-height: 1;
+		font-size: 20px; 
+	}
+}
+
+h4 {
+	font-size: 24px;
+
+	&.title {
+		margin: 0;
+		letter-spacing: -0.02em;
+		font-size: 15px;
+	}
+}
+
+h5 {
+	font-size: 20px;
+	text-transform: uppercase;
+
+	&.title {
+		margin: 5px auto;
+		font-size: 13px;
+		letter-spacing: -0.03em;
+		text-transform: none;
+
+		&.uppercase {
+			text-transform: uppercase;
+		}
+	}
+}
+
+h6 {
+	font-size: 20px;
+
+	&.title {
+		margin: 5px auto;
+		font-size: 11px;
+	}
+}
+
+.wp-block-cover-text {
+	font-family: $font_titles;
+}
+
+.argenta-heading {
+	padding-left: 15px;
+	padding-right: 15px;
+}

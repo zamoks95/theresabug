@@ -1,0 +1,255 @@
+/*--------------------------------------------------------------
+### Select
+--------------------------------------------------------------*/
+.select {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	z-index: 20;
+
+	select {
+		display: none;
+	}
+
+	.select-title {
+		display: block;
+		padding: 0 15px 0 20px;
+		position: relative;
+		z-index: 2;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	i.icon {
+		width: auto;
+		height: auto;
+		margin: 2px 0 0 15px;
+		padding: 0;
+		font-size: 16px;
+		vertical-align: -2px;
+		transition: transform .1s ease-in-out;
+	}
+
+	&.active {
+		.select-title .icon {
+			transform: rotate(-180deg);
+		}
+
+		.select-menu {
+			top: 40px;
+			opacity: 1;
+			visibility: visible;
+			transition-delay: 0s, 0s, 0s;
+		}
+	}
+
+	.select-menu {
+		background: #ffffff;
+		position: absolute;
+		min-width: 160px;
+		max-height: 304px;
+		overflow-y: auto;
+		left: 5px;
+		top: 0px;
+		opacity: 0;
+		visibility: hidden;
+		list-style: none;
+		text-align: left;
+		transition-property: width, opacity, visibility, top;
+		transition-duration: 0s, .1s, .1s;
+		transition-delay: .2s, 0s, 0s;
+		transition-timing-function: ease-in-out;
+		box-shadow: 0 5px 29px rgba(0,0,0,.12);
+
+		li {
+			line-height: 1;
+			padding: 0;
+		}
+
+		.icon {
+			width: 20px;
+			display: inline-block;
+			text-align: center;
+			margin-right: 4px;
+		}
+
+		a {
+			width: 100%;
+			height: 38px;
+			line-height: 38px;
+			padding: 0 16px;
+			vertical-align: middle;
+			color: #282828;
+			white-space: nowrap;
+			display: inline-block;
+
+			&:hover {
+				background: #f3f3f3;
+				cursor: pointer;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+/*--------------------------------------------------------------
+### Scroll top button
+--------------------------------------------------------------*/
+.scroll-top {
+	background-color: rgba(0,0,0,.3);
+	color: #fff;
+	height: 50px;
+	width: 50px;
+	line-height: 45px;
+	border-radius: 100%;
+	text-align: center;
+	position: fixed;
+	right: 40px;
+	bottom: 100px;
+	z-index: 1000;
+	display: none;
+	transition: background .2s ease-in-out;
+
+	&:hover {
+		background-color: rgba(0,0,0,.7);
+	}
+
+	&#page-scroll-top > img {
+		width: 10px;
+		vertical-align: middle;
+	}
+}
+
+/*--------------------------------------------------------------
+### Categories
+--------------------------------------------------------------*/
+span.category > a,
+div.category > a,
+div.category > span,
+a.category {
+	margin: 5px 0;
+	border: 1px solid;
+	border-radius: 1px;
+	display: inline-block;
+	font-size: 14px;
+	font-style: italic;
+	font-family: 'Lora';
+	padding: 4px 12px;
+
+	&:hover {
+		opacity: .7;
+	}
+}
+
+.category > span:hover {
+	opacity: 1;
+}
+
+.category {
+	display: inline-block;
+}
+
+
+/*--------------------------------------------------------------
+### Tags
+--------------------------------------------------------------*/
+a.tag,
+.tag-wrap a,
+a[class^="tag-link-"] {
+	background: rgba(0,0,0,.08);
+	color: $color_dark;
+	padding: 6px 12px;
+	margin-top: 4px;
+	margin-left: 4px;
+	font-size: 13px;
+	display: inline-block;
+
+	&:hover {
+		background: rgba(0,0,0,.12);
+	}
+}
+
+
+/*--------------------------------------------------------------
+### Preloader
+--------------------------------------------------------------*/
+.page-preloader {
+	background-color: #222;
+	height: 100vh;
+	width: 100%;
+	z-index: 999999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+	transition: .6s ease-in-out;
+	transition-property: opacity, visibility;
+
+	.loader {
+		width: 50px;
+		height: 50px;
+		border: 4px solid transparent;
+		border-radius: 50%;
+		position: relative;
+		top: 50%;
+		margin: -25px auto 0;
+
+		&:before {
+			content: '';
+			background: transparent;
+			border: 2px solid rgba(#fff, 0.5);
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			margin: 0;
+			position: absolute;
+			top: -9px;
+			left: -9px;
+			animation: loader-scale 1s ease-out infinite;
+			animation-delay: 1s;
+			opacity: 0;
+		}
+		
+		&:after {
+			content: '';
+			border: 2px solid #fff;
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top: -4px;
+			left: -4px;
+			animation: loader-scale 1s ease-out infinite;
+			animation-delay: 0.5s;
+		}
+	}
+
+	&.closed {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	@media screen and (max-width: 768px) {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+
+@keyframes loader-scale {
+	0% {
+		transform: scale(0);
+		opacity: 0; 
+	}
+	50% {
+		opacity: 1; 
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0; 
+	}
+}
